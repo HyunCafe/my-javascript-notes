@@ -1,5 +1,7 @@
 # Programming
 
+# Work in Progress, Will add more as as time progresses
+
 ## **Javascript**
 
 * [Arrays](#Arrays)
