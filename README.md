@@ -5,7 +5,9 @@
 ## **Javascript**
 
 * [Arrays](#Arrays)
-* [Event Listeners](#Event-Listeners)
+* [DOM Manipulation](#DOM-Manipulation)
+	* [Event Listeners](#Event-Listeners)
+
 
 ## Arrays
 * To generate random selection from an array <br>
@@ -14,7 +16,9 @@ const arrayChoices = ['choice1', 'choice2', ... 'choice3'];
 const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
 ```
 
-## Event Listeners
+## DOM Manipulation
+
+### Event Listeners
 some common event types being: 
 ```
 "click": fired when an element is clicked.
