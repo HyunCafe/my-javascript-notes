@@ -32,6 +32,15 @@ some common event types being:
 
 * Adding an event listener to a specific element
 ```
-let element = document.getElementById("elementId");
-element.addEventListener("eventType", functionCalled);
+let element = document.getElementById("elementId");      // Assign the element w/ the specified id to a variable
+element.addEventListener("eventType", functionCalled);   // Add event listener for specified eventType to the element
+```
+
+
+* Displaying a String Text to the HTML with `<p id="result"> </p>`
+```
+function displayResult(result) {                          // Find the element where the result will be displayed
+const resultElement = document.getElementById("result");  // Update the innerHTML of the element with the result
+resultElement.innerHTML = result;
+}
 ```
