@@ -37,7 +37,7 @@ element.addEventListener("eventType", functionCalled);   // Add event listener f
 ```
 
 
-* Displaying a String Text to the HTML with `<p id="result"> </p>`
+* Displaying the result of an action in a specific element `<p id="result"> </p>`
 ```
 function displayResult(result) {                          // Find the element where the result will be displayed
 const resultElement = document.getElementById("result");  // Update the innerHTML of the element with the result
