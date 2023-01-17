@@ -5,9 +5,9 @@
 ## **Javascript**
 * [Functions](#Functions)
   * [Arrow Functions](#Arrow-Functions)
-  * [Conditional Statements](#Conditional-Statements)
-    * [If-Else Statements](#If-Else-Statements)
-    * [Switch Statements](#Switch-Statements)
+ * [Conditional Statements](#Conditional-Statements)
+   * [If-Else Statements](#If-Else-Statements)
+   * [Switch Statements](#Switch-Statements)
  * [Loops](#Loops)
    * [For Loops](#For-Loops)
    * [For In Loops](#For-In-Loops)
