@@ -4,12 +4,17 @@
 
 ## **Javascript**
 * [Functions](#Functions)
+  * [Arrow Functions](#Arrow-Functions)
   * [Conditional Statements](#Conditional-Statements)
     * [If-Else Statements](#If-Else-Statements)
     * [Switch Statements](#Switch-Statements)
   * [Loops](#Loops)
     * [For Loops](#For-Loops)
+    * [For In Loops](#For-In-Loops)
+    * [For Of Loops](#For-Of-Loops)
+    * [For Each Loops](#For-Each-Loops)
     * [While Loops](#While-Loops)
+    * [Do While Loops](#Do-While-Loops)
 * [Arrays](#Arrays)
   * [Generate Random Selection](#Generate-Random-Selection)
 * [DOM Manipulation](#DOM-Manipulation)
@@ -32,16 +37,25 @@ function functionName(parameter1, parameter2) {
   return value;
 }
 ```
+### Arrow Functions
+A shorthand way of writing function expressions
+```javascript
+const functionName = (param1, param2) => {
+    // code to be executed
+}
+```
 
 ## Conditional Statements
 Conditional statements are used to make decisions in code. The most common type of conditional statement is the if-else statement.
 
-### If-Else Statements
+### If Else Statements
 ```javascript
-if (condition) {
-  // code to be executed if condition is true
+if (condition1) {
+    // code to be executed if condition1 is true
+} else if (condition2) {
+    // code to be executed if condition1 is false and condition2 is true
 } else {
-  // code to be executed if condition is false
+    // code to be executed if all conditions are false
 }
 ```
 
@@ -71,11 +85,45 @@ for (let i = 0; i < array.length; i++) {
 }
 ```
 
+### For In Loop
+Looping through properties of an object
+ ```javascript
+const object = { key1: "value1", key2: "value2" };
+for (const key in object) {
+    console.log(key + ": " + object[key]);
+}
+```
+
+### For Of Loop
+Looping through elements of an array or a string
+ ```javascript
+const array = [1, 2, 3, 4, 5];
+for (const element of array) {
+    console.log(element);
+}
+```
+
+### For Each Loop
+A For Each loop is a method that allows you to iterate through and perform a function on each element of an array.
+ ```javascript
+array.forEach(function(element) {
+    // code to be executed for each element
+});
+```
+
 ### While Loops
  A while loop is used to execute a block of code repeatedly as long as a given condition is true.
  ```javascript
  while (condition) {
   // code to be executed
+}
+```
+
+### Do While Loops
+Executing code as long as a certain condition is true
+ ```javascript
+while (condition) {
+    // code to be executed
 }
 ```
 
