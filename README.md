@@ -3,7 +3,13 @@
 # Work in Progress, Will add more as as time progresses
 
 ## **Javascript**
-
+* [Functions](#Functions)
+  * [Conditional Statements](#Conditional-Statements)
+    * [If-Else Statements](#If-Else-Statements)
+    * [Switch Statements](#Switch-Statements)
+  * [Loops](#Loops)
+    * [For Loops](#For-Loops)
+    * [While Loops](#While-Loops)
 * [Arrays](#Arrays)
   * [Generate Random Selection](#Generate-Random-Selection)
 * [DOM Manipulation](#DOM-Manipulation)
@@ -13,8 +19,69 @@
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
-    
+ 
+ 
+## Functions
+
+[Mozilla Functions Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
+
+A function is a reusable block of code that can be invoked by a name. Functions can take in parameters and return a value.
+```javascript
+function functionName(parameter1, parameter2) {
+  // code to be executed
+  return value;
+}
+```
+
+## Conditional Statements
+Conditional statements are used to make decisions in code. The most common type of conditional statement is the if-else statement.
+
+### If-Else Statements
+```javascript
+if (condition) {
+  // code to be executed if condition is true
+} else {
+  // code to be executed if condition is false
+}
+```
+
+### Switch Statements
+```javascript
+switch (expression) {
+  case value1:
+    // code to be executed if expression === value1
+    break;
+  case value2:
+    // code to be executed if expression === value2
+    break;
+  default:
+    // code to be executed if expression does not match any case
+}
+```
+
+## Loops
+
+[Mozilla Loops Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
+
+### For Loops
+A for loop is used to iterate over an array or an object. The for loop has three parts: the initialization, the condition, and the final-expression.
+```javascript
+for (let i = 0; i < array.length; i++) {
+  // code to be executed
+}
+```
+
+### While Loops
+ A while loop is used to execute a block of code repeatedly as long as a given condition is true.
+ ```javascript
+ while (condition) {
+  // code to be executed
+}
+```
+
 ## Arrays
+
+[Mozilla Arrays Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
 
 #### Generate Random Selection
 * To generate random selection from an array <br>
