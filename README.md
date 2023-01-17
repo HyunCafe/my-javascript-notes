@@ -86,7 +86,8 @@ switch (expression) {
 [Mozilla Loops Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 ### For Loops
-A for loop is used to iterate over an array or an object. The for loop has three parts: the initialization, the condition, and the final-expression.
+A for loop is used to iterate over an array or an object. <br>
+The for loop has three parts: the initializationExpression, the conditionExpression, and the incrementExpression.
 ```javascript
 for (let i = 0; i < array.length; i++) {
   // code to be executed
