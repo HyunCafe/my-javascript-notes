@@ -10,7 +10,10 @@
   * [Event Listeners](#Event-Listeners)
     * [Add to Event Listen](#Add-to-Event-Listen)
     * [Display Result to Event Listen](#Display-Result-to-Event-Listen)
-
+* [Object Oriented Programming](#Object-Oriented-Programming)
+  * [Data Structures](#Data-Structures)
+    * [Data Logic](#Data-Logic)    
+    
 ## Arrays
 
 #### Generate Random Selection
@@ -62,4 +65,32 @@ function displayResult(result) {
 const resultElement = document.getElementById("result");
 resultElement.innerHTML = result;
 }
+```
+
+## Object Oriented Programming
+### Data Structures
+#### Data Logic
+```javascript
+const rules = {
+    option1: { rule1: "value1", rule2: "value2" },
+    option2: { rule1: "value3", rule2: "value4" },
+    option3: { rule1: "value5", rule2: "value6" }
+};
+```
+Example 1
+```javascript
+const rules = {
+    rock: { beats: "scissors", losesTo: "paper" },
+    paper: { beats: "rock", losesTo: "scissors" },
+    scissors: { beats: "paper", losesTo: "rock" }
+};
+```
+Example 2
+```javascript
+const rules = {
+    name: { required: true, maxLength: 50 },
+    email: { required: true, emailFormat: true },
+    age: { required: true, minValue: 18, maxValue: 100 },
+    password: { required: true, minLength: 8, hasNumber: true, hasSpecialChar: true }
+};
 ```
