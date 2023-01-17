@@ -20,7 +20,7 @@ const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)]
 
 ### Event Listeners
 some common event types being: 
-```
+```javascript
 "click": fired when an element is clicked.
 "mouseenter": fired when the mouse cursor enters an element.
 "mouseleave": fired when the mouse cursor leaves an element.
@@ -37,14 +37,14 @@ some common event types being:
 ``` 
 
 * Adding an event listener to a specific element
-```
+```javascript
 let element = document.getElementById("elementId");      // Assign the element w/ the specified id to a variable
 element.addEventListener("eventType", functionCalled);   // Add event listener for specified eventType to the element
 ```
 
 
 * Displaying the result of an action in a specific element `<p id="result"> </p>`
-```
+```javascript
 function displayResult(result) {                          // Find the element where the result will be displayed
 const resultElement = document.getElementById("result");  // Update the innerHTML of the element with the result
 resultElement.innerHTML = result;
