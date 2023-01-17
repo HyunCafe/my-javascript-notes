@@ -15,7 +15,7 @@
 
 #### Generate Random Selection
 * To generate random selection from an array <br>
-```
+```javascript
 const arrayChoices = ['choice1', 'choice2', ... 'choice3'];
 const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
 ```
