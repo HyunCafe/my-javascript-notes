@@ -5,11 +5,15 @@
 ## **Javascript**
 
 * [Arrays](#Arrays)
+  * [Generate Random Selection](#Generate-Random-Selection)
 * [DOM Manipulation](#DOM-Manipulation)
-	* [Event Listeners](#Event-Listeners)
-
+  * [Event Listeners](#Event-Listeners)
+    * [Add to Event Listen](#Add-to-Event-Listen)
+    * [Display Result to Event Listen](#Display-Result-to-Event-Listen)
 
 ## Arrays
+
+#### Generate Random Selection
 * To generate random selection from an array <br>
 ```
 const arrayChoices = ['choice1', 'choice2', ... 'choice3'];
@@ -19,6 +23,9 @@ const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)]
 ## DOM Manipulation
 
 ### Event Listeners
+
+#### Add to Event Listen
+* Adding an event listener to a specific element
 some common event types being: 
 ```
 "click": fired when an element is clicked.
@@ -35,14 +42,12 @@ some common event types being:
 "touchstart": fired when the user starts touching an element on a touch device.
 "touchend": fired when the user stops touching an element on a touch device.
 ```
-
-* Adding an event listener to a specific element
 ```
 let element = document.getElementById("elementId");      // Assign the element w/ the specified id to a variable
 element.addEventListener("eventType", functionCalled);   // Add event listener for specified eventType to the element
 ```
 
-
+#### Display Result to Event Listen
 * Displaying the result of an action in a specific element `<p id="result"> </p>`
 ```
 function displayResult(result) {                          // Find the element where the result will be displayed
