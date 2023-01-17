@@ -29,7 +29,7 @@
  
 ## Functions
 
-[Mozilla Functions Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
+[Mozilla Functions Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 A function is a reusable block of code that can be invoked by a name. Functions can take in parameters and return a value.
 ```javascript
@@ -81,7 +81,7 @@ switch (expression) {
 
 ## Loops
 
-[Mozilla Loops Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
+[Mozilla Loops Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 ### For Loops
 A for loop is used to iterate over an array or an object. The for loop has three parts: the initialization, the condition, and the final-expression.
