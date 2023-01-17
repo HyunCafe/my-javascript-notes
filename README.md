@@ -7,6 +7,7 @@
   * [Arrow Functions](#Arrow-Functions)
  * [Conditional Statements](#Conditional-Statements)
    * [If-Else Statements](#If-Else-Statements)
+   * [Ternary Operator](#Ternary-Operator)
    * [Switch Statements](#Switch-Statements)
  * [Loops](#Loops)
    * [For Loops](#For-Loops)
@@ -57,6 +58,11 @@ if (condition1) {
 } else {
     // code to be executed if all conditions are false
 }
+```
+### Ternary Operator
+shorthand way to write a basic if-else statement in a single line of code.
+```javascript
+let result = condition ? parameter1 : parameter2;
 ```
 
 ### Switch Statements
