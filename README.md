@@ -37,6 +37,8 @@ function functionName(parameter1, parameter2) {
   // code to be executed
   return value;
 }
+//call
+functionName(arguments)
 ```
 ### Arrow Functions
 A shorthand way of writing function expressions
