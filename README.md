@@ -22,7 +22,10 @@ const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)]
 
 ## DOM Manipulation
 
-### Event Listeners
+### Event Listeners 
+
+[Mozilla Event Listen Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
 some common event types being: 
 ```javascript
 "click": fired when an element is clicked.
