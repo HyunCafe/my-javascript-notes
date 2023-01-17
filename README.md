@@ -18,6 +18,7 @@
    * [Do While Loops](#Do-While-Loops)
 * [Arrays](#Arrays)
   * [Generate Random Selection](#Generate-Random-Selection)
+  * [Check in Array for Element](#Check-in-Array-for-Element)
 * [DOM Manipulation](#DOM-Manipulation)
   * [Event Listeners](#Event-Listeners)
     * [Add to Event Listen](#Add-to-Event-Listen)
@@ -146,7 +147,20 @@ while (condition) {
 const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
 const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
 ```
+#### Check in Array for Element
+```javascript
+// Declare an array and an element to check
+let myArray = [1, 2, 3, 4, 5];
+let elementToCheck = 3;
 
+// Check if the array includes the element
+if (myArray.includes(elementToCheck)) {
+    console.log(`The element ${elementToCheck} is present in the array.`);
+} else {
+    console.log(`The element ${elementToCheck} is not present in the array.`);
+}
+
+```
 ## DOM Manipulation
 
 ### Event Listeners 
