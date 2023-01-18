@@ -30,7 +30,10 @@
     * [Data Logic](#Data-Logic)    
  
  
-## Functions
+## Functions 
+
+[Back to Table of Contents](#Table-of-Contents)
+
 
 [Mozilla Functions Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
@@ -52,6 +55,9 @@ const functionName = (param1, param2) => {
 ```
 
 ## Conditional Statements
+
+[Back to Table of Contents](#Table-of-Contents)
+
 Conditional statements are used to make decisions in code. The most common type of conditional statement is the if-else statement.
 
 ### If Else Statements
@@ -86,9 +92,14 @@ switch (expression) {
 
 ## Loops
 
+[Back to Table of Contents](#Table-of-Contents)
+
 [Mozilla Loops Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 ### For Loops
+
+[Back to Table of Contents](#Table-of-Contents)
+
 A for loop is used to iterate over an array or an object. <br>
 The for loop has three parts: the initializationExpression, the conditionExpression, and the incrementExpression.
 ```javascript
@@ -140,8 +151,6 @@ while (condition) {
 ```
 
 ## Arrays 
-
-[Back to Table of Contents](Table-of-Contents)
 
 [Mozilla Arrays Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
@@ -208,6 +217,8 @@ if (myArray.includes(elementToCheck)) {
 
 ```
 ## DOM Manipulation
+
+[Back to Table of Contents](#Table-of-Contents)
 
 ### Event Listeners 
 
