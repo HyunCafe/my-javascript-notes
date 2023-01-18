@@ -98,8 +98,6 @@ switch (expression) {
 
 ### For Loops
 
-[Back to Table of Contents](#Table-of-Contents)
-
 A for loop is used to iterate over an array or an object. <br>
 The for loop has three parts: the initializationExpression, the conditionExpression, and the incrementExpression.
 ```javascript
@@ -151,6 +149,8 @@ while (condition) {
 ```
 
 ## Arrays 
+
+[Back to Table of Contents](#Table-of-Contents)
 
 [Mozilla Arrays Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
