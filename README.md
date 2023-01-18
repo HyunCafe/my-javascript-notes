@@ -3,6 +3,7 @@
 # Work in Progress, Will add more as as time progresses
 
 ## **Javascript**
+### Table of Contents
 * [Functions](#Functions)
   * [Arrow Functions](#Arrow-Functions)
  * [Conditional Statements](#Conditional-Statements)
@@ -17,8 +18,9 @@
    * [While Loops](#While-Loops)
    * [Do While Loops](#Do-While-Loops)
 * [Arrays](#Arrays)
-  * [Generate Random Selection](#Generate-Random-Selection)
-  * [Check in Array for Element](#Check-in-Array-for-Element)
+   * [Array Methods](#Array-Methods)
+    * [Generate Random Selection](#Generate-Random-Selection)
+    * [Check in Array for Element](#Check-in-Array-for-Element)
 * [DOM Manipulation](#DOM-Manipulation)
   * [Event Listeners](#Event-Listeners)
     * [Add to Event Listen](#Add-to-Event-Listen)
@@ -137,9 +139,53 @@ while (condition) {
 }
 ```
 
-## Arrays
+## Arrays 
 
-[Mozilla Arrays Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
+[Back to Table of Contents](Table-of-Contents)
+
+[Mozilla Arrays Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+### Array Methods
+```javascript
+// push() - adds one or more elements to the end of an array and returns the new length of the array.
+array.push(element1, element2, ..., elementX);
+
+// pop() - removes the last element from an array and returns that element.
+array.pop();
+
+// shift() - removes the first element from an array and returns that element.
+array.shift();
+
+// unshift() - adds one or more elements to the beginning of an array and returns the new length of the array.
+array.unshift(element1, element2, ..., elementX);
+
+// splice() - adds or removes elements from an array.
+// first argument is the index where to start adding/removing elements
+// second argument is the number of elements to remove
+// third argument is the element(s) to add
+array.splice(index, howMany, element1, element2, ...);
+
+// slice() - returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included)
+// first argument is the starting index, second argument is the ending index
+array.slice(begin, end);
+
+// indexOf() - returns the first index at which a given element can be found in the array, or -1 if it is not present.
+array.indexOf(searchElement, fromIndex);
+
+// includes() - returns a boolean indicating whether an array includes a certain element.
+array.includes(searchElement, fromIndex);
+
+// filter() - creates a new array with all elements that pass the test implemented by the provided function.
+array.filter(callback(element, index, array), thisArg);
+
+// map() - creates a new array with the results of calling a provided function on every element in the calling array.
+array.map(callback(currentValue, index, array), thisArg);
+
+// sort() - sorts the elements of an array in place and returns the sorted array.
+array.sort(compareFunction);
+
+
+```
 
 #### Generate Random Selection
 * To generate random selection from an array <br>
