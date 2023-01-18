@@ -263,6 +263,9 @@ resultElement.innerHTML = result;
 ```
 
 ## Object Oriented Programming
+
+[Back to Table of Contents](#Table-of-Contents)
+
 ### Data Structures
 #### Data Logic
 ```javascript
