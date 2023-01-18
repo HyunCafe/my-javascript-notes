@@ -161,55 +161,137 @@ while (condition) {
 // push() - adds one or more elements to the end of an array and returns the new length of the array.
 array.push(element1, element2, ..., elementX);
 
+let array = [1, 2, 3];
+console.log(array.push(4, 5, 6)); // Output: 6
+console.log(array); // Output: [1, 2, 3, 4, 5, 6]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // pop() - removes the last element from an array and returns that element.
 array.pop();
 
+console.log(array.pop()); // Output: 6
+console.log(array); // Output: [1, 2, 3, 4, 5]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // shift() - removes the first element from an array and returns that element.
 array.shift();
 
+console.log(array.shift()); // Output: 1
+console.log(array); // Output: [2, 3, 4, 5]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // unshift() - adds one or more elements to the beginning of an array and returns the new length of the array.
 array.unshift(element1, element2, ..., elementX);
 
+console.log(array.unshift(-1, 0)); // Output: 6
+console.log(array); // Output: [-1, 0, 2, 3, 4, 5]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // splice() - adds or removes elements from an array.
 // first argument is the index where to start adding/removing elements
 // second argument is the number of elements to remove
 // third argument is the element(s) to add
 array.splice(index, howMany, element1, element2, ...);
 
+let array = [1,2,3,4,5];
+console.log(array.splice(2, 2, 6, 7)); // Output: [3, 4]
+console.log(array); // Output: [1, 2, 6, 7, 5]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // slice() - returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included)
 // first argument is the starting index, second argument is the ending index
 array.slice(begin, end);
 
+let array = [1,2,3,4,5];
+console.log(array.slice(1,3)); // Output: [2,3]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // indexOf() - returns the first index at which a given element can be found in the array, or -1 if it is not present.
 array.indexOf(searchElement, fromIndex);
 
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers.indexOf(5)); // Output: 4
+console.log(numbers.indexOf(15)); // Output: -1
+
+---------------------------------------------------------------------------------------------------------------------------------
 // includes() - returns a boolean indicating whether an array includes a certain element.
 array.includes(searchElement, fromIndex);
 
+console.log(numbers.includes(5)); // Output: true
+console.log(numbers.includes(15)); // Output: false
+
+---------------------------------------------------------------------------------------------------------------------------------
 // filter() - creates a new array with all elements that pass the test implemented by the provided function.
 array.filter(callback(element, index, array), thisArg);
 
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // map() - creates a new array with the results of calling a provided function on every element in the calling array.
 array.map(callback(currentValue, index, array), thisArg);
 
+const doubleNumbers = numbers.map(num => num * 2);
+console.log(doubleNumbers); // Output: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // sort() - sorts the elements of an array in place and returns the sorted array.
 array.sort(compareFunction);
 
+numbers.sort((a, b) => a - b);
+console.log(numbers); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // concat() - joins two or more arrays and returns a new array that contains all the elements from the original arrays.
 array1.concat(array2, array3, ...);
 
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let newArr = arr1.concat(arr2);
+console.log(newArr); // [1, 2, 3, 4, 5, 6]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // join() - joins all elements of an array into a string.
 array.join(separator);
 
+let fruits = ['Apple', 'Banana', 'Mango'];
+let fruitString = fruits.join(', ');
+console.log(fruitString); // "Apple, Banana, Mango"
+
+---------------------------------------------------------------------------------------------------------------------------------
 // reverse() - reverses the order of the elements in an array.
 array.reverse();
 
+let numbers = [1, 2, 3, 4, 5];
+numbers.reverse();
+console.log(numbers); // [5, 4, 3, 2, 1]
+
+---------------------------------------------------------------------------------------------------------------------------------
 // reduce() - applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
 array.reduce(function(accumulator, currentValue, currentIndex, array), initialValue);
 
+let numbers = [1, 2, 3, 4, 5];
+let sum = numbers.reduce(function(accumulator, currentValue) {
+  return accumulator + currentValue;
+}, 0);
+console.log(sum); // 15
+
+---------------------------------------------------------------------------------------------------------------------------------
 // forEach() - executes a provided function once for each array element.
 array.forEach(function(currentValue, index, array), thisArg);
 
+let numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function(currentValue, index, array) {
+  console.log(currentValue, index);
+});
+
+// Output:
+// 1 0
+// 2 1
+// 3 2
+// 4 3
+// 5 4
 
 ```
 
