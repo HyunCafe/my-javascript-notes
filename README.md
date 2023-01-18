@@ -212,6 +212,9 @@ array.forEach(function(currentValue, index, array), thisArg);
 ```
 
 #### Generate Random Selection
+
+[Mozilla Math Methods Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
 * To generate random selection from an array <br>
 ```javascript
 const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
