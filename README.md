@@ -28,7 +28,7 @@
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
-* [Big O Complexity(#Big-O-Complexity) 
+* [Big O Complexity](#Big-O-Complexity)
    * [Common Data Structure Operations](Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](Array-Sorting-Algorithms)
 
