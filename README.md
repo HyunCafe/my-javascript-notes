@@ -193,6 +193,21 @@ array.map(callback(currentValue, index, array), thisArg);
 // sort() - sorts the elements of an array in place and returns the sorted array.
 array.sort(compareFunction);
 
+// concat() - joins two or more arrays and returns a new array that contains all the elements from the original arrays.
+array1.concat(array2, array3, ...);
+
+// join() - joins all elements of an array into a string.
+array.join(separator);
+
+// reverse() - reverses the order of the elements in an array.
+array.reverse();
+
+// reduce() - applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
+array.reduce(function(accumulator, currentValue, currentIndex, array), initialValue);
+
+// forEach() - executes a provided function once for each array element.
+array.forEach(function(currentValue, index, array), thisArg);
+
 
 ```
 
