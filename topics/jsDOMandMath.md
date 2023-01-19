@@ -35,8 +35,6 @@ let element = document.getElementById("elementId");
 element.addEventListener("eventType", functionCalled);
 ```
 
-[Back to Table of Contents](../README.md/#Table-of-Contents)
-
 #### Display Result to Event Listen
 * Displaying the result of an action in a specific element `<p id="result"> </p>`
 ```javascript
