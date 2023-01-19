@@ -17,7 +17,6 @@ let array = [1, 2, 3];
 console.log(array.push(4, 5, 6)); // Output: 6
 console.log(array); // Output: [1, 2, 3, 4, 5, 6]
 ```
-[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### pop
 removes the last element from an array and returns that element.
@@ -39,7 +38,6 @@ array.shift();
 console.log(array.shift()); // Output: 1
 console.log(array); // Output: [2, 3, 4, 5]
 ```
-[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### unshift
 adds one or more elements to the beginning of an array and returns the new length of the array.
@@ -75,8 +73,6 @@ let array = [1,2,3,4,5];
 console.log(array.slice(1,3)); // Output: [2,3]
 ```
 
-[Back to Table of Contents](../README.md/#Table-of-Contents)
-
 #### indexOf
 returns the first index at which a given element can be found in the array, or -1 if it is not present.
 ```javascript
@@ -99,8 +95,6 @@ array.includes(searchElement, fromIndex);
 console.log(numbers.includes(5)); // Output: true
 console.log(numbers.includes(15)); // Output: false
 ```
-
-[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### filter
 creates a new array with all elements that pass the test implemented by the provided function.
@@ -144,7 +138,6 @@ numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### concat
 joins two or more arrays and returns a new array that contains all the elements from the original arrays.
@@ -170,8 +163,6 @@ let fruits = ['Apple', 'Banana', 'Mango'];
 let fruitString = fruits.join(', ');
 console.log(fruitString); // "Apple, Banana, Mango"
 ```
-
-[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### reverse
 reverses the order of the elements in an array
