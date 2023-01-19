@@ -268,6 +268,17 @@ array.filter(callback(element, index, array), thisArg);
 Example:
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
+
+Example 2: remove elements from array and create a new array from it
+function removeElements(originalArray, ...elementsToRemove) {
+  // Using filter method to create a new array with all elements that pass the test
+  return originalArray.filter(currentArrayElement => {
+    // Check if the current element of the original array is not present in the elementsToRemove array
+    return !elementsToRemove.includes(currentArrayElement);
+  });
+}
+console.log(removeElements([1, 2, 3, 4, 5], 2, 4)); // [1, 3, 5]
+
 ```
 
 #### map
@@ -321,7 +332,7 @@ let numbers = [1, 2, 3, 4, 5];
 numbers.reverse();
 console.log(numbers); // [5, 4, 3, 2, 1]
 
-Example 2:
+Example 2: create a new array that is reversed of the array
 function reverseString(word) {
   // Step 1: Spread the characters of the word into an array
   let wordArray = [...word];
