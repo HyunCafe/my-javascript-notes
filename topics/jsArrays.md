@@ -9,7 +9,6 @@
 #### push
 adds one or more elements to the end of an array and returns the new length of the array.
 
-array.push(element1, element2, ..., elementX);
 ```javascript
 array.push(element1, element2, ..., elementX);
 
