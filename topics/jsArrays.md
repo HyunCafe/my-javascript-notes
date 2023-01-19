@@ -114,8 +114,6 @@ function removeFromArray(array, ...elemRemove) {
 console.log(removeFromArray([1, 2, 3, 4, 5], 2, 4)); // [1, 3, 5]
 ```
 
-[Back to Table of Contents](../README.md/#Table-of-Contents
-
 #### map
 creates a new array with the results of calling a provided function on every element in the calling array.
 ```javascript
