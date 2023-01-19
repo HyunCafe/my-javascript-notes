@@ -1,6 +1,6 @@
 ## Functions 
 
-[Back to Table of Contents](README.md/#Table-of-Contents)
+[Back to Table of Contents](./my-javascript-notes/README.md/#Table-of-Contents)
 
 
 [Mozilla Functions Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
