@@ -49,7 +49,7 @@ console.log(array.unshift(-1, 0)); // Output: 6
 console.log(array); // Output: [-1, 0, 2, 3, 4, 5]
 ```
 
-#### Splice
+#### splice
 adds or removes elements from an array.
 ```javascript
 // first argument is the index where to start adding/removing elements
