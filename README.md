@@ -44,8 +44,8 @@
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
-* Math
-     * [Math.round(x)](#Math.round(x))
+* [Math](#Math)
+     * [Math.round(x)](#Math.round)
      * [Math.ceil(x)](#Math.ceil(x))
      * [Math.floor(x)](#Math.floor(x))
      * [Math.random()](#Math.random())
