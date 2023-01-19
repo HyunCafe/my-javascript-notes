@@ -324,7 +324,12 @@ console.log(numbers); // [5, 4, 3, 2, 1]
 #### reduce
 applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
 ```javascript
-array.reduce(function(accumulator, currentValue, currentIndex, array), initialValue);
+const result = array.reduce((accumulator, currentValue, currentIndex, array) => {
+   // logic to update accumulator based on currentValue and currentIndex 
+   return accumulator;
+}, initialValue);
+console.log(result);
+
 
 Example:
 let numbers = [1, 2, 3, 4, 5];
@@ -332,6 +337,17 @@ let sum = numbers.reduce(function(accumulator, currentValue) {
   return accumulator + currentValue;
 }, 0);
 console.log(sum); // 15
+
+Example 2:
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+const sum = numbers.reduce(function(accumulator, currentValue) {
+// accumulator = a
+// currentValue = b
+  return accumulator + currentValue;
+}, 0);
+// currentIndex = not used in this example
+// array = numbers
+console.log(sum);
 ```
 
 #### forEach
