@@ -8,6 +8,7 @@
 
 #### push
 adds one or more elements to the end of an array and returns the new length of the array.
+
 array.push(element1, element2, ..., elementX);
 ```javascript
 array.push(element1, element2, ..., elementX);
@@ -17,6 +18,7 @@ let array = [1, 2, 3];
 console.log(array.push(4, 5, 6)); // Output: 6
 console.log(array); // Output: [1, 2, 3, 4, 5, 6]
 ```
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### pop
 removes the last element from an array and returns that element.
@@ -27,6 +29,7 @@ array.pop();
 console.log(array.pop()); // Output: 6
 console.log(array); // Output: [1, 2, 3, 4, 5]
 ```
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### shift
 removes the first element from an array and returns that element.
@@ -37,6 +40,7 @@ array.shift();
 console.log(array.shift()); // Output: 1
 console.log(array); // Output: [2, 3, 4, 5]
 ```
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### unshift
 adds one or more elements to the beginning of an array and returns the new length of the array.
@@ -59,6 +63,7 @@ let array = [1,2,3,4,5];
 console.log(array.splice(2, 2, 6, 7)); // Output: [3, 4]
 console.log(array); // Output: [1, 2, 6, 7, 5]
 ```
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### slice
 returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included)
@@ -71,6 +76,8 @@ let array = [1,2,3,4,5];
 console.log(array.slice(1,3)); // Output: [2,3]
 ```
 
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
 #### indexOf
 returns the first index at which a given element can be found in the array, or -1 if it is not present.
 ```javascript
@@ -82,6 +89,8 @@ console.log(numbers.indexOf(5)); // Output: 4
 console.log(numbers.indexOf(15)); // Output: -1
 ```
 
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
 #### includes
 returns a boolean indicating whether an array includes a certain element.
 ```javascript
@@ -91,6 +100,8 @@ array.includes(searchElement, fromIndex);
 console.log(numbers.includes(5)); // Output: true
 console.log(numbers.includes(15)); // Output: false
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### filter
 creates a new array with all elements that pass the test implemented by the provided function.
@@ -110,6 +121,8 @@ function removeFromArray(array, ...elemRemove) {
 console.log(removeFromArray([1, 2, 3, 4, 5], 2, 4)); // [1, 3, 5]
 ```
 
+[Back to Table of Contents](../README.md/#Table-of-Contents
+
 #### map
 creates a new array with the results of calling a provided function on every element in the calling array.
 ```javascript
@@ -120,6 +133,8 @@ const doubleNumbers = numbers.map(num => num * 2);
 console.log(doubleNumbers); // Output: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 ```
 
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
 #### sort
 sorts the elements of an array in place and returns the sorted array.
 ```javascript
@@ -129,6 +144,8 @@ array.sort(compareFunction);
 numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### concat
 joins two or more arrays and returns a new array that contains all the elements from the original arrays.
@@ -141,6 +158,9 @@ let arr2 = [4, 5, 6];
 let newArr = arr1.concat(arr2);
 console.log(newArr); // [1, 2, 3, 4, 5, 6]
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
 #### join
 joins all elements of an array into a string.
 ```javascript
@@ -151,6 +171,9 @@ let fruits = ['Apple', 'Banana', 'Mango'];
 let fruitString = fruits.join(', ');
 console.log(fruitString); // "Apple, Banana, Mango"
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
 #### reverse
 reverses the order of the elements in an array
 ```javascript
@@ -178,6 +201,8 @@ function reverseString(word) {
 console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
 
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### reduce
 applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
@@ -207,6 +232,8 @@ const sum = numbers.reduce(function(accumulator, currentValue) {
 // array = numbers
 console.log(sum);
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### forEach
 executes a provided function once for each array element.
