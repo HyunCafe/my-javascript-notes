@@ -1,6 +1,6 @@
 ## Conditional Statements
 
-[Back to Table of Contents](#Table-of-Contents)
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 Conditional statements are used to make decisions in code. The most common type of conditional statement is the if-else statement.
 
@@ -19,6 +19,8 @@ shorthand way to write a basic if-else statement in a single line of code.
 ```javascript
 let result = condition ? parameter1 : parameter2;
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 ### Switch Statements
 ```javascript
