@@ -4,7 +4,7 @@
 
 ## **Javascript**
 ### Table of Contents
-
+--------------------------------------------------------------------------------------------------
 * [Functions](./topics/jsFunctionsandConditionals.md/#Functions)
   * [Arrow Functions](./topics/jsFunctionsandConditionals.md/#Arrow-Functions)
  * [Conditional Statements](./topics/jsFunctionsandConditionals.md/#Conditional-Statements)
@@ -18,7 +18,7 @@
    * [For Each Loops](./topics/jsLoops.md/#For-Each-Loops)
    * [While Loops](./topics/jsLoops.md/#While-Loops)
    * [Do While Loops](./topics/jsLoops.md/#Do-While-Loops)
-
+--------------------------------------------------------------------------------------------------
 * [Arrays](./topics/jsArrays.md/#Arrays)
    * [Array Methods](./topics/jsArrays.md/#Array-Methods)
      * [push](./topics/jsArrays.md/#push)
@@ -37,9 +37,9 @@
      * [reverse](./topics/jsArrays.md/#reverse)
      * [reduce](./topics/jsArrays.md/#reduce)
      * [forEach](./topics/jsArrays.md/#forEach)
-    * [Generate Random Selection](#Generate-Random-Selection)
-    * [Check in Array for Element](#Check-in-Array-for-Element)
-
+    * [Generate Random Selection](./topics/jsArrays.md/#Generate-Random-Selection)
+    * [Check in Array for Element](./topics/jsArrays.md/#Check-in-Array-for-Element)
+--------------------------------------------------------------------------------------------------
 * [DOM Manipulation](./topics/jsDOMandMath.md/#DOM-Manipulation)
   * [Event Listeners](./topics/jsDOMandMath.md/#Event-Listeners)
     * [Add to Event Listen](./topics/jsDOMandMath.md/#Add-to-Event-Listen)
@@ -55,14 +55,14 @@
      * [Math sqrt](./topics/jsDOMandMath.md/#Math-sqrt)
      * [Math abs](./topics/jsDOMandMath.md/#Math-abs)
      * [Math trunc](./topics/jsDOMandMath.md/#Math-trunc)
-
+--------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
 * [Big O Complexity](#Big-O-Complexity)
    * [Common Data Structure Operations](#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](#Array-Sorting-Algorithms)
-
+--------------------------------------------------------------------------------------------------
 
 
 #### Generate Random Selection
