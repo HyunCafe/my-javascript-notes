@@ -32,6 +32,7 @@
      * [sort](#sort)
      * [concat](#concat)
      * [join](#join)
+     * [reverse](#reverse)
      * [reduce](#reduce)
      * [forEach](#forEach)
     * [Generate Random Selection](#Generate-Random-Selection)
