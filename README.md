@@ -509,7 +509,7 @@ const rules = {
 [Mozilla Math Methods Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 #### Math round
-This function rounds a number to the nearest integer.
+rounds a number to the nearest integer.
 ```javascript
 let x = 4.6;
 let roundedX = Math.round(x); // 5
@@ -517,13 +517,15 @@ console.log(roundedX);
 ```
 
 #### Math ceil
+rounds a number up to the nearest integer.
 ```javascript
 let x = 4.1;
 let roundedUpX = Math.ceil(x); // 5
 console.log(roundedUpX);
 ```
 
-#### Math floor(x)
+#### Math floor
+rounds a number down to the nearest integer.
 ```javascript
 let x = 4.9;
 let roundedDownX = Math.floor(x); // 4
@@ -531,24 +533,32 @@ console.log(roundedDownX);
 
 ```
 #### Math random
+returns a random number between 0 (inclusive) and 1 (exclusive).
 ```javascript
 let randomNumber = Math.random();
 console.log(randomNumber); // a random number between 0 and 1
+
+//Example To generate random selection from an array <br>
+const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
+const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
 ```
 
 #### Math max
+returns the largest of zero or more numbers.
 ```javascript
 let largestNumber = Math.max(3, 5, 8, 12);
 console.log(largestNumber); // 12
 ```
 
 #### Math.min
+returns the smallest of zero or more numbers.
 ```javascript
 let smallestNumber = Math.min(3, 5, 8, 12);
 console.log(smallestNumber); // 3
 ```
 
 #### Math pow
+returns the base to the exponent power, that is, base exponent.
 ```javascript
 let base = 5;
 let exponent = 2;
@@ -557,6 +567,7 @@ console.log(result); // 25 (5 to the power of 2)
 ```
 
 #### Math sqrt
+returns the square root of a number.
 ```javascript
 let x = 16;
 let squareRoot = Math.sqrt(x);
@@ -564,6 +575,7 @@ console.log(squareRoot); // 4
 ```
 
 #### Math abs
+returns the absolute value of a number.
 ```javascript
 let x = -5;
 let absVal = Math.abs(x);
@@ -571,6 +583,7 @@ console.log(absVal); // 5
 ```
 
 #### Math trunc
+returns the integer part of a number by removing any fractional digits.
 ```javascript
 // Boilerplate example
 let x = 5.8;
