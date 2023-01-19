@@ -16,6 +16,19 @@ array.push(element1, element2, ..., elementX);
 let array = [1, 2, 3];
 console.log(array.push(4, 5, 6)); // Output: 6
 console.log(array); // Output: [1, 2, 3, 4, 5, 6]
+
+//Example 2:
+function countBy(multiplyBy, num) {
+    // Step 1: Declare an empty array to store the results
+    let result = [];
+    // Step 2: Use a for loop to iterate from 1 to n
+    for (let i = 1; i <= n; i++) {
+        // Step 3: Push the product of multiplyBy and i into the result array
+        result.push(x * i);
+    }
+    // Step 4: Return the result array
+    return result;
+}
 ```
 
 #### pop
