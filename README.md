@@ -45,16 +45,16 @@
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
 * [Math](#Math)
-     * [Math.round](#Math.round)
-     * [Math.ceil](#Math.ceil)
-     * [Math.floor](#Math.floor)
-     * [Math.random](#Math.random)
-     * [Math.max](#Math.max)
-     * [Math.min](#Math.min)
-     * [Math.pow](#Math.pow)
-     * [Math.sqrt](#Math.sqrt)
-     * [Math.abs](#Math.abs)
-     * [Math.trunc](#Math.trunc)
+     * [Math round](#Math-round)
+     * [Math ceil](#Math-ceil)
+     * [Math floor](#Math-floor)
+     * [Math random](#Math-random)
+     * [Math max](#Math-max)
+     * [Math min](#Math-min)
+     * [Math pow](#Math-pow)
+     * [Math sqrt](#Math-sqrt)
+     * [Math abs](#Math-abs)
+     * [Math trunc](#Math-trunc)
 * [Big O Complexity](#Big-O-Complexity)
    * [Common Data Structure Operations](#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](#Array-Sorting-Algorithms)
@@ -508,36 +508,35 @@ const rules = {
 
 [Mozilla Math Methods Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
-#### Math.round(x)
+#### Math round
 This function rounds a number to the nearest integer.
-
 ```javascript
 let x = 4.6;
 let roundedX = Math.round(x); // 5
 console.log(roundedX);
 ```
 
-#### Math.ceil(x)
+#### Math ceil
 ```javascript
 let x = 4.1;
 let roundedUpX = Math.ceil(x); // 5
 console.log(roundedUpX);
 ```
 
-#### Math.floor(x)
+#### Math floor(x)
 ```javascript
 let x = 4.9;
 let roundedDownX = Math.floor(x); // 4
 console.log(roundedDownX);
 
 ```
-#### Math.random
+#### Math random
 ```javascript
 let randomNumber = Math.random();
 console.log(randomNumber); // a random number between 0 and 1
 ```
 
-#### Math.max
+#### Math max
 ```javascript
 let largestNumber = Math.max(3, 5, 8, 12);
 console.log(largestNumber); // 12
@@ -549,7 +548,7 @@ let smallestNumber = Math.min(3, 5, 8, 12);
 console.log(smallestNumber); // 3
 ```
 
-#### Math.pow
+#### Math pow
 ```javascript
 let base = 5;
 let exponent = 2;
@@ -557,21 +556,21 @@ let result = Math.pow(base, exponent);
 console.log(result); // 25 (5 to the power of 2)
 ```
 
-#### Math.sqrt
+#### Math sqrt
 ```javascript
 let x = 16;
 let squareRoot = Math.sqrt(x);
 console.log(squareRoot); // 4
 ```
 
-#### Math.abs
+#### Math abs
 ```javascript
 let x = -5;
 let absVal = Math.abs(x);
 console.log(absVal); // 5
 ```
 
-#### Math.trunc
+#### Math trunc
 ```javascript
 // Boilerplate example
 let x = 5.8;
