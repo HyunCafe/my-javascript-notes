@@ -4,7 +4,7 @@
 
 ## **Javascript**
 ### Table of Contents
-* [Functions](./topics/#Functions)
+* [Functions](./topics/jsFunctionsandConditionals.md/#Functions)
   * [Arrow Functions](./topics/#Arrow-Functions)
  * [Conditional Statements](#Conditional-Statements)
    * [If-Else Statements](#If-Else-Statements)
