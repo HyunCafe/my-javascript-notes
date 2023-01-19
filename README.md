@@ -44,6 +44,17 @@
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
+* Math
+     * [Math.round(x)](#Math.round(x))
+     * [Math.ceil(x)](#Math.ceil(x))
+     * [Math.floor(x)](#Math.floor(x))
+     * [Math.random()](#Math.random())
+     * [Math.max(x, y, z, ...)](#Math.max(x, y, z, ...))
+     * [Math.min(x, y, z, ...)(]#Math.min(x, y, z, ...))
+     * [Math.pow(x, y)](#Math.pow(x, y))
+     * [Math.sqrt(x)](#Math.sqrt(x))
+     * [Math.abs(x)](#Math.abs(x))
+     * [Math.trunc(x)](#Math.trunc(x))
 * [Big O Complexity](#Big-O-Complexity)
    * [Common Data Structure Operations](#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](#Array-Sorting-Algorithms)
@@ -397,8 +408,6 @@ numbers.forEach(function(currentValue, index, array) {
 
 #### Generate Random Selection
 
-[Mozilla Math Methods Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-
 * To generate random selection from an array <br>
 ```javascript
 const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
@@ -416,7 +425,6 @@ if (myArray.includes(elementToCheck)) {
 } else {
     console.log(`The element ${elementToCheck} is not present in the array.`);
 }
-
 ```
 ## DOM Manipulation
 
@@ -494,6 +502,83 @@ const rules = {
     password: { required: true, minLength: 8, hasNumber: true, hasSpecialChar: true }
 };
 ```
+## Math
+
+[Back to Table of Contents](#Table-of-Contents)
+
+[Mozilla Math Methods Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+#### Math.round(x)
+This function rounds a number to the nearest integer.
+
+```javascript
+let x = 4.6;
+let roundedX = Math.round(x); // 5
+console.log(roundedX);
+```
+
+#### Math.ceil(x)
+```javascript
+let x = 4.1;
+let roundedUpX = Math.ceil(x); // 5
+console.log(roundedUpX);
+```
+
+#### Math.floor(x)
+```javascript
+let x = 4.9;
+let roundedDownX = Math.floor(x); // 4
+console.log(roundedDownX);
+
+```
+#### Math.random()
+```javascript
+let randomNumber = Math.random();
+console.log(randomNumber); // a random number between 0 and 1
+```
+
+#### Math.max(x, y, z, ...)
+```javascript
+let largestNumber = Math.max(3, 5, 8, 12);
+console.log(largestNumber); // 12
+```
+
+#### Math.min(x, y, z, ...)
+```javascript
+let smallestNumber = Math.min(3, 5, 8, 12);
+console.log(smallestNumber); // 3
+```
+
+#### Math.pow(x, y
+```javascript
+let base = 5;
+let exponent = 2;
+let result = Math.pow(base, exponent);
+console.log(result); // 25 (5 to the power of 2)
+```
+
+#### Math.sqrt(x)
+```javascript
+let x = 16;
+let squareRoot = Math.sqrt(x);
+console.log(squareRoot); // 4
+```
+
+#### Math.abs(x)
+```javascript
+let x = -5;
+let absVal = Math.abs(x);
+console.log(absVal); // 5
+```
+
+#### Math.trunc(x)
+```javascript
+// Boilerplate example
+let x = 5.8;
+let truncated = Math.trunc(x);
+console.log(truncated); // 5
+```
+
 ## Big O Complexity
 Big-O notation, represents an algorithm's worst-case complexity. It uses algebraic terms to describe the complexity of an algorithm, allowing you to measure its efficiency and performance.
 
