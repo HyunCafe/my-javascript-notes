@@ -124,7 +124,7 @@ for (let i = 0; i < array.length; i++) {
 }
 ```
 
-### For In Loop
+### For In Loops
 Looping through properties of an object
  ```javascript
 const object = { key1: "value1", key2: "value2" };
@@ -133,7 +133,7 @@ for (const key in object) {
 }
 ```
 
-### For Of Loop
+### For Of Loops
 Looping through elements of an array or a string
  ```javascript
 const array = [1, 2, 3, 4, 5];
@@ -142,7 +142,7 @@ for (const element of array) {
 }
 ```
 
-### For Each Loop
+### For Each Loops
 A For Each loop is a method that allows you to iterate through and perform a function on each element of an array.
  ```javascript
 array.forEach(function(element) {
