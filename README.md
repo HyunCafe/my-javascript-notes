@@ -4,8 +4,8 @@
 
 ## **Javascript**
 ### Table of Contents
-* [Functions](#Functions)
-  * [Arrow Functions](#Arrow-Functions)
+* [Functions](./topics/#Functions)
+  * [Arrow Functions](./topics/#Arrow-Functions)
  * [Conditional Statements](#Conditional-Statements)
    * [If-Else Statements](#If-Else-Statements)
    * [Ternary Operator](#Ternary-Operator)
