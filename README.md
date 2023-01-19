@@ -271,9 +271,7 @@ console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
 
 //Example 2: remove elements from array and create a new array from it
 function removeElements(originalArray, ...elementsToRemove) {
-  // Using filter method to create a new array with all elements that pass the test
   return originalArray.filter(currentArrayElement => {
-    // Check if the current element of the original array is not present in the elementsToRemove array
     return !elementsToRemove.includes(currentArrayElement);
   });
 }
