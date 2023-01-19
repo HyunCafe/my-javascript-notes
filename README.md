@@ -45,16 +45,16 @@
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
 * [Math](#Math)
-     * [Math.round(x)](#Math.round)
-     * [Math.ceil(x)](#Math.ceil(x))
-     * [Math.floor(x)](#Math.floor(x))
-     * [Math.random()](#Math.random())
-     * [Math.max(x, y, z, ...)](#Math.max(x, y, z, ...))
-     * [Math.min(x, y, z, ...)(]#Math.min(x, y, z, ...))
-     * [Math.pow(x, y)](#Math.pow(x, y))
-     * [Math.sqrt(x)](#Math.sqrt(x))
-     * [Math.abs(x)](#Math.abs(x))
-     * [Math.trunc(x)](#Math.trunc(x))
+     * [Math.round](#Math.round)
+     * [Math.ceil](#Math.ceil)
+     * [Math.floor](#Math.floor)
+     * [Math.random](#Math.random)
+     * [Math.max](#Math.max)
+     * [Math.min](#Math.min)
+     * [Math.pow](#Math.pow)
+     * [Math.sqrt](#Math.sqrt)
+     * [Math.abs](#Math.abs)
+     * [Math.trunc](#Math.trunc)
 * [Big O Complexity](#Big-O-Complexity)
    * [Common Data Structure Operations](#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](#Array-Sorting-Algorithms)
@@ -531,25 +531,25 @@ let roundedDownX = Math.floor(x); // 4
 console.log(roundedDownX);
 
 ```
-#### Math.random()
+#### Math.random
 ```javascript
 let randomNumber = Math.random();
 console.log(randomNumber); // a random number between 0 and 1
 ```
 
-#### Math.max(x, y, z, ...)
+#### Math.max
 ```javascript
 let largestNumber = Math.max(3, 5, 8, 12);
 console.log(largestNumber); // 12
 ```
 
-#### Math.min(x, y, z, ...)
+#### Math.min
 ```javascript
 let smallestNumber = Math.min(3, 5, 8, 12);
 console.log(smallestNumber); // 3
 ```
 
-#### Math.pow(x, y
+#### Math.pow
 ```javascript
 let base = 5;
 let exponent = 2;
@@ -557,21 +557,21 @@ let result = Math.pow(base, exponent);
 console.log(result); // 25 (5 to the power of 2)
 ```
 
-#### Math.sqrt(x)
+#### Math.sqrt
 ```javascript
 let x = 16;
 let squareRoot = Math.sqrt(x);
 console.log(squareRoot); // 4
 ```
 
-#### Math.abs(x)
+#### Math.abs
 ```javascript
 let x = -5;
 let absVal = Math.abs(x);
 console.log(absVal); // 5
 ```
 
-#### Math.trunc(x)
+#### Math.trunc
 ```javascript
 // Boilerplate example
 let x = 5.8;
