@@ -1,4 +1,4 @@
-##[Strings](./topics/jsStrings.md/#Strings)
+## Strings
 
 ### String Methods
 
