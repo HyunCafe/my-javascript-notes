@@ -270,13 +270,12 @@ const evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
 
 //Example 2: remove elements from array and create a new array from it
-function removeElements(originalArray, ...elementsToRemove) {
-  return originalArray.filter(currentArrayElement => {
-    return !elementsToRemove.includes(currentArrayElement);
+function removeFromArray(array, ...elemRemove) {
+  return array.filter(filtered => {
+    return !elemRemove.includes(filtered);
   });
 }
-console.log(removeElements([1, 2, 3, 4, 5], 2, 4)); // [1, 3, 5]
-
+console.log(removeFromArray([1, 2, 3, 4, 5], 2, 4)); // [1, 3, 5]
 ```
 
 #### map
