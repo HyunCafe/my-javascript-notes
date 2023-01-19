@@ -7,6 +7,7 @@
 --------------------------------------------------------------------------------------------------
 * [Strings](./topics/jsStrings.md/#Strings)
   * [String Methods](./topics/jsStrings.md/#String-Methods)
+     * [length](./topics/jsStrings.md/#length)
      * [concat](./topics/jsStrings.md/#concat)
      * [substring](./topics/jsStrings.md/#substring)
      * [slice](./topics/jsStrings.md/#slice)
