@@ -24,7 +24,7 @@ const functionName = (param1, param2) => {
 
 ## Conditional Statements
 
-[Back to Table of Contents](./README.md/#Table-of-Contents)
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 Conditional statements are used to make decisions in code. The most common type of conditional statement is the if-else statement.
 
@@ -60,7 +60,7 @@ switch (expression) {
 
 ## Loops
 
-[Back to Table of Contents](./README.md/#Table-of-Contents)
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 [Mozilla Loops Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
@@ -118,7 +118,7 @@ while (condition) {
 
 ## Arrays 
 
-[Back to Table of Contents](./README.md/#Table-of-Contents)
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 [Mozilla Arrays Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
@@ -367,7 +367,7 @@ if (myArray.includes(elementToCheck)) {
 ```
 ## DOM Manipulation
 
-[Back to Table of Contents](./README.md/#Table-of-Contents)
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 ### Event Listeners 
 
@@ -413,7 +413,7 @@ resultElement.innerHTML = result;
 
 ## Object Oriented Programming
 
-[Back to Table of Contents](./README.md/#Table-of-Contents)
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 ### Data Structures
 #### Data Logic
@@ -443,7 +443,7 @@ const rules = {
 ```
 ## Math
 
-[Back to Table of Contents](./README.md/#Table-of-Contents)
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 [Mozilla Math Methods Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
