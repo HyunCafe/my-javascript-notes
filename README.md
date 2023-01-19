@@ -320,6 +320,23 @@ Example:
 let numbers = [1, 2, 3, 4, 5];
 numbers.reverse();
 console.log(numbers); // [5, 4, 3, 2, 1]
+
+Example 2:
+function reverseString(word) {
+  // Step 1: Spread the characters of the word into an array
+  let wordArray = [...word];
+
+  // Step 2: Reverse the order of elements in the array using the reverse() method
+  wordArray.reverse();
+
+  // Step 3: Convert the array back into a string using the join() method
+  let reversedWord = wordArray.join('');
+
+  // Step 4: Return the reversed string
+  return reversedWord;
+}
+console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
+
 ```
 
 #### reduce
