@@ -14,8 +14,6 @@ for (let i = 0; i < array.length; i++) {
 }
 ```
 
-[Back to Table of Contents](../README.md/#Table-of-Contents)
-
 ### For In Loops
 Looping through properties of an object
  ```javascript
@@ -36,8 +34,6 @@ for (const element of array) {
 }
 ```
 
-[Back to Table of Contents](../README.md/#Table-of-Contents)
-
 ### For Each Loops
 A For Each loop is a method that allows you to iterate through and perform a function on each element of an array.
  ```javascript
@@ -55,8 +51,6 @@ array.forEach(function(element) {
   // code to be executed
 }
 ```
-
-[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 ### Do While Loops
 Executing code as long as a certain condition is true
