@@ -22,9 +22,9 @@ function countBy(multiplyBy, num) {
     // Step 1: Declare an empty array to store the results
     let result = [];
     // Step 2: Use a for loop to iterate from 1 to n
-    for (let i = 1; i <= n; i++) {
+    for (let i = 1; i <= num; i++) {
         // Step 3: Push the product of multiplyBy and i into the result array
-        result.push(x * i);
+        result.push(multiplyBy * i);
     }
     // Step 4: Return the result array
     return result;
