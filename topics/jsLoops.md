@@ -37,7 +37,7 @@ for (const element of array) {
 ### For Each Loops
 A For Each loop is a method that allows you to iterate through and perform a function on each element of an array.
  ```javascript
-array.forEach(function(element) {
+array.forEach((element, index, array) => {
     // code to be executed for each element
 });
 
@@ -46,6 +46,17 @@ let numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach(function(num) {
   console.log(num * 2); // Output: 2, 4, 6, 8, 10
+});
+
+//Example 2:
+let users = [{name: "John", email: "john@example.com"}, {name: "Jane", email: "jane@example.com"}, {name: "Bob", email: "bob@example.com"}];
+
+users.forEach(function(user, index, array) {
+  console.log(`Name: ${user.name} Email: ${user.email}`);
+});
+// Or can use an arrow function
+users.forEach((user, index, array) => {
+  console.log(`Name: ${user.name} Email: ${user.email}`);
 });
 ```
 
