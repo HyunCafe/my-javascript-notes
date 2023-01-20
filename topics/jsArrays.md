@@ -133,6 +133,11 @@ array.map(callback(currentValue, index, array), thisArg);
 //Example:
 const doubleNumbers = numbers.map(num => num * 2);
 console.log(doubleNumbers); // Output: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+//Example 2:
+let number = 10;
+let numberArray = [...Array(number).keys()].map(i => i + 1);
+console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
@@ -145,11 +150,6 @@ array.sort(compareFunction);
 //Example:
 numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-//Example 2:
-let number = 10;
-let numberArray = [...Array(number).keys()].map(i => i + 1);
-console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 
