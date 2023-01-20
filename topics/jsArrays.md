@@ -145,6 +145,11 @@ array.sort(compareFunction);
 //Example:
 numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+//Example 2:
+let number = 10;
+let numberArray = [...Array(number).keys()].map(i => i + 1);
+console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 
