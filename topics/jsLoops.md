@@ -57,6 +57,16 @@ numbers.forEach(function(num) {
  while (condition) {
   // code to be executed
 }
+
+//Example:
+let password = "password123";
+let input;
+
+while (input !== password) {
+  input = prompt("Enter your password:");
+}
+
+console.log("Access granted!");
 ```
 
 ### Do While Loops
