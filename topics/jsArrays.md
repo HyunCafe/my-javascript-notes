@@ -214,14 +214,6 @@ let sum = numbers.reduce(function(accumulator, currentValue) {
 console.log(sum); // 15
 
 //Example 2:
-const numbers = [1,2,3,4,5,6,7,8,9,10];
-const sum = numbers.reduce(function(accumulator, currentValue) {
-// accumulator = a | currentValue = b | currentIndex = not used in this example | array = numbers
-  return accumulator + currentValue;
-}, 0);
-console.log(sum);
-
-//Example 3:
 const sumAll = function(startNum, endNum) {
     let numArray = [];
     for (let i = startNum; i <= endNum; i++) {
