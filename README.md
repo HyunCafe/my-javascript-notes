@@ -62,8 +62,6 @@
      * [reverse](./topics/jsArrays.md/#reverse)
      * [reduce](./topics/jsArrays.md/#reduce)
      * [forEach](./topics/jsArrays.md/#forEach)
-    * [Generate Random Selection](./topics/jsArrays.md/#Generate-Random-Selection)
-    * [Check in Array for Element](./topics/jsArrays.md/#Check-in-Array-for-Element)
 --------------------------------------------------------------------------------------------------
 * [DOM Manipulation](./topics/jsDOMandMath.md/#DOM-Manipulation)
   * [Event Listeners](./topics/jsDOMandMath.md/#Event-Listeners)
@@ -81,6 +79,19 @@
      * [Math abs](./topics/jsDOMandMath.md/#Math-abs)
      * [Math trunc](./topics/jsDOMandMath.md/#Math-trunc)
 --------------------------------------------------------------------------------------------------
+* [Boiler Plates](./topics/jsBoilerPlate.md/#Boiler-Plates)
+   * [Strings BP](./topics/jsBoilerPlate.md/#Strings-BP)
+     * [Repeat a String](./topics/jsBoilerPlate.md/#Repeat-a-String)
+   * [Arrays BP](./topics/jsBoilerPlate.md/#Arrays-BP)
+     * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
+     * [Expand Number into Array]((./topics/jsBoilerPlate.md/#Expand-Number-into-Array)
+     * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
+     * [Sum of an Array](./topics/jsBoilerPlate.md/#Sum-of-an-Array)
+   * [Loops BP(./topics/jsBoilerPlate.md/#Loops-BP)
+     * 
+   * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
+     * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
+--------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
@@ -90,25 +101,6 @@
 --------------------------------------------------------------------------------------------------
 
 
-#### Generate Random Selection
-
-* To generate random selection from an array <br>
-```javascript
-const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
-const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
-```
-#### Check in Array for Element
-```javascript
-// Declare an array and an element to check
-let myArray = [1, 2, 3, 4, 5];
-let elementToCheck = 3;
-
-// Check if the array includes the element
-if (myArray.includes(elementToCheck)) {
-    console.log(`The element ${elementToCheck} is present in the array.`);
-} else {
-    console.log(`The element ${elementToCheck} is not present in the array.`);
-}
 ```
 
 ## Object Oriented Programming
