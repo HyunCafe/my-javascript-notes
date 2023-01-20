@@ -19,14 +19,10 @@ console.log(array); // Output: [1, 2, 3, 4, 5, 6]
 
 //Example 2:
 function countBy(multiplyBy, num) {
-    // Step 1: Declare an empty array to store the results
     let result = [];
-    // Step 2: Use a for loop to iterate from 1 to n
     for (let i = 1; i <= num; i++) {
-    // Step 3: Push the product of multiplyBy and i into the result array
     result.push(multiplyBy * i);
     }
-    // Step 4: Return the result array
     return result;
 }
 ```
@@ -189,16 +185,9 @@ console.log(numbers); // [5, 4, 3, 2, 1]
 
 //Example 2: create a new array that is reversed of the array
 function reverseString(word) {
-  // Step 1: Spread the characters of the word into an array
   let wordArray = [...word];
-
-  // Step 2: Reverse the order of elements in the array using the reverse() method
   wordArray.reverse();
-
-  // Step 3: Convert the array back into a string using the join() method
   let reversedWord = wordArray.join('');
-
-  // Step 4: Return the reversed string
   return reversedWord;
 }
 console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
@@ -234,16 +223,11 @@ console.log(sum);
 
 //Example 3:
 const sumAll = function(startNum, endNum) {
-    // Step 1: Declare an empty array to store the numbers
     let numArray = [];
-    // Step 2: Use a for loop to iterate from startNum to endNum
     for (let i = startNum; i <= endNum; i++) {
-    // Step 3: Push the current iteration number into the numArray
         numArray.push(i);
     }
-    // Step 4: Use the reduce() method to add up all the numbers in the array
     let sum = numArray.reduce((a, b) => a + b);
-    // Step 5: Return the final sum
     return sum;
 }
 
