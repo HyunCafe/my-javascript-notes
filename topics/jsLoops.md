@@ -40,6 +40,13 @@ A For Each loop is a method that allows you to iterate through and perform a fun
 array.forEach(function(element) {
     // code to be executed for each element
 });
+
+//Example:
+let numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function(num) {
+  console.log(num * 2); // Output: 2, 4, 6, 8, 10
+});
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
