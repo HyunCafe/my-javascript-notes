@@ -87,9 +87,9 @@
      * [Expand Number into Array]((./topics/jsBoilerPlate.md/#Expand-Number-into-Array)
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
      * [Sum of an Array](./topics/jsBoilerPlate.md/#Sum-of-an-Array)
-   * [Loops BP(./topics/jsBoilerPlate.md/#Loops-BP)
+   * [Loops BP(./topics/jsBoilerPlate.md/#Loops-BP)(./topics/jsBoilerPlate.md/#Loops-BP)
      * 
-   * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
+   * [Math BP](./topics/jsBoilerPlate.md/#Math-BP(./topics/jsBoilerPlate.md/#Math-BP)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](#Object-Oriented-Programming)
@@ -100,8 +100,6 @@
    * [Array Sorting Algorithms](#Array-Sorting-Algorithms)
 --------------------------------------------------------------------------------------------------
 
-
-```
 
 ## Object Oriented Programming
 
