@@ -96,9 +96,21 @@ console.log(newStr); // Output: "Hello, World!"
 #### repeat
 The .repeat(count) method returns a new string with the specified number of copies of the original string.
 ```javascript
+function repeatStr (num, str) {
+  return str.repeat(num);
+}
+
+//Example:
 let str = "Hello";
 let newStr = str.repeat(3);
 console.log(newStr); // Output: "HelloHelloHello"
+
+//Example 2:
+function repeatWord(num, str) {
+  let repeatedString = repeatStr(num, str);
+  console.log(repeatedString);
+}
+repeatWord(2, "Hello"); // "HelloHello"
 ```
 
 #### startsWith
