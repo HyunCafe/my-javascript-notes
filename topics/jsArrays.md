@@ -105,6 +105,18 @@ array.includes(searchElement, fromIndex);
 //Example:
 console.log(numbers.includes(5)); // Output: true
 console.log(numbers.includes(15)); // Output: false
+
+//Example:
+function getCount(str) {
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+      count++;
+    }
+  }
+  return count;
+}
 ```
 
 #### filter
