@@ -80,7 +80,7 @@ console.log(index); // 15
 The .toString() method returns the value of a string object
 ```javascript
 let str = new String("Hello World!");
-console.log(str.toString
+console.log(str.toString());
 ```
 
 #### trim
