@@ -18,6 +18,18 @@ function repeatWord(num, str) {
 }
 repeatWord(2, "Hello"); // "HelloHello"
 ```
+#### Sum of a String
+```javascript
+function sumRange(start, end) {
+  let sum = 0;
+  for (let i = start; i <= end; i++) {
+    sum += i;
+  }
+  return sum;
+}
+let result = sumRange(2, 5);
+console.log(result); // Output: 14 (2 + 3 + 4 + 5 = 14)
+```
 
 ### Arrays BP
 
