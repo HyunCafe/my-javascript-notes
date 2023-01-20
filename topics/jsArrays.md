@@ -208,7 +208,7 @@ console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### reduce
-applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
+applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value (Sum).
 ```javascript
 const result = array.reduce((accumulator, currentValue, currentIndex, array) => {
    // logic to update accumulator based on currentValue and currentIndex 
@@ -227,13 +227,26 @@ console.log(sum); // 15
 //Example 2:
 const numbers = [1,2,3,4,5,6,7,8,9,10];
 const sum = numbers.reduce(function(accumulator, currentValue) {
-// accumulator = a
-// currentValue = b
+// accumulator = a | currentValue = b | currentIndex = not used in this example | array = numbers
   return accumulator + currentValue;
 }, 0);
-// currentIndex = not used in this example
-// array = numbers
 console.log(sum);
+
+//Example 3:
+const sumAll = function(startNum, endNum) {
+    // Step 1: Declare an empty array to store the numbers
+    let numArray = [];
+    // Step 2: Use a for loop to iterate from startNum to endNum
+    for (let i = startNum; i <= endNum; i++) {
+    // Step 3: Push the current iteration number into the numArray
+        numArray.push(i);
+    }
+    // Step 4: Use the reduce() method to add up all the numbers in the array
+    let sum = numArray.reduce((a, b) => a + b);
+    // Step 5: Return the final sum
+    return sum;
+}
+
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
