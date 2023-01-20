@@ -1,6 +1,8 @@
 ## Boiler Plates
 
-### Strings
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+### Strings BP
 
 #### Repeat a String
 ```javascript
@@ -17,15 +19,10 @@ function repeatWord(num, str) {
 repeatWord(2, "Hello"); // "HelloHello"
 ```
 
-### Arrays
+### Arrays BP
 
-#### Generate Random Selection
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
-* To generate random selection from an array <br>
-```javascript
-const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
-const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
-```
 #### Check in Array for Element
 ```javascript
 // Declare an array and an element to check
@@ -38,3 +35,49 @@ if (myArray.includes(elementToCheck)) {
 } else {
     console.log(`The element ${elementToCheck} is not present in the array.`);
 }
+```
+#### Expand Number into Array
+```javascript
+let number = 10;
+let numberArray = [...Array(number).keys()].map(i => i + 1);
+console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Reverse a String or an Array
+```javascript
+function reverseString(word) {
+  let wordArray = [...word];
+  wordArray.reverse();
+  let reversedWord = wordArray.join('');
+  return reversedWord;
+}
+console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
+```
+
+#### Sum of an Array
+```javascript
+const sumAll = function(startNum, endNum) {
+    let numArray = [];
+    for (let i = startNum; i <= endNum; i++) {
+        numArray.push(i);
+    }
+    let sum = numArray.reduce((a, b) => a + b);
+    return sum;
+}
+console.log(sumAll(1, 10)) //result would be 55, which is the sum of 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10.
+```
+
+### Loops BP
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+### Math BP
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Generate Random Selection
+```javascript
+const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
+const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
+```
