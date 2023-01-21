@@ -164,11 +164,10 @@ numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 //Example 2:
-let numbers = [4, 2, 9, 1, 5];
+let numbers = [3, -5, 1, -2, 8, -4];
 numbers.sort(function(a, b) {
-    return a - b;
+    return a - b; // output: [-5, -4, -2, 1, 3, 8]
 });
-console.log(numbers); // output: [1, 2, 4, 5, 9]
 
 //Example 3:
 let people = [
