@@ -149,7 +149,7 @@ console.log(strArray); // Output: ["Hello", " World!"]
 
 //Example: Remove spaces
 let str = "Hello World";
-let newStr = str.split("")
+let newStr = str.split(' ').split('');
 console.log(newStr); // "HelloWorld"
 ```
 
