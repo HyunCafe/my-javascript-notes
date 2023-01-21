@@ -20,6 +20,15 @@ repeatWord(2, "Hello"); // "HelloHello"
 ```
 #### Sum of a String
 ```javascript
+//Example 1: Find Sum of Number using ForEach Loop
+let numbers = 5;
+let sum = 0;
+[numbers].forEach(function(number) {
+  sum += number;
+});
+console.log(sum);
+
+//Example 2: Find Sum of Number using For Loop
 function sumRange(start, end) {
   let sum = 0;
   for (let i = start; i <= end; i++) {
