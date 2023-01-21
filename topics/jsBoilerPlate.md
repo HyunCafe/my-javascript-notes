@@ -72,6 +72,16 @@ let number = 10;
 let numberArray = [...Array(number).keys()].map(i => i + 1);
 console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+
+#### Find Smallest Int in Array
+```javascript
+class SmallestIntegerFinder {
+  findSmallestInt(arr) {
+    return Math.min(...arr)
+  }
+}
+```
+
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### Reverse a String or an Array
@@ -91,15 +101,6 @@ function squareSum(arr) {
     let sum = 0;
     arr.forEach(element => sum += element * element);
     return sum;
-}
-```
-
-#### Find Smallest Int in Array
-```javascript
-class SmallestIntegerFinder {
-  findSmallestInt(arr) {
-    return Math.min(...arr)
-  }
 }
 ```
 
