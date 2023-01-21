@@ -82,6 +82,7 @@
 --------------------------------------------------------------------------------------------------
 * [Boiler Plates](./topics/jsBoilerPlate.md/#Boiler-Plates)
    * [Strings BP](./topics/jsBoilerPlate.md/#Strings-BP)
+     * [Remove Whitespace](./topics/jsBoilerPlate.md/#Remove-Whitespace)
      * [Repeat a String](./topics/jsBoilerPlate.md/#Repeat-a-String)
      * [Sum of a String](./topics/jsBoilerPlate.md/#Sum-of-a-String)
    * [Arrays BP](./topics/jsBoilerPlate.md/#Arrays-BP)
