@@ -36,3 +36,70 @@ let result = condition ? parameter1 : parameter2;
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
+
+
+## Regex
+
+[Mozilla MDN Regex Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+Matches any digit (0-9)
+```javascript
+/\d/
+```
+
+Matches any non-digit character
+```javascript
+/\D/
+```
+
+Matches any word character (alphanumeric characters and underscores)
+```javascript
+/\w/
+```
+
+Matches any non-word character (non-alphanumeric characters and spaces)
+```javascript
+/\W/
+```
+
+Matches any whitespace character (space, tab, newline, etc.)
+```javascript
+/\s/
+```
+
+Matches any non-whitespace character
+```javascript
+/\S/
+```
+
+Matches any lowercase letter from a to z ( case-insensitive )
+```javascript
+/[a-z]/i
+```
+
+Matches any uppercase letter from A to Z at the start of the string
+```javascript
+/^[A-Z]/
+```
+
+Matches any letter, both uppercase and lowercase
+```javascript
+/[a-zA-Z]/
+```
+
+Matches exactly 3 digits
+```javascript
+/[0-9]{3}/
+```
+
+Matches any alphanumeric character (letters and digits)
+```javascript
+/[0-9a-zA-Z]/
+```
+
+Matches any word consisting of one or more letters (case-insensitive), surrounded by word boundaries
+```javascript
+/\b[A-Za-z]+\b/
+```
