@@ -12,6 +12,12 @@ The for loop has three parts: the initializationExpression, the conditionExpress
 for (let i = 0; i < array.length; i++) {
   // code to be executed
 }
+
+//Example:
+const arr = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
 ```
 
 ### For In Loops
@@ -20,6 +26,12 @@ Looping through properties of an object
 const object = { key1: "value1", key2: "value2" };
 for (const key in object) {
     console.log(key + ": " + object[key]);
+}
+
+//Example:
+const obj = {a: 1, b: 2, c: 3};
+for (let prop in obj) {
+  console.log(obj[prop]);
 }
 ```
 
