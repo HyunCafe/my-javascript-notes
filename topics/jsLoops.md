@@ -70,6 +70,13 @@ users.forEach(function(user, index, array) {
 users.forEach((user, index, array) => {
   console.log(`Name: ${user.name} Email: ${user.email}`);
 });
+
+//Example 3:
+function squareSum(arr) {
+    let sum = 0;
+    arr.forEach(element => sum += element * element);
+    return sum;
+}
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
