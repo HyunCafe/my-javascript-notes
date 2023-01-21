@@ -94,6 +94,7 @@
      * [Square Root ForEach Array](./topics/jsBoilerPlate.md/#Square-Root-ForEach-Array)
      * [Sum of an Array](./topics/jsBoilerPlate.md/#Sum-of-an-Array)
    * [Loops BP](./topics/jsBoilerPlate.md/#Loops-BP)
+     * [Factorial For Loop](./topics/jsBoilerPlate.md/#Factorial-For-Loop)
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
 --------------------------------------------------------------------------------------------------
