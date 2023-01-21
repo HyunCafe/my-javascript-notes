@@ -132,6 +132,13 @@ let str = "Hello World!";
 let index = str.search("World");
 console.log(index); // 6
 ```
+#### slice
+The .slice(start, end) method returns a subset of a string between a start and end index
+```javascript
+let str = "Hello World!";
+let slc = str.slice(2, 8);
+console.log(slc); // "llo Wo"
+```
 
 #### split
 The .split(separator) method splits a string into an array of substrings, using the specified separator.
@@ -140,12 +147,31 @@ let str = "Hello, World!";
 let strArray = str.split(",");
 console.log(strArray); // Output: ["Hello", " World!"]
 ```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
 #### startsWith
 The .startsWith(searchString, position) method returns a boolean indicating whether a string starts with the specified string at the specified position.
 ```javascript
 let str = "Hello, World!";
 let result = str.startsWith("Hello");
 console.log(result); // Output: true
+```
+
+#### substr
+The .substr(start, length) method returns a subset of a string starting from a specified index and with a specified length
+```javascript
+let str = "Hello World!";
+let sub = str.substr(2, 6);
+console.log(sub); // "llo Wo"
+```
+
+#### substring
+The substring() method returns a subset of a string between a start and end index
+```javascript
+let str = "Hello World!";
+let sub = str.substring(2, 8);
+console.log(sub); // "llo W
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
@@ -171,32 +197,6 @@ The .toUpperCase() method returns the calling string value converted to uppercas
 let str = "Hello, World!";
 let newStr = str.toUpperCase();
 console.log(newStr); // Output: "HELLO, WORLD!"
-```
-
-[Back to Table of Contents](../README.md/#Table-of-Contents)
-
-#### slice
-The .slice(start, end) method returns a subset of a string between a start and end index
-```javascript
-let str = "Hello World!";
-let slc = str.slice(2, 8);
-console.log(slc); // "llo Wo"
-```
-
-#### substr
-The .substr(start, length) method returns a subset of a string starting from a specified index and with a specified length
-```javascript
-let str = "Hello World!";
-let sub = str.substr(2, 6);
-console.log(sub); // "llo Wo"
-```
-
-#### substring
-The substring() method returns a subset of a string between a start and end index
-```javascript
-let str = "Hello World!";
-let sub = str.substring(2, 8);
-console.log(sub); // "llo W
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
