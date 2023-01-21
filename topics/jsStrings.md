@@ -146,6 +146,11 @@ The .split(separator) method splits a string into an array of substrings, using 
 let str = "Hello, World!";
 let strArray = str.split(",");
 console.log(strArray); // Output: ["Hello", " World!"]
+
+//Example: Remove spaces
+let str = "Hello World";
+let newStr = str.split(" ").join("");
+console.log(newStr); // "HelloWorld"
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
