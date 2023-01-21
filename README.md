@@ -87,6 +87,7 @@
      * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
      * [Expand Number into Array](./topics/jsBoilerPlate.md/#Expand-Number-into-Array)
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
+     * [Find Smallest Int in Array](./topics/jsBoilerPlate.md/#Find-Smallest-Int-in-Array)
      * [Sum of an Array](./topics/jsBoilerPlate.md/#Sum-of-an-Array)
    * [Loops BP](./topics/jsBoilerPlate.md/#Loops-BP)
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
