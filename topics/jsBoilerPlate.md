@@ -76,6 +76,15 @@ function reverseString(word) {
 console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
 ```
 
+#### Square Root ForEach Array
+```javascript
+function squareSum(arr) {
+    let sum = 0;
+    arr.forEach(element => sum += element * element);
+    return sum;
+}
+```
+
 #### Find Smallest Int in Array
 ```javascript
 class SmallestIntegerFinder {
