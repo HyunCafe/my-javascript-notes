@@ -92,7 +92,7 @@ console.log(absVal); // 5
 ```
 
 #### Math ceil
-rounds a number up to the nearest integer.
+rounds a number up to the nearest integer. (if 2.1 rounds to 3)
 ```javascript
 let x = 4.1;
 let roundedUpX = Math.ceil(x); // 5
@@ -100,7 +100,7 @@ console.log(roundedUpX);
 ```
 
 #### Math floor
-rounds a number down to the nearest integer.
+rounds a number down to the nearest integer. (if 2.9 rounds to 2)
 ```javascript
 let x = 4.9;
 let roundedDownX = Math.floor(x); // 4
@@ -146,7 +146,7 @@ const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)]
 ```
 
 #### Math round
-rounds a number to the nearest integer.
+rounds a number to the nearest integer. (if 2.1 rounds to 2, if 2.9 rounds to 3)
 ```javascript
 let x = 4.6;
 let roundedX = Math.round(x); // 5
