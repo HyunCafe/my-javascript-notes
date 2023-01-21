@@ -14,13 +14,6 @@ if (condition1) {
     // code to be executed if all conditions are false
 }
 ```
-### Ternary Operator
-shorthand way to write a basic if-else statement in a single line of code.
-```javascript
-let result = condition ? parameter1 : parameter2;
-```
-
-[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 ### Switch Statements
 ```javascript
@@ -35,3 +28,11 @@ switch (expression) {
     // code to be executed if expression does not match any case
 }
 ```
+
+### Ternary Operator
+shorthand way to write a basic if-else statement in a single line of code.
+```javascript
+let result = condition ? parameter1 : parameter2;
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
