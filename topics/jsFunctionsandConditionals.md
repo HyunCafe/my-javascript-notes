@@ -44,62 +44,28 @@ let result = condition ? parameter1 : parameter2;
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
-Matches any digit (0-9)
 ```javascript
-/\d/
-```
+/\d/ //Matches any digit (0-9)
 
-Matches any non-digit character
-```javascript
-/\D/
-```
+/\D/ //Matches any non-digit character
 
-Matches any word character (alphanumeric characters and underscores)
-```javascript
-/\w/
-```
+/\w/ //Matches any word character (alphanumeric characters and underscores)
 
-Matches any non-word character (non-alphanumeric characters and spaces)
-```javascript
-/\W/
-```
+/\W/ //Matches any non-word character (non-alphanumeric characters and spaces)
 
-Matches any whitespace character (space, tab, newline, etc.)
-```javascript
-/\s/
-```
+/\s/ //Matches any whitespace character (space, tab, newline, etc.)
 
-Matches any non-whitespace character
-```javascript
-/\S/
-```
+/\S/ //Matches any non-whitespace character
 
-Matches any lowercase letter from a to z ( case-insensitive )
-```javascript
-/[a-z]/i
-```
+/[a-z]/i //Matches any lowercase letter from a to z ( case-insensitive )
 
-Matches any uppercase letter from A to Z at the start of the string
-```javascript
-/^[A-Z]/
-```
+/^[A-Z]/ //Matches any uppercase letter from A to Z at the start of the string
 
-Matches any letter, both uppercase and lowercase
-```javascript
-/[a-zA-Z]/
-```
+/[a-zA-Z]/ //Matches any letter, both uppercase and lowercase
 
-Matches exactly 3 digits
-```javascript
-/[0-9]{3}/
-```
+/[0-9]{3}/ //Matches exactly 3 digits
 
-Matches any alphanumeric character (letters and digits)
-```javascript
-/[0-9a-zA-Z]/
-```
+/[0-9a-zA-Z]/ //Matches any alphanumeric character (letters and digits)
 
-Matches any word consisting of one or more letters (case-insensitive), surrounded by word boundaries
-```javascript
-/\b[A-Za-z]+\b/
+/\b[A-Za-z]+\b/ // Matches any word consisting of one or more letters (case-insensitive), surrounded by word boundaries
 ```
