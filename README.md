@@ -97,6 +97,8 @@
      * [Factorial For Loop](./topics/jsBoilerPlate.md/#Factorial-For-Loop)
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
+   * [Regex](./topics/jsBoilerPlate.md/#Regex)
+     *[Palindrome](./topics/jsBoilerPlate.md/#Palindrome)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
