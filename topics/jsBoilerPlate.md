@@ -148,3 +148,21 @@ function factorial(n) {
 const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
 const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
 ```
+
+### Regex 
+
+[Mozilla MDN Regex Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Palindrome
+```javascript
+const palindromes = function (palin) {
+    // Create an empty string to store the cleaned string
+    let cleanedString = '';
+    // Iterate through the input string
+    for (let i = 0; i < palin.length; i++) {
+        // Check if the character is alphanumeric
+        if (palin[i].match(/[A-Za-z0-9]/)) {
+            // If it is, add
+```
