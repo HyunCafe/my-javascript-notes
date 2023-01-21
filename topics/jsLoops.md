@@ -77,6 +77,14 @@ function squareSum(arr) {
     arr.forEach(element => sum += element * element);
     return sum;
 }
+
+//Example 4: Find Sum of Number
+let numbers = 5;
+let sum = 0;
+[numbers].forEach(function(number) {
+  sum += number;
+});
+console.log(sum);
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
