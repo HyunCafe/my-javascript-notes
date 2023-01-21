@@ -46,6 +46,20 @@ function sumRange(start, end) {
 let result = sumRange(2, 5);
 console.log(result); // Output: 14 (2 + 3 + 4 + 5 = 14)
 ```
+### If Else BP
+
+#### Fibonacci
+```javascript
+function fibonacci(n) {
+    if (n <= 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
+```
 
 ### Arrays BP
 
