@@ -87,6 +87,7 @@
      * [Repeat a String](./topics/jsBoilerPlate.md/#Repeat-a-String)
      * [Sum of a String](./topics/jsBoilerPlate.md/#Sum-of-a-String)
    * [If Else BP](./topics/jsBoilerPlate.md/#Arrays-BP)
+     * [Fibonacci](./topics/jsBoilerPlate.md/#Fibonacci)
    * [Arrays BP](./topics/jsBoilerPlate.md/#If-Else-BP)
      * [Combine Array](./topics/jsBoilerPlate.md/#Combine-Array)
      * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
