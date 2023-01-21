@@ -48,6 +48,15 @@ if (myArray.includes(elementToCheck)) {
     console.log(`The element ${elementToCheck} is not present in the array.`);
 }
 ```
+
+#### Combine Array
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let combined = [...arr1, ...arr2];
+console.log(combined);  // Output: [1, 2, 3, 4, 5, 6]
+```
+
 #### Expand Number into Array
 ```javascript
 let number = 10;
