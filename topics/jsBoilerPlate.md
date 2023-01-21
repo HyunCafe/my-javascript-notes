@@ -149,7 +149,7 @@ const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
 const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
 ```
 
-### Regex 
+### Regex BP
 
 [Mozilla MDN Regex Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
