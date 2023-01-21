@@ -74,7 +74,7 @@ console.log(array); // Output: [1, 2, 6, 7, 5]
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### slice
-returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included)
+Only takes out the indices you indicate as start and end values, and make a new array or string with selected elements.
 ```javascript
 // first argument is the starting index, second argument is the ending index
 array.slice(begin, end);
