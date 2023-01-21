@@ -4,6 +4,13 @@
 
 ### Strings BP
 
+#### Remove Whitespace
+```javascript
+let str = "Hello World";
+let newStr = str.split(" ").join("");
+console.log(newStr); // "HelloWorld"
+```
+
 #### Repeat a String
 ```javascript
 //Example:
