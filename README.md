@@ -84,6 +84,7 @@
      * [Repeat a String](./topics/jsBoilerPlate.md/#Repeat-a-String)
      * [Sum of a String](./topics/jsBoilerPlate.md/#Sum-of-a-String)
    * [Arrays BP](./topics/jsBoilerPlate.md/#Arrays-BP)
+     * [Combine Array]((./topics/jsBoilerPlate.md/#Combine-Array)
      * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
      * [Expand Number into Array](./topics/jsBoilerPlate.md/#Expand-Number-into-Array)
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
