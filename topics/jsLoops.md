@@ -20,32 +20,6 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-### For In Loops
-Looping through properties of an object
- ```javascript
-const object = { key1: "value1", key2: "value2" };
-for (const key in object) {
-    console.log(key + ": " + object[key]);
-}
-
-//Example:
-const obj = {a: 1, b: 2, c: 3};
-for (let prop in obj) {
-  console.log(obj[prop]);
-}
-```
-
-[Back to Table of Contents](../README.md/#Table-of-Contents)
-
-### For Of Loops
-Looping through elements of an array or a string
- ```javascript
-const array = [1, 2, 3, 4, 5];
-for (const element of array) {
-    console.log(element);
-}
-```
-
 ### For Each Loops
 A For Each loop is a method that allows you to iterate through and perform a function on each element of an array.
  ```javascript
@@ -87,7 +61,31 @@ let sum = 0;
 console.log(sum);
 ```
 
+### For In Loops
+Looping through properties of an object
+ ```javascript
+const object = { key1: "value1", key2: "value2" };
+for (const key in object) {
+    console.log(key + ": " + object[key]);
+}
+
+//Example:
+const obj = {a: 1, b: 2, c: 3};
+for (let prop in obj) {
+  console.log(obj[prop]);
+}
+```
+
 [Back to Table of Contents](../README.md/#Table-of-Contents)
+
+### For Of Loops
+Looping through elements of an array or a string
+ ```javascript
+const array = [1, 2, 3, 4, 5];
+for (const element of array) {
+    console.log(element);
+}
+```
 
 ### While Loops
  A while loop is used to execute a block of code repeatedly as long as a given condition is true.
