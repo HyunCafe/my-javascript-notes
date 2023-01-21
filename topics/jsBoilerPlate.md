@@ -67,6 +67,27 @@ function reverseString(word) {
 console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
 ```
 
+#### Find Smallest Int in Array
+```javascript
+class SmallestElementFinder {
+  findSmallest(arr) {
+    if (!Array.isArray(arr)) {
+        throw new Error('Input is not an array');
+    }
+    if (arr.length === 0) {
+        throw new Error('Array is empty');
+    }
+    let smallest = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < smallest) {
+            smallest = arr[i];
+        }
+    }
+    return smallest;
+  }
+}
+```
+
 #### Sum of an Array
 ```javascript
 const sumAll = function(startNum, endNum) {
