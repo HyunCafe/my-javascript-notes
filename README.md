@@ -36,6 +36,7 @@
    * [If-Else Statements](./topics/jsFunctionsandConditionals.md/#If-Else-Statements)
    * [Switch Statements](./topics/jsFunctionsandConditionals.md/#Switch-Statements)
    * [Ternary Operator](./topics/jsFunctionsandConditionals.md/#Ternary-Operator)
+* [Regex](./topics/jsFunctionsandConditionals.md/#Regex)
  --------------------------------------------------------------------------------------------------
  * [Loops](./topics/jsLoops.md/#Loops)
    * [For Loops](./topics/jsLoops.md/#For-Loops)
@@ -97,7 +98,7 @@
      * [Factorial For Loop](./topics/jsBoilerPlate.md/#Factorial-For-Loop)
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
-   * [Regex](./topics/jsBoilerPlate.md/#Regex)
+   * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
      * [Palindrome](./topics/jsBoilerPlate.md/#Palindrome)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](#Object-Oriented-Programming)
