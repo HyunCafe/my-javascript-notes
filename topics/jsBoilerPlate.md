@@ -128,6 +128,17 @@ console.log(sumAll(1, 10)) //result would be 55, which is the sum of 1 + 2 + 3 +
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Factorial For Loop
+```javascript
+function factorial(n) {
+  let result = 1;
+  for (let i = 1; i <= n; i++) {
+    result *= i;
+  }
+  return result;
+}
+```
+
 ### Math BP
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
