@@ -93,6 +93,7 @@
      * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
      * [Expand Number into Array](./topics/jsBoilerPlate.md/#Expand-Number-into-Array)
      * [Find Smallest Int in Array](./topics/jsBoilerPlate.md/#Find-Smallest-Int-in-Array)
+     * [Find Oldest Age in Array](./topics/jsBoilerPlate.md/#Find-Oldest-Age-in-Array)     
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
      * [Square Root ForEach Array](./topics/jsBoilerPlate.md/#Square-Root-ForEach-Array)
      * [Sum of an Array](./topics/jsBoilerPlate.md/#Sum-of-an-Array)
