@@ -113,11 +113,17 @@ const extractProperty = function(arr, prop) {
     return arr.map(arr => arr[prop]);
 };
 // Detail Explination
-The function uses the Array.prototype.map() method to create a new array by applying a callback function to each element of the input array arr.
+//The function uses the Array.prototype.map() method to create a new array 
+//by applying a callback function to each element of the input array arr.
 
-The callback function uses the arrow function syntax, and takes a single parameter arr which represents each object in the array. Inside the callback function, the arr[prop] notation is used to access the value of the property of the object using the prop as a key. This returns the value of the property for each object.
+//The callback function uses the arrow function syntax, and takes a single parameter 
+//arr which represents each object in the array. Inside the callback 
+//function, the arr[prop] notation is used to access the value of the property 
+//of the object using the prop as a key. This returns the value of the //property for each object.
 
-Finally, the map() method collects all the returned values from the callback function, and creates a new array with these values. This new array is then returned by the extractProperty() function using the return statement.
+//Finally, the map() method collects all the returned values from the 
+//callback function, and creates a new array with these values. This new 
+//array is //then returned by the extractProperty() function using the return statement.
 
 //Example 2:
 const doubleNumbers = numbers.map(num => num * 2);
