@@ -103,6 +103,17 @@ class SmallestIntegerFinder {
 }
 ```
 
+#### Find Oldest Age in Array
+```javascript
+const findTheOldest = function(people) {
+    return people.reduce((oldest, person) => {
+        const currentAge = person.yearOfDeath ? person.yearOfDeath - person.yearOfBirth : new Date().getFullYear() - person.yearOfBirth;
+        const oldestAge = oldest.yearOfDeath ? oldest.yearOfDeath - oldest.yearOfBirth : new Date().getFullYear() - oldest.yearOfBirth;
+        return currentAge > oldestAge ? person : oldest;
+    });
+};
+```
+
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### Reverse a String or an Array
