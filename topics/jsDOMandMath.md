@@ -41,9 +41,9 @@ element.addEventListener("eventType", functionCalled);
 // Find the element where the result will be displayed
 function displayResult(result) {
 
-// Update the innerHTML of the element with the result
+// Update the innerText of the element with the result
 const resultElement = document.getElementById("result");
-resultElement.innerHTML = result;
+resultElement.innerText = result;
 }
 ```
 
