@@ -6,6 +6,28 @@
 
 ### Array Methods
 
+#### array is array
+Check to see if the array is an array
+```javascript
+// Check if a variable is an array
+function processArray(input) {
+  if (!Array.isArray(input)) {
+    console.log("Input is not an array, please provide an array.");
+    return;
+  }
+  console.log("Input is an array, processing data...");
+  for (let i = 0; i < input.length; i++) {
+    console.log(input[i]);
+  }
+}
+
+// Test the function with different types of input
+let myArray = [1, 2, 3];
+let notAnArray = "hello";
+processArray(myArray); // prints "Input is an array, processing data..." and the elements of the array
+processArray(notAnArray); // prints "Input is not an array, please provide an array."
+```
+
 #### concat
 joins two or more arrays and returns a new array that contains all the elements from the original arrays.
 ```javascript
