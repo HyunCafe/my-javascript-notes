@@ -133,6 +133,11 @@ console.log(doubleNumbers); // Output: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 let number = 10;
 let numberArray = [...Array(number).keys()].map(i => i + 1);
 console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+//Example 4: Change int to string, reverse, back to array, into int
+function digitize(n) {
+  return n.toString().split('').reverse().map(x => parseInt(x));
+}
 ```
 
 #### pop
