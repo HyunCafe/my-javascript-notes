@@ -48,6 +48,7 @@
 --------------------------------------------------------------------------------------------------
 * [Arrays](./topics/jsArrays.md/#Arrays)
    * [Array Methods](./topics/jsArrays.md/#Array-Methods)
+     * [array is array](./topics/jsArrays.md/#array-is-array)
      * [concat](./topics/jsArrays.md/#concat)
      * [filter](./topics/jsArrays.md/#filter)
      * [forEach](./topics/jsArrays.md/#forEach)
