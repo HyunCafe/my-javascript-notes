@@ -2,6 +2,24 @@
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+
+### Creating Elements and Texts
+```javascript
+// Step 1: Get a reference to the container element
+const container = document.querySelector('#container');
+
+// Step 2: Create a new <div> element
+const content = document.createElement('div');
+
+// Step 3: Add a class to the new <div> element
+content.classList.add('content');
+
+// Step 4: Add text content to the new <div> element
+content.textContent = 'This is the glorious text-content!';
+
+// Step 5: Append the new <div> element to the container
+container.appendChild(content);
+```
 ### Event Listeners 
 
 [Mozilla Event Listen Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
