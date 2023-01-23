@@ -43,7 +43,7 @@ some common event types being:
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
-#### Add to Event Listen
+#### Add to Event Listener
 * Adding an event listener to a specific element
 ```javascript
 // Assign the element with the specified id to a variable
@@ -53,7 +53,27 @@ let element = document.getElementById("elementId");
 element.addEventListener("eventType", functionCalled);
 ```
 
-#### Display Result to Event Listen
+#### Add to Multiple Event Listener
+```javascript
+<div id="container">
+    <button id="1">Click Me</button>
+    <button id="2">Click Me</button>
+    <button id="3">Click Me</button>
+</div>
+// buttons is a node list. It looks and acts much like an array.
+const buttons = document.querySelectorAll('button');
+
+// we use the .forEach method to iterate through each button
+buttons.forEach((button) => {
+
+  // and for each one we add a 'click' listener
+  button.addEventListener('click', () => {
+    alert(button.id);
+  });
+});
+```
+
+#### Display Result to Event Listener
 * Displaying the result of an action in a specific element `<p id="result"> </p>`
 ```javascript
 // Find the element where the result will be displayed
