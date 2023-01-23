@@ -281,35 +281,23 @@ sorts the elements of an array in place and returns the sorted array.
 ```javascript
 array.sort(compareFunction);
 
-//Example:
+//Example: sort numbers ascending order
 numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-//Example 2:
-let numbers = [3, -5, 1, -2, 8, -4];
-numbers.sort(function(a, b) {
-    return a - b; // output: [-5, -4, -2, 1, 3, 8]
-});
+//Example 2: sort numbers descending order
+numbers.sort((a, b) => b - a);
+console.log(numbers);
 
-//Example 3:
+//Example 3: sort an array of objects by a specific key
 let people = [
-    { firstName: "John", lastName: "Doe" },
-    { firstName: "Jane", lastName: "Smith" },
-    { firstName: "Bob", lastName: "Johnson" },
-    { firstName: "Alice", lastName: "Williams" }
+  { name: "John", age: 30 },
+  { name: "Bob", age: 25 },
+  { name: "Mike", age: 35 }
 ];
+people.sort((a, b) => a.age - b.age);
+console.log(people); // [{name: "Bob", age: 25}, {name: "John", age: 30}, {name: "Mike", age: 35}]
 
-people.sort(function(a, b) {
-    let lastNameA = a.lastName.toLowerCase();
-    let lastNameB = b.lastName.toLowerCase();
-    if (lastNameA < lastNameB) {
-        return -1; // declaring the order of the elements returned
-    }
-    if (lastNameA > lastNameB) {
-        return 1; // declaring the order of the elements returned
-    }
-    return 0;
-});
 
 console.log(people);
 // output: [{ firstName: "Bob", lastName: "Johnson" },
