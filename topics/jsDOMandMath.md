@@ -24,6 +24,8 @@ container.appendChild(content);
 
 [Mozilla Event Listen Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
+[W3 Dom Events List](https://www.w3schools.com/jsref/dom_obj_event.asp)
+
 some common event types being: 
 ```javascript
 "click": fired when an element is clicked.
