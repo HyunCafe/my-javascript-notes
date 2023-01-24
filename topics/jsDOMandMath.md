@@ -2,6 +2,14 @@
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+### Adding and Deleting Elements
+```javascript
+document.createElement(element)  // Create an HTML element
+document.removeChild(element)    // Remove an HTML element
+document.appendChild(element)    // Add an HTML element
+document.replaceChild(new, old)  // Replace an HTML element
+document.write(text)	         // Write into the HTML output stream
+```
 
 ### Creating Elements and Texts
 ```javascript
