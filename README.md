@@ -67,6 +67,7 @@
      * [unshift](./topics/jsArrays.md/#unshift)
 --------------------------------------------------------------------------------------------------
 * [DOM Manipulation](./topics/jsDOMandMath.md/#DOM-Manipulation)
+  * [Adding and Deleting Elements](./topics/jsDOMandMath.md/#Adding-and-Deleting-Elements)
   * [Creating Elements and Texts](./topics/jsDOMandMath.md/#Creating-Element-and-Texts)
   * [Event Listeners](./topics/jsDOMandMath.md/#Event-Listeners)
     * [Add to Event Listener](./topics/jsDOMandMath.md/#Add-to-Event-Listener)
