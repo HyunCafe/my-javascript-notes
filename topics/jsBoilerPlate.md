@@ -198,4 +198,9 @@ function replaceVowels(str, replacement) {
   let vowels = /[aeiou]/gi;
   return str.replace(vowels, replacement);
 }
+
+//Example:
+let originalString = "I love ice cream";
+let newString = replaceVowels(originalString, "*");
+console.log(newString); // "I l*v* *c* cr**m"
 ```
