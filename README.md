@@ -107,6 +107,7 @@
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
      * [Palindrome](./topics/jsBoilerPlate.md/#Palindrome)
+     * [Replace Vowels in String](./topics/jsBoilerPlate.md/#Replace-Vowels-in-String)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
