@@ -58,6 +58,9 @@ switch (expression) {
 shorthand way to write a basic if-else statement in a single line of code.
 ```javascript
 let result = condition ? parameter1 : parameter2;
+
+//Example:
+const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // Left side of : will run if true, right side if false
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
