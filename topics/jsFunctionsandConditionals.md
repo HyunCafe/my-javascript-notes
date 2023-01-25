@@ -1,3 +1,28 @@
+## Functions 
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+[Mozilla Functions Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+A function is a reusable block of code that can be invoked by a name. Functions can take in parameters and return a value.
+```javascript
+function functionName(parameter1, parameter2) {
+  // code to be executed
+  return value;
+}
+//call
+functionName(arguments)
+```
+### Arrow Functions
+A shorthand way of writing function expressions
+```javascript
+const functionName = (param1, param2) => {
+    // code to be executed
+}
+//Example:
+const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // Left side of : will run if true, right side if false
+```
+
 ## Conditional Statements
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
@@ -36,7 +61,6 @@ let result = condition ? parameter1 : parameter2;
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
-
 
 ## Regex
 
