@@ -134,6 +134,7 @@ console.log(index); // 6
 ```
 #### slice
 The .slice(start, end) method returns a subset of a string between a start and end index
+(if you provide only one number, it will start from that index to the end of the string)
 ```javascript
 let str = "Hello World!";
 let slc = str.slice(2, 8);
