@@ -191,3 +191,11 @@ const palindromes = function (palin) {
         if (palin[i].match(/[A-Za-z0-9]/)) {
             // If it is, add
 ```
+
+#### Replace Vowels in String
+```javascript
+function replaceVowels(str, replacement) {
+  let vowels = /[aeiou]/gi;
+  return str.replace(vowels, replacement);
+}
+```
