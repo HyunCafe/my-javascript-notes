@@ -69,3 +69,15 @@ let result = condition ? parameter1 : parameter2;
 
 /\b[A-Za-z]+\b/ // Matches any word consisting of one or more letters (case-insensitive), surrounded by word boundaries
 ```
+```javascript
+ // Options used after the closing / (/[...]/) expression:
+g (global): matches all occurrences of the pattern in the input string, rather than stopping after the first match.
+i (insensitive): makes the regular expression case-insensitive, so it will match both uppercase and lowercase characters.
+m (multiline): when used with the ^ and $ anchor characters, it allows them to match the start and end of each line in the input string, rather than the start and end of the whole string.
+u (unicode): enables the use of unicode in the regular expression, allowing for the matching of unicode characters and properties.
+y (sticky): when used with the search() method, it starts the search at the last position of the previous match rather than the default position of 0.
+s (dotAll): allows the . character to match newline characters as well.
+
+//Example:
+let vowels = /[aeiou]/gi;  // match all vowels case-insensitive and globally
+```
