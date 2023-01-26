@@ -108,6 +108,7 @@
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
      * [Palindrome](./topics/jsBoilerPlate.md/#Palindrome)
      * [Replace Vowels in String](./topics/jsBoilerPlate.md/#Replace-Vowels-in-String)
+     * [Removing trailing and leading zeroes from a number](./topics/jsBoilerPlate.md/#Removing-trailing-and-leading-zeroes-from-a-number)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
