@@ -136,7 +136,7 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 |                   | parentheses can't be matched before current position| example: when matching a num but not matching a float|                              
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
 ```
- ### Groups and Backreferences
+### Groups and Backreferences
 ```
 () - Grouping. Groups multiple characters together and allows you to apply a quantifier to the entire group.
 Example: (ab)+ matches "ababab"
@@ -187,3 +187,41 @@ Example: \k<year> matches the text matched by the group named "year"
 Example: (?:ab)+ matches "ababab" but does not create a backreference
 ```
 
+### Quantifiers 
+```
+* - Matches 0 or more of the preceding character or group.
+Example: a* matches "" (empty string), "a", "aa", "aaa", etc.
+
++ - Matches 1 or more of the preceding character or group.
+Example: a+ matches "a", "aa", "aaa", etc.
+
+? - Matches 0 or 1 of the preceding character or group.
+Example: a? matches "" (empty string) or "a"
+
+{n} - Matches exactly n of the preceding character or group.
+Example: a{3} matches "aaa"
+
+{n,} - Matches n or more of the preceding character or group.
+Example: a{3,} matches "aaa", "aaaa", "aaaaa", etc.
+
+{n,m} - Matches between n and m of the preceding character or group.
+Example: a{3,5} matches "aaa", "aaaa", or "aaaaa"
+
+*? - Matches 0 or more of the preceding character or group in a non-greedy manner.
+Example: <.*?> matches the first <>, rather than the last </> in <a>This is <b> bold </b> </a> 
+
++? - Matches 1 or more of the preceding character or group in a non-greedy manner.
+Example: <.+?> matches the first <a> rather than the last </a> in <a>This is <b> bold </b> </a> 
+
+?? - Matches 0 or 1 of the preceding character or group in a non-greedy manner.
+Example: <.?> matches the first <a> rather than the last </a> in <a>This is <b> bold </b> </a> 
+
+*+ - Possessive quantifier , matches as much as possible of the preceding character or group.
+Example: a*+ matches "aaaaaaaaaa" in "aaaaaaaaaa a"
+ 
+++ - Possessive quantifier, matches as much as possible of the preceding character or group.
+Example: a++ matches "aa" in "aa a" 
+
+?+ - Possessive quantifier, matches as much as possible of the preceding character or group.
+Example: a?+ matches "a" in "aa a" 
+```
