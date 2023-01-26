@@ -244,7 +244,7 @@ Example: a++ matches "aa" in "aa a"
 ?+ - Possessive quantifier, matches as much as possible of the preceding character or group.
 Example: a?+ matches "a" in "aa a" 
 
-//Example:
+//Example: Removing Ending 0's
 function noBoringZeros(n) {
   // Use regex to match any trailing zeroes
   // * quantifier is used to match zero or more occurences of the preceding element (0)
@@ -257,4 +257,20 @@ function noBoringZeros(n) {
   // convert the number back to number format
   return +n;
 }
+
+//Example: Remove Starting 0's
+let input = "000001234";
+let leadingZeroes = /^0+/;
+let output = input.replace(leadingZeroes,"")
+
+//The + quantifier specifies that the preceding character (in this case, 0) can be matched one or more times. So this regular expression will match one or more //consecutive zeroes at the start of a string.
+//The ^ asserts position at the start of the string. So this regular expression will only match the leading zeroes at the start of the string.
+
+//Example: Removing Starting and Ending 0's
+let input = "0000012340000";
+let leadingAndTrailingZeroes = /^0+|0*$/;
+let output = input.replace(leadingAndTrailingZeroes,"")
+
+//This will match the leading zeroes at the start of the string and trailing zeroes at the end of the string. Using the replace() method, it will replace all leading //zeroes and trailing zeroes with an empty string, giving you an output of "1234".
+//The | symbol is a logical operator, it matches the preceding or the following element whatever comes first.
 ```
