@@ -73,81 +73,76 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 
 ### Character Classes
 ```javascript
-| Character Classes | Explination                                         | Example                                      |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /\d/              | Matches any digit (0-9)                             |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /\D/              | Matches any non-digit character                     |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /\w/              | Matches any word character (alphanumeric characters |                                              |
-|                   | and underscores)                                    |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /\W/              | Matches any non-word character (non-alphanumeric    |                                              |
-|                   | characters and spaces)                              |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /\s/              | Matches any whitespace character                    |                                              |   
-|                   | (space, tab, newline, etc.)                         |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /\S/              | Matches any non-whitespace character                |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /[a-z]/           | Matches any lowercase letter from a to z            |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /^[A-Z]/          | Matches any uppercase letter from A to Z at the     |                                              |
-|                   | start of the string                                 |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /[a-zA-Z]/        | Matches any letter, both uppercase and lowercase    |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /[0-9]{3}/        | Matches exactly 3 digits                            |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /[0-9a-zA-Z]      | Matches any alphanumeric character                  |                                              |
-|                   | (letters and digits)                                |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-| /\b[A-Za-z]+\b/   | Matches any word consisting of one or more letters  |                                              |
-|                   | (case-insensitive), surrounded by word boundaries   |                                              |
-|-------------------|-----------------------------------------------------|----------------------------------------------|
-
-
-
-/\d/ // Matches any digit (0-9)
-
-/\D/ // Matches any non-digit character
-
-/\w/ // Matches any word character (alphanumeric characters and underscores)
-
-/\W/ // Matches any non-word character (non-alphanumeric characters and spaces)
-
-/\s/ // Matches any whitespace character (space, tab, newline, etc.)
-
-/\S/ // Matches any non-whitespace character
-
-/[a-z]/i // Matches any lowercase letter from a to z (case-insensitive)
-
-/^[A-Z]/ // Matches any uppercase letter from A to Z at the start of the string
-
-/[a-zA-Z]/ // Matches any letter, both uppercase and lowercase
-
-/[0-9]{3}/ // Matches exactly 3 digits
-
-/[0-9a-zA-Z]/ // Matches any alphanumeric character (letters and digits)
-
-/\b[A-Za-z]+\b/ // Matches any word consisting of one or more letters (case-insensitive), surrounded by word boundaries
+| Character Classes | Explanation                                         | Example                                              |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\d/              | Matches any digit (0-9)                             |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\D/              | Matches any non-digit character                     |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\w/              | Matches any word character (alphanumeric characters |                                                      |
+|                   | and underscores)                                    |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\W/              | Matches any non-word character (non-alphanumeric    |                                                      |
+|                   | characters and spaces)                              |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\s/              | Matches any whitespace character                    |                                                      |   
+|                   | (space, tab, newline, etc.)                         |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\S/              | Matches any non-whitespace character                |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[a-z]/           | Matches any lowercase letter from a to z            |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /^[A-Z]/          | Matches any uppercase letter from A to Z at the     |                                                      |
+|                   | start of the string                                 |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[a-zA-Z]/        | Matches any letter, both uppercase and lowercase    |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[0-9]{3}/        | Matches exactly 3 digits                            |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[0-9a-zA-Z]/     | Matches any alphanumeric character                  |                                                      |
+|                   | (letters and digits)                                |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\b[A-Za-z]+\b/   | Matches any word consisting of one or more letters  |                                                      |
+|                   | (case-insensitive), surrounded by word boundaries   |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
 ```
 
 ### Assertions
 ```javascript
-Assertions
-----------------
-^ // Matches the start of a line
-//Example:
-/^A/ // Matches any uppercase letter A at the start of the string
-
-$ // Matches the end of a line
-//Example:
-/$z/ // Matches any lowercase letter z at the end of the string
-
-\b // Matches a word boundary (^\w|\w$|\W\w|\w\W)
-//Example:
-/\bgreen\b/ // Matches the word "green" surrounded by word boundaries
+| Assertions        | Explanation                                         | Example                                              |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| ^                 | Matches the start of a line                         | /^A/ Matches any uppercase letter A at the           |
+|                   |                                                     |  start of the string                                 |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|                
+| $                 | Matches the end of a line                           | /$z/ Matches any lowercase letter z at the end of    |
+|                   |                                                     |   the string                                         |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| \b                | Matches a word boundary (^\w|\w$|\W\w|\w\W)         |  /\bgreen\b/ Matches the word "green" surrounded     |
+|                   |                                                     |  by word boundaries                                  |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\W/              | Matches any non-word character (non-alphanumeric    |                                                      |
+|                   | characters and spaces)                              |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\s/              | Matches any whitespace character                    |                                                      |   
+|                   | (space, tab, newline, etc.)                         |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\S/              | Matches any non-whitespace character                |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[a-z]/           | Matches any lowercase letter from a to z            |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /^[A-Z]/          | Matches any uppercase letter from A to Z at the     |                                                      |
+|                   | start of the string                                 |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[a-zA-Z]/        | Matches any letter, both uppercase and lowercase    |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[0-9]{3}/        | Matches exactly 3 digits                            |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /[0-9a-zA-Z]      | Matches any alphanumeric character                  |                                                      |
+|                   | (letters and digits)                                |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /\b[A-Za-z]+\b/   | Matches any word consisting of one or more letters  |                                                      |
+|                   | (case-insensitive), surrounded by word boundaries   |                                                      |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
 
 \B // Matches a non-word boundary
 //Example:
