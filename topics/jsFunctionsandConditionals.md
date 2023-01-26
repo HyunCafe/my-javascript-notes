@@ -89,6 +89,9 @@ x{n}	// Exactly n occurrences. Matches exactly n occurrences of preceding elemen
 x{n,}	// n or more occurrences. Matches n or more occurrences of preceding element.
 x{n,m}	// Between n and m occurrences. Matches betwe
 
+// Exampl: 
+let vowels = /[aeiou]/gi; // global and case insensitive search
+
 | Character Classes | Explanation                                         | Example                                              |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
 | /\d/              | Matches any digit (0-9)                             |                                                      |
@@ -153,7 +156,7 @@ x{n,m}	// Between n and m occurrences. Matches betwe
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
 ```
 ### Groups and Backreferences
-```
+```javascript
 () - Grouping. Groups multiple characters together and allows you to apply a quantifier to the entire group.
 Example: (ab)+ matches "ababab"
 
@@ -204,7 +207,7 @@ Example: (?:ab)+ matches "ababab" but does not create a backreference
 ```
 
 ### Quantifiers 
-```
+```javascript
 * - Matches 0 or more of the preceding character or group.
 Example: a* matches "" (empty string), "a", "aa", "aaa", etc.
 
@@ -240,4 +243,18 @@ Example: a++ matches "aa" in "aa a"
 
 ?+ - Possessive quantifier, matches as much as possible of the preceding character or group.
 Example: a?+ matches "a" in "aa a" 
+
+//Example:
+function noBoringZeros(n) {
+  // Use regex to match any trailing zeroes
+  // * quantifier is used to match zero or more occurences of the preceding element (0)
+  // $ asserts position at the end of the string
+  let trailingZeroes = /0*$/; 
+  
+  // replace any trailing zeroes with an empty string
+  n = n.toString().replace(trailingZeroes, "");
+  
+  // convert the number back to number format
+  return +n;
+}
 ```
