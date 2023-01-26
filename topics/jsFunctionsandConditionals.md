@@ -129,7 +129,7 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 | (?!...)           | Negative lookahead. Matches if the pattern          | /\d(?!%)/ Matches a digit only if it is NOT          |
 |                   | inside the parentheses cannot be matched            | followed by a % symbol                               |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| (?<=...)          | Positive lookbehind. Matches if pattern inside      | /\w+(?=\t) // Matches a word followed by a tab,      |
+| (?<=...)          | Positive lookbehind. Matches if pattern inside      | /\w+(?=\t) Matches a word followed by a tab,         |
 |                   | parentheses can be matched before  current positio  | but doesn't include the tab in the match.            |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
 | (?<!...)          | Negative lookbehind. Matches if the pattern inside  | /\d+(?!.) Matches a digit not followed by a period,  |  
