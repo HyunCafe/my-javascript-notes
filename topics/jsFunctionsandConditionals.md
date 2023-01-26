@@ -135,6 +135,55 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 | (?<!...)          | Negative lookbehind. Matches if the pattern inside  | /\d+(?!.) Matches a digit not followed by a period,  |  
 |                   | parentheses can't be matched before current position| example: when matching a num but not matching a float|                              
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-
 ```
- 
+ ### Groups and Backreferences
+```
+() - Grouping. Groups multiple characters together and allows you to apply a quantifier to the entire group.
+Example: (ab)+ matches "ababab"
+
+[] - Character set. Matches any character inside the square brackets.
+Example: [abc] matches "a", "b", or "c"
+
+[^] - Negated character set. Matches any character NOT inside the square brackets.
+Example: [^abc] matches any character except "a", "b", or "c"
+
+\d - Matches any digit (0-9). Equivalent to [0-9].
+Example: \d{3} matches "123"
+
+\w - Matches any word character (a-z, A-Z, 0-9, ). Equivalent to [a-zA-Z0-9].
+Example: \w+ matches "word"
+
+\s - Matches any whitespace character (space, tab, newline).
+Example: \s matches " "
+
+. - Matches any character except newline.
+Example: . matches any character except newline
+
+* - Matches 0 or more of the preceding character or group.
+Example: a* matches "", "a", "aa", "aaa", etc.
+
++ - Matches 1 or more of the preceding character or group.
+Example: a+ matches "a", "aa", "aaa", etc.
+
+? - Matches 0 or 1 of the preceding character or group.
+Example: a? matches "" or "a"
+
+{n} - Matches exactly n of the preceding character or group.
+Example: a{3} matches "aaa"
+
+{n,} - Matches n or more of the preceding character or group.
+Example: a{3,} matches "aaa", "aaaa", "aaaaa", etc.
+
+{n,m} - Matches between n and m of the preceding character or group.
+Example: a{3,5} matches "aaa", "aaaa", or "aaaaa"
+
+(?<name>) - Named capturing group. Creates a named group that you can refer to later.
+Example: (?<year>\d{4}) matches "2022" and creates a named group "year"
+
+\k<name> - Matches the text matched by the named group.
+Example: \k<year> matches the text matched by the group named "year"
+
+(?:) - Non-capturing group. Groups multiple characters together without creating a backreference.
+Example: (?:ab)+ matches "ababab" but does not create a backreference
+```
+
