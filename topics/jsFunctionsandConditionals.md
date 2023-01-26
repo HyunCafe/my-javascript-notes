@@ -71,40 +71,103 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+### Character Classes
 ```javascript
-/\d/ //Matches any digit (0-9)
+| Character Classes | Explination                                         | Example                                      |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /\d/              | Matches any digit (0-9)                             |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /\D/              | Matches any non-digit character                     |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /\w/              | Matches any word character (alphanumeric characters |                                              |
+|                   | and underscores)                                    |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /\W/              | Matches any non-word character (non-alphanumeric    |                                              |
+|                   | characters and spaces)                              |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /\s/              | Matches any whitespace character                    |                                              |   
+|                   | (space, tab, newline, etc.)                         |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /\S/              | Matches any non-whitespace character                |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /[a-z]/           | Matches any lowercase letter from a to z            |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /^[A-Z]/          | Matches any uppercase letter from A to Z at the     |                                              |
+|                   | start of the string                                 |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /[a-zA-Z]/        | Matches any letter, both uppercase and lowercase    |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /[0-9]{3}/        | Matches exactly 3 digits                            |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /[0-9a-zA-Z]      | Matches any alphanumeric character                  |                                              |
+|                   | (letters and digits)                                |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
+| /\b[A-Za-z]+\b/   | Matches any word consisting of one or more letters  |                                              |
+|                   | (case-insensitive), surrounded by word boundaries   |                                              |
+|-------------------|-----------------------------------------------------|----------------------------------------------|
 
-/\D/ //Matches any non-digit character
 
-/\w/ //Matches any word character (alphanumeric characters and underscores)
 
-/\W/ //Matches any non-word character (non-alphanumeric characters and spaces)
+/\d/ // Matches any digit (0-9)
 
-/\s/ //Matches any whitespace character (space, tab, newline, etc.)
+/\D/ // Matches any non-digit character
 
-/\S/ //Matches any non-whitespace character
+/\w/ // Matches any word character (alphanumeric characters and underscores)
 
-/[a-z]/i //Matches any lowercase letter from a to z ( case-insensitive )
+/\W/ // Matches any non-word character (non-alphanumeric characters and spaces)
 
-/^[A-Z]/ //Matches any uppercase letter from A to Z at the start of the string
+/\s/ // Matches any whitespace character (space, tab, newline, etc.)
 
-/[a-zA-Z]/ //Matches any letter, both uppercase and lowercase
+/\S/ // Matches any non-whitespace character
 
-/[0-9]{3}/ //Matches exactly 3 digits
+/[a-z]/i // Matches any lowercase letter from a to z (case-insensitive)
 
-/[0-9a-zA-Z]/ //Matches any alphanumeric character (letters and digits)
+/^[A-Z]/ // Matches any uppercase letter from A to Z at the start of the string
+
+/[a-zA-Z]/ // Matches any letter, both uppercase and lowercase
+
+/[0-9]{3}/ // Matches exactly 3 digits
+
+/[0-9a-zA-Z]/ // Matches any alphanumeric character (letters and digits)
 
 /\b[A-Za-z]+\b/ // Matches any word consisting of one or more letters (case-insensitive), surrounded by word boundaries
 ```
-```javascript
- // Options used after the closing / (/[...]/) expression:
-g (global): matches all occurrences of the pattern in the input string, rather than stopping after the first match.
-i (insensitive): makes the regular expression case-insensitive, so it will match both uppercase and lowercase characters.
-m (multiline): when used with the ^ and $ anchor characters, it allows them to match the start and end of each line in the input string, rather than the start and end of the whole string.
-u (unicode): enables the use of unicode in the regular expression, allowing for the matching of unicode characters and properties.
-y (sticky): when used with the search() method, it starts the search at the last position of the previous match rather than the default position of 0.
-s (dotAll): allows the . character to match newline characters as well.
 
+### Assertions
+```javascript
+Assertions
+----------------
+^ // Matches the start of a line
 //Example:
-let vowels = /[aeiou]/gi;  // match all vowels case-insensitive and globally
+/^A/ // Matches any uppercase letter A at the start of the string
+
+$ // Matches the end of a line
+//Example:
+/$z/ // Matches any lowercase letter z at the end of the string
+
+\b // Matches a word boundary (^\w|\w$|\W\w|\w\W)
+//Example:
+/\bgreen\b/ // Matches the word "green" surrounded by word boundaries
+
+\B // Matches a non-word boundary
+//Example:
+/\Bgreen\B/ // Matches any instance of the letters "green" NOT surrounded by word boundaries
+
+(?=...) // Positive lookahead assertion. Matches if the pattern inside the parentheses can be matched
+//Example:
+/\d(?=%)/ // Matches a digit only if it is followed by a % symbol
+
+(?!...) // Negative lookahead assertion. Matches if the pattern inside the parentheses cannot be matched
+//Example:
+/\d(?!%)/ // Matches a digit only if it is NOT followed by a % symbol
+
+(?<=...) // Positive lookbehind assertion. Matches if the pattern inside the parentheses can be matched before the current position
+//Example:
+/\w+(?=\t) // Matches a word followed by a tab, but doesn't include the tab in the match.
+
+(?<!...) // Negative lookbehind assertion. Matches if the pattern inside the parentheses cannot be matched before the current position
+//Example:
+/\d+(?!.) // Matches a digit not followed by a period, for example when matching a number but not matching a float.
+
 ```
+ 
