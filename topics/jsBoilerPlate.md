@@ -204,3 +204,19 @@ let originalString = "I love ice cream";
 let newString = replaceVowels(originalString, "*");
 console.log(newString); // "I l*v* *c* cr**m"
 ```
+
+#### Removing trailing and leading zeroes from a number
+```javascript
+function noBoringZeros(n) {
+  // Use regex to match any trailing zeroes
+  // * quantifier is used to match zero or more occurences of the preceding element (0)
+  // $ asserts position at the end of the string
+  let trailingZeroes = /0*$/; 
+  
+  // replace any trailing zeroes with an empty string
+  n = n.toString().replace(trailingZeroes, "");
+  
+  // convert the number back to number format
+  return +n;
+}
+```
