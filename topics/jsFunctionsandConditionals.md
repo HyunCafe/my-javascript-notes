@@ -73,6 +73,22 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 
 ### Character Classes
 ```javascript
+Flags and Modifiers (Added at end after the closing /)
+g	// Global search. Find all matches, rather than stopping after the first.
+i	// Case-insensitive search.
+m	// Multiline search. Treat beginning and end characters (^ and $) as working over multiple lines.
+s	// Dotall search. Allows the dot (.) to match newline characters.
+u	// Unicode search. Treat the pattern as a sequence of Unicode code points.
+y	// Sticky search. Matches only from the index indicated by the lastIndex property of this regular expression in the target string.
+(x)	// Capturing group. Captures the matched substring and stores it for later use.
+(?:x)	// Non-capturing group. Groups regular expressions together without capturing the matched substring.
+x?	// Optional. Matches 0 or 1 occurrence of preceding element.
+x*	// 0 or more. Matches 0 or more occurrences of preceding element.
+x+	// 1 or more. Matches 1 or more occurrences of preceding element.
+x{n}	// Exactly n occurrences. Matches exactly n occurrences of preceding element.
+x{n,}	// n or more occurrences. Matches n or more occurrences of preceding element.
+x{n,m}	// Between n and m occurrences. Matches betwe
+
 | Character Classes | Explanation                                         | Example                                              |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
 | /\d/              | Matches any digit (0-9)                             |                                                      |
