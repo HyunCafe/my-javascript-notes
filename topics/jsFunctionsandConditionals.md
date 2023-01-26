@@ -120,49 +120,21 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 | \b                | Matches a word boundary (^\w|\w$|\W\w|\w\W)         |  /\bgreen\b/ Matches the word "green" surrounded     |
 |                   |                                                     |  by word boundaries                                  |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\W/              | Matches any non-word character (non-alphanumeric    |                                                      |
-|                   | characters and spaces)                              |                                                      |
+| \B                | Matches a non-word boundary                         | /\Bgreen\B/ Matches any instance of the letters      | 
+|                   |                                                     | "green" NOT surrounded by word boundaries            |        
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\s/              | Matches any whitespace character                    |                                                      |   
-|                   | (space, tab, newline, etc.)                         |                                                      |
+| (?=...)           | Positive lookahead. Matches if the                  | /\d(?=%)/ Matches a digit only if it is followed     |
+|                   | pattern inside the parentheses can be matched       |  by a % symbol                                       |  
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\S/              | Matches any non-whitespace character                |                                                      |
+| (?!...)           | Negative lookahead. Matches if the pattern          | /\d(?!%)/ Matches a digit only if it is NOT          |
+|                   | inside the parentheses cannot be matched            | followed by a % symbol                               |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /[a-z]/           | Matches any lowercase letter from a to z            |                                                      |
+| (?<=...)          | Positive lookbehind. Matches if pattern inside      | /\w+(?=\t) // Matches a word followed by a tab,      |
+|                   | parentheses can be matched before  current positio  | but doesn't include the tab in the match.            |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /^[A-Z]/          | Matches any uppercase letter from A to Z at the     |                                                      |
-|                   | start of the string                                 |                                                      |
+| (?<!...)          | Negative lookbehind. Matches if the pattern inside  | /\d+(?!.) Matches a digit not followed by a period,  |  
+|                   | parentheses can't be matched before current position| example: when matching a num but not matching a float|                              
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /[a-zA-Z]/        | Matches any letter, both uppercase and lowercase    |                                                      |
-|-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /[0-9]{3}/        | Matches exactly 3 digits                            |                                                      |
-|-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /[0-9a-zA-Z]      | Matches any alphanumeric character                  |                                                      |
-|                   | (letters and digits)                                |                                                      |
-|-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\b[A-Za-z]+\b/   | Matches any word consisting of one or more letters  |                                                      |
-|                   | (case-insensitive), surrounded by word boundaries   |                                                      |
-|-------------------|-----------------------------------------------------|------------------------------------------------------|
-
-\B // Matches a non-word boundary
-//Example:
-/\Bgreen\B/ // Matches any instance of the letters "green" NOT surrounded by word boundaries
-
-(?=...) // Positive lookahead assertion. Matches if the pattern inside the parentheses can be matched
-//Example:
-/\d(?=%)/ // Matches a digit only if it is followed by a % symbol
-
-(?!...) // Negative lookahead assertion. Matches if the pattern inside the parentheses cannot be matched
-//Example:
-/\d(?!%)/ // Matches a digit only if it is NOT followed by a % symbol
-
-(?<=...) // Positive lookbehind assertion. Matches if the pattern inside the parentheses can be matched before the current position
-//Example:
-/\w+(?=\t) // Matches a word followed by a tab, but doesn't include the tab in the match.
-
-(?<!...) // Negative lookbehind assertion. Matches if the pattern inside the parentheses cannot be matched before the current position
-//Example:
-/\d+(?!.) // Matches a digit not followed by a period, for example when matching a number but not matching a float.
 
 ```
  
