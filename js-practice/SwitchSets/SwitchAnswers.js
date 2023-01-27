@@ -298,7 +298,7 @@ function getCardValue(card) {
   }
   console.log(getCardValue("9"));
   
-  // 10
+  // 10 
   function getCoinValue(coin) {
     let value;
     switch (coin) {
