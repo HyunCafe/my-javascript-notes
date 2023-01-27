@@ -15,7 +15,7 @@ function concatenateStrings(strings) {
     }
     return result;
 }
-Example: Using the function above will out:
+//Example: Using the function above will out:
 
 let sentenceParts = ['The ', 'quick ', 'brown ', 'fox ', 'jumps ', 'over ', 'the ', 'lazy ', 'dog.'];
 let completeSentence = concatenateStrings(sentenceParts);
