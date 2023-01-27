@@ -4,6 +4,34 @@
 
 ### Strings BP
 
+#### Concatenating Multiple Strings
+```javascript
+function concatenateStrings(strings) {
+    let result = '';
+    for (let i = 0; i < strings.length; i++) {
+        for (let j = 0; j < strings[i].length; j++) {
+            result += strings[i].charAt(j);
+        }
+    }
+    return result;
+}
+Example: Using the function above will out:
+
+let sentenceParts = ['The ', 'quick ', 'brown ', 'fox ', 'jumps ', 'over ', 'the ', 'lazy ', 'dog.'];
+let completeSentence = concatenateStrings(sentenceParts);
+console.log(completeSentence); // The quick brown fox jumps over the lazy dog.
+
+//Example
+function tripleTrouble(one, two, three){
+  let triple ='';
+  for (let i = 0; i < one.length; i++) {
+    triple += one.charAt(i) + two.charAt(i) + three.charAt(i);
+  }
+  return triple;
+}
+console.log(tripleTrouble("1234", "1234", "1234")); // Output: "11223344"
+```
+
 #### Remove Whitespace
 ```javascript
 let str = "Hello World";
