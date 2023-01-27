@@ -19,6 +19,13 @@ The .charCodeAt(index) method returns the Unicode of the character at the specif
 let str = "Hello, World!";
 let charCode = str.charCodeAt(0);
 console.log(charCode); // Output: 72
+
+Example: Alphabet Position to Number Positon
+function position(letter){
+  letter = letter.toLowerCase();
+  let positionABC = letter.charCodeAt(0) - 96;
+  return positionABC;
+}
 ```
 
 #### concat
