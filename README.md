@@ -37,6 +37,9 @@
    * [Switch Statements](./topics/jsFunctionsandConditionals.md/#Switch-Statements)
    * [Ternary Operator](./topics/jsFunctionsandConditionals.md/#Ternary-Operator)
 * [Regex](./topics/jsFunctionsandConditionals.md/#Regex)
+   * [Character Classes](./topics/jsFunctionsandConditionals.md/#Character-Classes)
+   * [Groups and Backreferences](./topics/jsFunctionsandConditionals.md/#Groups-and-Backreferences)
+   * [Quantifiers](./topics/jsFunctionsandConditionals.md/#Quantifiers)
  --------------------------------------------------------------------------------------------------
  * [Loops](./topics/jsLoops.md/#Loops)
    * [For Loops](./topics/jsLoops.md/#For-Loops)
