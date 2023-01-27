@@ -90,6 +90,7 @@
 --------------------------------------------------------------------------------------------------
 * [Boiler Plates](./topics/jsBoilerPlate.md/#Boiler-Plates)
    * [Strings BP](./topics/jsBoilerPlate.md/#Strings-BP)
+     * [Concatenating Multiple Strings](./topics/jsBoilerPlate.md/#Concatenating-Multiple-Strings)
      * [Remove Whitespace](./topics/jsBoilerPlate.md/#Remove-Whitespace)
      * [Repeat a String](./topics/jsBoilerPlate.md/#Repeat-a-String)
      * [Sum of a String](./topics/jsBoilerPlate.md/#Sum-of-a-String)
