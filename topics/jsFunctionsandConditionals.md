@@ -69,6 +69,8 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 
 [Mozilla MDN Regex Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
+[Awesome Regex Cheatsheet](https://regex101.com)
+
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 ### Character Classes
