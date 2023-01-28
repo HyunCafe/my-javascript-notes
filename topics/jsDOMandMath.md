@@ -89,9 +89,9 @@ buttons.forEach((button) => {
 // Find the element where the result will be displayed
 function displayResult(result) {
 
-// Update the innerText of the element with the result
+// Update the text of the element with the result
 const resultElement = document.getElementById("result");
-resultElement.innerText = result;
+resultElement.textContent = result;
 }
 ```
 
