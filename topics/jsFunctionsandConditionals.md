@@ -93,8 +93,11 @@ x{n,m}	// Between n and m occurrences. Matches betwe
 
 // Example: 
 let vowels = /[aeiou]/gi; // global and case insensitive search
+. - Matches any character except newline.
 
 | Character Classes | Explanation                                         | Example                                              |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| /./               | Matches any single character                        |                                                      |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
 | /\d/              | Matches any digit (0-9)                             |                                                      |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
