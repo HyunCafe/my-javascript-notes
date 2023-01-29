@@ -208,6 +208,14 @@ const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)]
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Check String for Match
+```javascript
+function checkStringCase(str) {
+return !str.match(/[a-z]/g); // Check if a String is in All Uppercase Characters
+}
+
+Example:
+```
 #### Palindrome
 ```javascript
 const palindromes = function (palin) {
@@ -218,6 +226,14 @@ const palindromes = function (palin) {
         // Check if the character is alphanumeric
         if (palin[i].match(/[A-Za-z0-9]/)) {
             // If it is, add
+            
+//Example: Function to check if a string is a palindrome with Regex
+function isPalindrome(str) {
+  str = str.replace(/[^a-zA-Z0-9]/g, "");
+  str = str.toLowerCase();
+  return str === str.split("").reverse().join("");
+}
+}
 ```
 
 #### Replace Vowels in String
@@ -225,7 +241,6 @@ const palindromes = function (palin) {
 function replaceVowels(str, replacement) {
   let vowels = /[aeiou]/gi;
   return str.replace(vowels, replacement);
-}
 
 //Example:
 let originalString = "I love ice cream";
