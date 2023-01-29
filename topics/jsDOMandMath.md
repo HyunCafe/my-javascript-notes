@@ -81,6 +81,11 @@ buttons.forEach((button) => {
     alert(button.id);
   });
 });
+
+Example:
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach(button => button.addEventListener('click', () => console.log('Button clicked!')));
 ```
 
 #### Display Result to Event Listener
