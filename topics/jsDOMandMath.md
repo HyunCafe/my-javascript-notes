@@ -61,6 +61,16 @@ let element = document.getElementById("elementId");
 
 // Add an event listener for the specified eventType to the element
 element.addEventListener("eventType", functionCalled);
+
+Example:
+// Get an element by its id
+const element = document.getElementById("myId");
+
+// Select the first element that matches a CSS selector
+const element = document.querySelector(".myClass");
+
+// Select all elements that match a CSS selector
+const elements = document.querySelectorAll(".myClass");
 ```
 
 #### Add to Multiple Event Listener
