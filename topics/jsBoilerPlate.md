@@ -208,6 +208,22 @@ const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)]
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Check String for Character Occurrences
+```javascript
+const strCount = (str, letter) => {
+  let count = str.match(new RegExp(letter, "g"));
+  if (!count) return 0;
+  return count.length;
+};
+
+Explanation:
+  // Using `new RegExp` to create a regular expression to match the `letter`
+  // in the `str` parameter. The `g` flag is used to perform a global search
+  // in the string.
+  // If the match doesn't return any results, return 0
+  // If the match returns a result, return the length of the match
+```
+
 #### Check String for Match
 ```javascript
 function checkStringCase(str) {
