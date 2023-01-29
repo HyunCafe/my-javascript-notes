@@ -110,6 +110,7 @@
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
+     * [Check String for Match](./topics/jsBoilerPlate.md/#Check-String-for-Match)
      * [Palindrome](./topics/jsBoilerPlate.md/#Palindrome)
      * [Replace Vowels in String](./topics/jsBoilerPlate.md/#Replace-Vowels-in-String)
      * [Removing trailing and leading zeroes from a number](./topics/jsBoilerPlate.md/#Removing-trailing-and-leading-zeroes-from-a-number)
