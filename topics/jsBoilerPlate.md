@@ -198,8 +198,8 @@ function factorial(n) {
 
 #### Generate Random Selection
 ```javascript
-const arrayChoices = ['choice1', 'choice2', 'choice3' ...etc];
-const randomSelect = arrayChoices[Math.floor(Math.random()*arrayChoices.length)];
+const arrayChoices = ["choice1", "choice2",  "choice3" ...erc];
+const randomSelect = Math.floor(Math.random() * arrayChoices.length);
 ```
 
 ### Regex BP
