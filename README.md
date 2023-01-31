@@ -40,6 +40,7 @@
    * [Character Classes](./topics/jsFunctionsandConditionals.md/#Character-Classes)
    * [Groups and Backreferences](./topics/jsFunctionsandConditionals.md/#Groups-and-Backreferences)
    * [Quantifiers](./topics/jsFunctionsandConditionals.md/#Quantifiers)
+   * [Regex Methods](./topics/jsFunctionsandConditionals.md/#Regex-Methods)
  --------------------------------------------------------------------------------------------------
  * [Loops](./topics/jsLoops.md/#Loops)
    * [For Loops](./topics/jsLoops.md/#For-Loops)
