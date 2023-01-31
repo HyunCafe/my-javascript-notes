@@ -159,6 +159,10 @@ let vowels = /[aeiou]/gi; // global and case insensitive search
 | (?<!...)          | Negative lookbehind. Matches if the pattern inside  | /\d+(?!.) Matches a digit not followed by a period,  |  
 |                   | parentheses can't be matched before current position| example: when matching a num but not matching a float|                              
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
+Example: Removes all trailing !'s at end of string
+function remove (string) {  
+  return string.replace(/!*$/g, '');
+}
 ```
 ### Groups and Backreferences
 ```javascript
