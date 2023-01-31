@@ -49,8 +49,19 @@ function numArr(arr) {
 }
 
 // 7) Write a function that takes in an array of numbers and returns the product of all numbers using forEach. (Use Arrow Functions Only)
+function productArr(arr) {
+  let product = 1;
+  arr.forEach((element) => (product *= element));
+}
 
 // 8) Write a function that takes in an array of numbers and returns a new array with all the numbers squared using forEach. (Use Arrow Functions Only)
+function arrSquared(arr) {
+  let squaredArr = [];
+  arr.forEach((element) => {
+    squaredArr.push(element ** 2);
+  });
+  return squaredArr;
+}
 
 // 9) Write a function that takes in an array of strings and returns a new array with all the strings reversed using forEach. (Use Arrow Functions Only)
 
