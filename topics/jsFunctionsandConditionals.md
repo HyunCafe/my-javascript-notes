@@ -283,3 +283,35 @@ let output = input.replace(leadingAndTrailingZeroes,"")
 //This will match the leading zeroes at the start of the string and trailing zeroes at the end of the string. Using the replace() method, it will replace all leading //zeroes and trailing zeroes with an empty string, giving you an output of "1234".
 //The | symbol is a logical operator, it matches the preceding or the following element whatever comes first.
 ```
+### Regex Methods
+```javascript
+1. exec() - // This method executes a search for a match in a specified string. It returns an array of information or null if no match is found. 
+Example: /hello/g.exec("Hello World") // ["Hello"]
+
+2. test() - // This method tests for a match in a specified string. It returns true or false. 
+Example: /hello/g.test("Hello World") // true
+
+3. match() - // This method searches a string for a match and returns an array of information or null if no match is found. 
+Example: "Hello World".match(/hello/g) // ["Hello"]
+
+4. search() - // This method searches a string for a specified value and returns the position of the match. 
+Example: "Hello World".search(/hello/g) // 0
+
+5. replace() - // This method searches a string for a specified value and replaces it with a new value. 
+Example: "Hello World".replace(/hello/g, "Goodbye") // "Goodbye World"
+
+6. split() - // This method splits a string into an array of substrings based on a specified separator. 
+Example: "Hello World".split(" ") // ["Hello", "World"]
+
+7. matchAll() - // This method returns an iterator containing all results matching a specified regular expression. 
+Example: "Hello World".matchAll(/ello/) // ["ello"]
+
+8. flags() - // This method returns a string containing the flags of the regular expression. 
+Example: /hello/g.flags() // "g"
+
+9. compile() - // This method compiles a regular expression into an object that can be used to match against strings. 
+Example: const regex = /hello/g.compile() // {exec: ƒ, test: ƒ, flags: "g"}
+
+10. toString() - // This method returns a string representing the specified regular expression. 
+Example: /hello/g.toString() // "/hello/g"
+```
