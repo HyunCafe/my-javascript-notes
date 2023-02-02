@@ -129,10 +129,23 @@ let str = "Hello World!";
 let newStr = str.replace("World", "Universe");
 console.log(newStr); // "Hello Universe!"
 
+
+function caesar(str, shift) {
+  const alphabet = 26;
+  shift = (shift % alphabet + alphabet) % alphabet;
+  return str.replace(/[a-zA-Z]/g, char => {
+    let code = char.charCodeAt(0) + shift;
+    if (code > 90 && code < 97 || code > 122) {
+      code -= alphabet;
+    }
+    return String.fromCharCode(code);
+  });
+}
+
 //Example: Ceaser Cypher
 function caesar(str, shift) {  // shift = # you want to shift 5 right -5 left etc
   const alphabet = 26;   // Const to store the number of characters in the alphabet
-  shift = shift % alphabet;   // Modulo operation to ensure that the shift value does not exceed the number of characters in the alphabet
+    shift = (shift % alphabet + alphabet) % alphabet; // Modulo operation ensure the shift value does not exceed the number of characters in the alphabet
    return str.replace(/[a-zA-Z]/g, char => {   // Replace method to iterate through the string
     let code = char.charCodeAt(0) + shift;     // charCodeAt method to get the Unicode of the current character
     if (code > 90 && code < 97 || code > 122) {     // Check if the code exceeds the range of uppercase or lowercase letters
