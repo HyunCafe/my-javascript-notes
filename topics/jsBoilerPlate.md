@@ -251,7 +251,21 @@ function isPalindrome(str) {
 }
 }
 ```
-
+#### Replace Letters to Cypher
+```javascript
+//Example: Ceaser Cypher
+function caesar(str, shift) {  // shift = # you want to shift 5 right -5 left etc
+  const alphabet = 26;   // Const to store the number of characters in the alphabet
+  shift = shift % alphabet;   // Modulo operation to ensure that the shift value does not exceed the number of characters in the alphabet
+   return str.replace(/[a-zA-Z]/g, char => {   // Replace method to iterate through the string
+    let code = char.charCodeAt(0) + shift;     // charCodeAt method to get the Unicode of the current character
+    if (code > 90 && code < 97 || code > 122) {     // Check if the code exceeds the range of uppercase or lowercase letters
+      code -= alphabet;       // Subtract 26 to wrap the shift value around the alphabet
+    }
+    return String.fromCharCode(code);     // Return the character with the shifted Unicode value
+  });
+}
+```
 #### Replace Vowels in String
 ```javascript
 function replaceVowels(str, replacement) {
