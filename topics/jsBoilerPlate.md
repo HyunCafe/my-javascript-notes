@@ -265,6 +265,19 @@ function caesar(str, shift) {  // shift = # you want to shift 5 right -5 left et
     return String.fromCharCode(code);     // Return the character with the shifted Unicode value
   });
 }
+
+Example: cypher shift values 5
+function caesar(str, 5) {
+  shift = 5 % 26;
+  return str.replace(/[a-zA-Z]/g, char => {
+    let code = char.charCodeAt(0) + shift;
+    if (code > 90 && code < 97 || code > 122) {
+      code -= 26;
+    }
+    return String.fromCharCode(code);
+  });
+}
+
 ```
 #### Replace Vowels in String
 ```javascript
