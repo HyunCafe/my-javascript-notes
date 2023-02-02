@@ -223,13 +223,18 @@ const sumAll = function(startNum, endNum) {
 }
 
 //Example 3: Find Oldest Age in Array
-const findTheOldest = function(people) {
-    return people.reduce((oldest, person) => {
-        const currentAge = person.yearOfDeath ? person.yearOfDeath - person.yearOfBirth : new Date().getFullYear() - person.yearOfBirth;
-        const oldestAge = oldest.yearOfDeath ? oldest.yearOfDeath - oldest.yearOfBirth : new Date().getFullYear() - oldest.yearOfBirth;
-        return currentAge > oldestAge ? person : oldest;
-    });
+const findTheOldest = function (people) {
+  return people.reduce((oldest, current) => {
+    const currentAge = current.yearOfDeath
+      ? current.yearOfDeath - current.yearOfBirth
+      : 2023 - current.yearOfBirth;
+    const oldestAge = oldest.yearOfDeath
+      ? oldest.yearOfDeath - oldest.yearOfBirth
+      : 2023 - oldest.yearOfBirth;
+    return currentAge > oldestAge ? current : oldest;
+  });
 };
+
 ```
 
 #### reverse
