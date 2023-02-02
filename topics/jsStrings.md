@@ -142,30 +142,19 @@ function caesar(str, shift) {
   });
 }
 
-//Example: Ceaser Cypher
-function caesar(str, shift) {  // shift = # you want to shift 5 right -5 left etc
-  const alphabet = 26;   // Const to store the number of characters in the alphabet
-    shift = (shift % alphabet + alphabet) % alphabet; // Modulo operation ensure the shift value does not exceed the number of characters in the alphabet
-   return str.replace(/[a-zA-Z]/g, char => {   // Replace method to iterate through the string
-    let code = char.charCodeAt(0) + shift;     // charCodeAt method to get the Unicode of the current character
-    if (code > 90 && code < 97 || code > 122) {     // Check if the code exceeds the range of uppercase or lowercase letters
-      code -= alphabet;       // Subtract 26 to wrap the shift value around the alphabet
+//Example: Ceaser Cypher Shift Positive or Negative
+function caesar(str, shift) { // shift is the cypher # shifted positive or negative
+  const alphabet = 26;   // the number of letters in the alphabet
+  shift = ((shift % alphabet) + alphabet) % alphabet;  // ensure the shift value is always positive and less than alphabet
+  return str.replace(/[a-zA-Z]/g, (char) => {  // use a regular expression to match all uppercase and lowercase letters
+    let code = char.charCodeAt(0) + shift;    // get the unicode value of the current letter
+    if ((code > 90 && code < 97) || code > 122) {    // check if the code is outside the range of uppercase or lowercase letters
+      code -= alphabet;      // if it is, wrap it around the alphabet by subtracting alphabet
     }
-    return String.fromCharCode(code);     // Return the character with the shifted Unicode value
+    return String.fromCharCode(code);    // return the shifted letter as a string
   });
 }
-
-Example: Cypher shift values 5
-function caesar(str, 5) {
-  shift = 5 % 26;
-  return str.replace(/[a-zA-Z]/g, char => {
-    let code = char.charCodeAt(0) + shift;
-    if (code > 90 && code < 97 || code > 122) {
-      code -= 26;
-    }
-    return String.fromCharCode(code);
-  });
-}
+console.log(caesar("HELLO", 3)); // returns "KHOOR"
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
