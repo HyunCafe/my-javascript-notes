@@ -114,6 +114,7 @@
      * [Check String for Character Occurrences](./topics/jsBoilerPlate.md/#Check-String-for-Character-Occurrences)
      * [Check String for Match](./topics/jsBoilerPlate.md/#Check-String-for-Match)
      * [Palindrome](./topics/jsBoilerPlate.md/#Palindrome)
+     * [Replace Letters to Cypher](./topics/jsBoilerPlate.md/#Replace-Letters-to-Cypher)
      * [Replace Vowels in String](./topics/jsBoilerPlate.md/#Replace-Vowels-in-String)
      * [Removing trailing and leading zeroes from a number](./topics/jsBoilerPlate.md/#Removing-trailing-and-leading-zeroes-from-a-number)
 --------------------------------------------------------------------------------------------------
