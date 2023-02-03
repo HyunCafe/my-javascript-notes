@@ -129,20 +129,15 @@ let str = "Hello World!";
 let newStr = str.replace("World", "Universe");
 console.log(newStr); // "Hello Universe!"
 
+Example:
 
-function caesar(str, shift) {
-  const alphabet = 26;
-  shift = (shift % alphabet + alphabet) % alphabet;
-  return str.replace(/[a-zA-Z]/g, char => {
-    let code = char.charCodeAt(0) + shift;
-    if (code > 90 && code < 97 || code > 122) {
-      code -= alphabet;
-    }
-    return String.fromCharCode(code);
-  });
+
+Example 1: Replace string with any Word
+function replaceWords(str, replaceWord) {
+  return str.replace(/\S+/g, replaceWord); // \S+ matches sequences of one or more non-whitespace characters, so replace every word with replaceWord
 }
 
-//Example: Ceaser Cypher Shift Positive or Negative
+//Example 2: Ceaser Cypher Shift Positive or Negative
 function caesar(str, shift) { // shift is the cypher # shifted positive or negative
   const alphabet = 26;   // the number of letters in the alphabet
   shift = ((shift % alphabet) + alphabet) % alphabet;  // ensure the shift value is always positive and less than alphabet
