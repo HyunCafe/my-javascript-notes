@@ -105,7 +105,7 @@ buttons.forEach(button => button.addEventListener('click', () => console.log('Bu
 function displayResult(result) {
 
 // Update the text of the element with the result
-const resultElement = document.getElementById("result");
+const resultElement = document.getElementById("#result");
 resultElement.textContent = result;
 }
 ```
