@@ -245,7 +245,8 @@ console.log(newStr); // Output: "Hello, World!"
 ```
 
 ## Numbers
-[Mozilla MDN Docs Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+[Mozilla MDN Docs Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 ### Number Methods
 
@@ -257,33 +258,74 @@ Number.isFinite(Infinity)
 
 #### Number.isInteger()
 Determines whether the passed value is an integer, returns a Boolean.
- 
+```javascript
+Number.isInteger(3.14) // returns false
+```
+
 #### Number.isNaN()
 Determines whether the passed value is NaN (Not a Number), returns a Boolean.
+```javascript
+Number.isNaN(NaN) // returns true.
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### Number.isSafeInteger()
 Determines whether the passed value is a safe integer, returns a Boolean. Safe integers are integers that can be exactly represented in JavaScript.
+```javascript
+Number.isSafeInteger(9007199254740990) // returns false.
+```
 
 #### Number.parseFloat()
 Parses a string argument and returns a floating-point number.
+```javascript
+Number.parseFloat("3.14") // returns 3.14.
+```
 
 #### Number.parseInt()
 Parses a string argument and returns an integer.
+```javascript
+Number.parseInt("11", 2) // returns 3.
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### Number.prototype.toExponential()
 Returns a string representing the number in exponential notation. The fractionDigits parameter is optional and specifies the number of digits after the decimal point.
+```javascript
+(3.14).toExponential(1) // returns "3.1e+0".
+```
 
 #### Number.prototype.toFixed()
 Returns a string representing the number with a specified number of decimal places. 
+```javascript
+(3.14159).toFixed(2) // returns "3.14".
+```
 
 #### Number.prototype.toLocaleString()
 Returns a string representing the number using the current locale.
+```javascript
+(3.14).toLocaleString() // might return "3,14" in some locales.
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### Number.prototype.toPrecision()
 Returns a string representing the number with a specified number of significant digits.
+```javascript
+(3.14159).toPrecision(2) // returns "3.1".
+```
 
 #### Number.prototype.toString()
 eturns a string representing the number. The radix parameter is optional and specifies the base of the returned string.
+```javascript
+(11).toString(2) // returns "1011".
+```
 
 #### Number.prototype.valueOf()
 Returns the primitive value of a Number object. 
+```javascript
+(new Number(3.14)).valueOf() // returns 3.14.
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
