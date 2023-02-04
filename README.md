@@ -29,6 +29,21 @@
      * [toString](./topics/jsStrings.md/#toString)
      * [toUpperCase](./topics/jsStrings.md/#toUpperCase)
      * [trim](./topics/jsStrings.md/#trim)
+
+* [Numbers](./topics/jsStrings.md/#Numbers)
+  * [Number Methods](./topics/jsStrings.md/#Number-Methods) 
+     * [isFinite]((./topics/jsStrings.md/#isFinite)
+     * [isInteger]((./topics/jsStrings.md/#isInteger)
+     * [isNaN]((./topics/jsStrings.md/#isNaN)
+     * [isSafeInteger]((./topics/jsStrings.md/#isSafeInteger)
+     * [parseFloat]((./topics/jsStrings.md/#parseFloat)
+     * [parseInt]((./topics/jsStrings.md/#parseInt)
+     * [toExponential]((./topics/jsStrings.md/#toExponential)
+     * [toFixed]((./topics/jsStrings.md/#toFixed)
+     * [toLocaleString]((./topics/jsStrings.md/#toLocaleString)
+     * [toPrecision]((./topics/jsStrings.md/#toPrecision)
+     * [toString]((./topics/jsStrings.md/#toString)
+     * [valueOf]((./topics/jsStrings.md/#valueOf)
    --------------------------------------------------------------------------------------------------
 * [Functions](./topics/jsFunctionsandConditionals.md/#Functions)
   * [Arrow Functions](./topics/jsFunctionsandConditionals.md/#Arrow-Functions)
@@ -36,6 +51,7 @@
    * [If-Else Statements](./topics/jsFunctionsandConditionals.md/#If-Else-Statements)
    * [Switch Statements](./topics/jsFunctionsandConditionals.md/#Switch-Statements)
    * [Ternary Operator](./topics/jsFunctionsandConditionals.md/#Ternary-Operator)
+   
 * [Regex](./topics/jsFunctionsandConditionals.md/#Regex)
    * [Character Classes](./topics/jsFunctionsandConditionals.md/#Character-Classes)
    * [Groups and Backreferences](./topics/jsFunctionsandConditionals.md/#Groups-and-Backreferences)
@@ -77,6 +93,7 @@
     * [Add to Event Listener](./topics/jsDOMandMath.md/#Add-to-Event-Listener)
     * [Add to Multiple Event Listener](./topics/jsDOMandMath.md/#Add-to-Multiple-Event-Listener)
     * [Display Result to Event Listener](./topics/jsDOMandMath.md/#Display-Result-to-Event-Listener)
+    
 * [Math](./topics/jsDOMandMath.md/#Math)
      * [Math abs](./topics/jsDOMandMath.md/#Math-abs)
      * [Math ceil](./topics/jsDOMandMath.md/#Math-ceil)
@@ -95,8 +112,10 @@
      * [Remove Whitespace](./topics/jsBoilerPlate.md/#Remove-Whitespace)
      * [Repeat a String](./topics/jsBoilerPlate.md/#Repeat-a-String)
      * [Sum of a String](./topics/jsBoilerPlate.md/#Sum-of-a-String)
+     
    * [If Else BP](./topics/jsBoilerPlate.md/#Arrays-BP)
      * [Fibonacci](./topics/jsBoilerPlate.md/#Fibonacci)
+     
    * [Arrays BP](./topics/jsBoilerPlate.md/#If-Else-BP)
      * [Combine Array](./topics/jsBoilerPlate.md/#Combine-Array)
      * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
@@ -106,10 +125,13 @@
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
      * [Square Root ForEach Array](./topics/jsBoilerPlate.md/#Square-Root-ForEach-Array)
      * [Sum of an Array](./topics/jsBoilerPlate.md/#Sum-of-an-Array)
+     
    * [Loops BP](./topics/jsBoilerPlate.md/#Loops-BP)
      * [Factorial For Loop](./topics/jsBoilerPlate.md/#Factorial-For-Loop)
+     
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
+     
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
      * [Check String for Character Occurrences](./topics/jsBoilerPlate.md/#Check-String-for-Character-Occurrences)
      * [Check String for Match](./topics/jsBoilerPlate.md/#Check-String-for-Match)
@@ -121,6 +143,7 @@
 * [Object Oriented Programming](#Object-Oriented-Programming)
   * [Data Structures](#Data-Structures)
     * [Data Logic](#Data-Logic)    
+    
 * [Big O Complexity](#Big-O-Complexity)
    * [Common Data Structure Operations](#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](#Array-Sorting-Algorithms)
