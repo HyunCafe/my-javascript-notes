@@ -243,3 +243,47 @@ let str = "    Hello, World!    ";
 let newStr = str.trim();
 console.log(newStr); // Output: "Hello, World!"
 ```
+
+## Numbers
+[Mozilla MDN Docs Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+### Number Methods
+
+#### Number.isFinite()
+Determines whether the passed value is a finite number, returns a Boolean.
+```javascript
+Number.isFinite(Infinity)
+```
+
+#### Number.isInteger()
+Determines whether the passed value is an integer, returns a Boolean.
+ 
+#### Number.isNaN()
+Determines whether the passed value is NaN (Not a Number), returns a Boolean.
+
+#### Number.isSafeInteger()
+Determines whether the passed value is a safe integer, returns a Boolean. Safe integers are integers that can be exactly represented in JavaScript.
+
+#### Number.parseFloat()
+Parses a string argument and returns a floating-point number.
+
+#### Number.parseInt()
+Parses a string argument and returns an integer.
+
+#### Number.prototype.toExponential()
+Returns a string representing the number in exponential notation. The fractionDigits parameter is optional and specifies the number of digits after the decimal point.
+
+#### Number.prototype.toFixed()
+Returns a string representing the number with a specified number of decimal places. 
+
+#### Number.prototype.toLocaleString()
+Returns a string representing the number using the current locale.
+
+#### Number.prototype.toPrecision()
+Returns a string representing the number with a specified number of significant digits.
+
+#### Number.prototype.toString()
+eturns a string representing the number. The radix parameter is optional and specifies the base of the returned string.
+
+#### Number.prototype.valueOf()
+Returns the primitive value of a Number object. 
