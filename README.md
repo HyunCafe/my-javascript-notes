@@ -5,6 +5,11 @@
 ## **Javascript**
 ### Table of Contents
 --------------------------------------------------------------------------------------------------
+
+<p align="center">JavaScript</p>
+
+--------------------------------------------------------------------------------------------------
+
 * [Strings](./topics/jsStrings.md/#Strings)
   * [String Methods](./topics/jsStrings.md/#String-Methods)
      * [charAt](./topics/jsStrings.md/#charAt)
@@ -139,7 +144,21 @@
 * [Big O Complexity](#Big-O-Complexity)
    * [Common Data Structure Operations](#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](#Array-Sorting-Algorithms)
+
 --------------------------------------------------------------------------------------------------
+
+<p align="center">HTML</p>
+
+--------------------------------------------------------------------------------------------------
+* [Elements](#elements)
+
+[HTML Elements MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+
+
+
+
+
 
 ## Object Oriented Programming
 
