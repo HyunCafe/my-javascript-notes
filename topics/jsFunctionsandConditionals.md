@@ -94,7 +94,7 @@ x{n,m}	// Between n and m occurrences. Matches betwe
 // Example: replace all voewls
 let vowels = /[aeiou]/gi; // global and case insensitive search
 
-Example 2: Replace all non digit chars
+// Example 2: Replace all non digit chars
 /[^\d]/g
 
 | Character Classes | Explanation                                         | Example                                              |
@@ -161,7 +161,7 @@ Example 2: Replace all non digit chars
 | (?<!...)          | Negative lookbehind. Matches if the pattern inside  | /\d+(?!.) Matches a digit not followed by a period,  |  
 |                   | parentheses can't be matched before current position| example: when matching a num but not matching a float|                              
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-Example: Removes all trailing !'s at end of string
+// Example: Removes all trailing !'s at end of string
 function remove (string) {  
   return string.replace(/!*$/g, '');
 }
