@@ -26,7 +26,7 @@
 |------------|-------------|---------|
 | rgb(x,y,z) | Red in RGB format | rgb(255,0,0)|
 | rgb(x%,y%,z%) | Red in RGB % format | rgb(100%,0,0)|
-| rgba(x,y,z,alpha) | Red in RGB with alpha value | rgba(255,0,0,0)|
+| rgba(x,y,z,alpha) | Red in RGB with alpha value | rgba(255,0,0,0.5)|
 | #rrggbb | Red in hexadecimal format | #ff0000 (or shorthand - #f00)|
 | hsl(hue, saturation, lightness) | Red in HSL format | hsl (0, 100%, 50%)|
 | currentColor | computer value of the ‘currentColor’ keyword | currentColor |
