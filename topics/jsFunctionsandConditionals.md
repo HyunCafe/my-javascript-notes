@@ -94,8 +94,6 @@ x{n,m}	// Between n and m occurrences. Matches betwe
 // Example: replace all voewls
 let vowels = /[aeiou]/gi; // global and case insensitive search
 
-// Example 2: Replace all non digit chars
-/[^\d]/g
 
 | Character Classes | Explanation                                         | Example                                              |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
