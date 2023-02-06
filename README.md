@@ -4,7 +4,7 @@
 
 ## **Javascript**
 ### Table of Contents
---------------------------------------------------------------------------------------------------
+
 
 <p align="center">JavaScript</p>
 
@@ -144,16 +144,14 @@
 * [Big O Complexity](./topics/oop.md/#Big-O-Complexity)
    * [Common Data Structure Operations](./topics/oop.md/#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](./topics/oop.md/#Array-Sorting-Algorithms)
---------------------------------------------------------------------------------------------------
+
 
 <p align="center">HTML</p>
 
 --------------------------------------------------------------------------------------------------
+
 * [Elements](#elements)
 
-[HTML Elements MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
---------------------------------------------------------------------------------------------------
 
 <p align="center">CSS</p>
 
