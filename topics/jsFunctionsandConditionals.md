@@ -91,9 +91,11 @@ x{n}	// Exactly n occurrences. Matches exactly n occurrences of preceding elemen
 x{n,}	// n or more occurrences. Matches n or more occurrences of preceding element.
 x{n,m}	// Between n and m occurrences. Matches betwe
 
-// Example: 
+// Example: replace all voewls
 let vowels = /[aeiou]/gi; // global and case insensitive search
-. - Matches any character except newline.
+
+Example 2: Replace all non digit chars
+/[^\d]/g
 
 | Character Classes | Explanation                                         | Example                                              |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
