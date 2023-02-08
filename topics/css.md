@@ -50,6 +50,7 @@
 | :selection	         | an element that is currently selected or highlighted by the user| p::selection |
 | :lang                | allows the author to specify a language to use in a specified element | p:lang(de) |
 |----------------------|-----------------------------------------------------|-------------------------|
+|| [Good Visual for nth Child](https://dev.to/rammcodes/i-created-an-animated-cheatsheet-for-css-selectors-that-went-viral-on-social-media-2hm2) |
 | :nth-child(n)        | an element that is the n-th sibling                 | li:nth-child(2)         |   
 | :nth-last-child(n)	 | an element that is the n-th sibling counting from the last sibling        | li:nth-last-child(2) |
 | :first-child         | an element that is the first sibling                | li:first-child          |     
