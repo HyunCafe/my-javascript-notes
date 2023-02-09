@@ -96,7 +96,6 @@
     * [Add to Event Listener](./topics/jsDOMandMath.md/#Add-to-Event-Listener)
     * [Add to Multiple Event Listener](./topics/jsDOMandMath.md/#Add-to-Multiple-Event-Listener)
     * [Display Result to Event Listener](./topics/jsDOMandMath.md/#Display-Result-to-Event-Listener)
-    
 * [Math](./topics/jsDOMandMath.md/#Math)
      * [Math abs](./topics/jsDOMandMath.md/#Math-abs)
      * [Math ceil](./topics/jsDOMandMath.md/#Math-ceil)
