@@ -165,5 +165,5 @@
   * [Angles](./topics/css.md/#Angles)
   * [Time](./topics/css.md/#Time)
   * [Frequency](./topics/css.md/#Frequency)
-* Rules of Specificity
+* [Rules of Specificity](./topics/css.md/#Rules-of-Specificity)
 --------------------------------------------------------------------------------------------------
