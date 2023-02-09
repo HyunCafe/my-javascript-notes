@@ -1,4 +1,4 @@
-## Selector Types 
+### Selector Types 
 
 [CSS Selector Type MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 
@@ -16,7 +16,7 @@
 | General Sibling Selector | Selects all elements that are siblings of a given element | `div ~ p { ... }` |
 | Attribute Selector | Selects all elements that contain a given attribute | `[type="text"] { ... }` |
 
-## Colors 
+### Colors 
 
 [CSS Pseudo Class MDN Docs]
 
@@ -33,7 +33,7 @@
 | inherit | value of ‘inherit’ keyword | inherit |
 
 
-## Pseudo Class 
+### Pseudo Class 
 
 [CSS Pseudo Class MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
@@ -67,7 +67,7 @@
 | :not(x)              | an element not represented by the argument ‘x’      | :not(.active)           |   
 | :target              | a target element as specified by a target in a UR   | :target                 |
 
-## Pseudo Element 
+### Pseudo Element 
 
 [CSS Pseudo Element MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
@@ -78,7 +78,7 @@
 | ::before 	     | div::before { content: "Hello!"; }          | 
 | ::after        | div::after { content: "Bye!"; }               | 
 
-## Absolute Measurement
+### Absolute Measurement
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
@@ -92,7 +92,7 @@
 | pt | point (1pt = 1/72inch) | 10pt |
 | px | pixel (1px = 1/96inch) | 10px |
 
-## Relative Measurement 
+### Relative Measurement 
 
 | Type | Description | Example |
 |----------------------------|-----------------------------------------------------|--------------------------------------------|
@@ -105,7 +105,7 @@ vh | the viewport’s height | vh(10px) = 10px |
 vw | the viewport's width | vw(10px) = 10px |
 vm | viewport’s height or width, whichever is smaller of the two | vm(10px) = 10px |
 
-## Angles 
+### Angles 
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
@@ -116,16 +116,39 @@ vm | viewport’s height or width, whichever is smaller of the two | vm(10px) = 
 |rad | radians| 2π rad |
 |turn |  turns| 1 turn |
 
-## Time 
+### Time 
 
 | Type  | Description  | Example |
 |---|---|---|
 | ms  | mili-seconds  | 1 ms = 0.001 s |
 | s  | seconds  | 1 s = 1000 ms |
 
-## Frequency 
+### Frequency 
 
 | Type | Description | Example |
 |---|---|---|
 |Hz| hertz | 50 Hz |
 |kHz |kilo-hertz | 5 kHz |
+
+
+## Rules of Specificity
+
+### Elements and Pseudo-Elements Selectors
+These selectors target specific HTML elements, such as `p` or `h1`, or a pseudo-element of an element, such as `::before` or `::after`. The specificity value of an element selector is 0 0 0 1.
+
+### Class, Attribute, and Pseudo-Class Selectors
+These selectors target elements based on their class, attribute, or a certain state or behavior. For example, `.highlight`, `[href="https://www.example.com"]`, or `:hover`. The specificity value of a class, attribute, or pseudo-class selector is 0 0 1 0.
+
+### ID Selectors
+These selectors target elements based on their unique ID attribute. For example, `#header`. The specificity value of an ID selector is 0 1 0 0.
+
+### Inline Styles
+These selectors target elements that have an inline style attribute. The specificity value of an inline style is 1 0 0 0.
+
+### Layers
+This selector is not part of the CSS specification, but it is sometimes used to refer to the stacking order of elements in CSS. The exact specificity value of a layer selector is not defined.
+
+### !important
+This selector allows you to increase the priority of a particular CSS rule, making it more important than other rules with equal or lower specificity values. The specificity value of `!important` is always the highest and takes precedence over all other rules, regardless of specificity value.
+
+In terms of specificity, the most specific selector wins, meaning that if two selectors are targeting the same element, the selector with the higher specificity will take precedence. If two selectors have the same specificity value, the later rule in the stylesheet will take precedence.
