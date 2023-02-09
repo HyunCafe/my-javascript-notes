@@ -158,7 +158,7 @@
 * [Selector Types](./topics/css.md/#Selector-Types)
   * [Colors](./topics/css.md/#Colors)
   * [Pseudo Class](./topics/css.md/#Pseudo-Class)
-  *[Pseudo Element](./topics/css.md/#Pseudo-Element)
+  * [Pseudo Element](./topics/css.md/#Pseudo-Element)
   * [Absolute Measurement](./topics/css.md/#Absolute-Measurement)
   * [Relative Measurement](./topics/css.md/#Relative-Measurement)
   * [Angles](./topics/css.md/#Angles)
