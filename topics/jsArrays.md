@@ -129,29 +129,27 @@ console.log(fruitString); // "Apple, Banana, Mango"
 creates a new array with the results of calling a provided function on every element in the calling array.
 ```javascript
 array.map(callback(currentValue, index, array), thisArg);
+//array is the calling array.
+//function is a callback function that is applied to each element in the array.
+//currentValue is the current element being processed in the array.
+//index (optional) is the index of the current element being processed in the array.
+//arr (optional) is the array map() was called upon.
+//thisValue (optional) is an object to use as this when executing the callback.
 
-//Example: Extract a property from an array
-const extractProperty = function(arr, prop) {
-    return arr.map(arr => arr[prop]);
-};
-// Detail Explination
-//The function uses the Array.prototype.map() method to create a new array 
-//by applying a callback function to each element of the input array arr.
+Example 1: Traditional map for
+let numbers = [1, 2, 3, 4];
+let squaredNumbers = numbers.map(function(num) {
+  return num * num;
+});
+console.log(squaredNumbers); // [1, 4, 9, 16]
 
-//The callback function uses the arrow function syntax, and takes a single parameter 
-//arr which represents each object in the array. Inside the callback 
-//function, the arr[prop] notation is used to access the value of the property 
-//of the object using the prop as a key. This returns the value of the //property for each object.
+//Example 2: Map with arrow function
+let numbers = [1, 2, 3, 4];
+let squaredNumbers = numbers.map(num => num * num);
+console.log(squaredNumbers); // [1, 4, 9, 16]
 
-//Finally, the map() method collects all the returned values from the 
-//callback function, and creates a new array with these values. This new 
-//array is //then returned by the extractProperty() function using the return statement.
 
-//Example 2:
-const doubleNumbers = numbers.map(num => num * 2);
-console.log(doubleNumbers); // Output: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-
-//Example 3:
+//Example :
 let number = 10;
 let numberArray = [...Array(number).keys()].map(i => i + 1);
 console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
