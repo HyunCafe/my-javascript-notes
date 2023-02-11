@@ -15,7 +15,10 @@
 | Adjacent Sibling Selector | Selects all elements that are adjacent siblings of a given element | `div + p { ... }` |
 | General Sibling Selector | Selects all elements that are siblings of a given element | `div ~ p { ... }` |
 | Attribute Selector | Selects all elements that contain a given attribute | `[type="text"] { ... }` |
-
+```
+Example:select all classes that begin with thunder you would use the attribute selector with a wildcard:
+[class^="thunder"]
+```
 ### Colors 
 
 [CSS Pseudo Class MDN Docs]
