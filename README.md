@@ -150,6 +150,8 @@
      * [Replace Letters to Cypher](./topics/jsBoilerPlate.md/#Replace-Letters-to-Cypher)
      * [Replace Vowels in String](./topics/jsBoilerPlate.md/#Replace-Vowels-in-String)
      * [Removing trailing and leading zeroes from a number](./topics/jsBoilerPlate.md/#Removing-trailing-and-leading-zeroes-from-a-number)
+   * [Global Objects BP](./topics/jsBoilerPlate.md/#Global-Objects-BP)
+     * [Remove Duplicate to New Array](./topics/jsBoilerPlate.md/#Remove-Duplicates-to-New-Array)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](./topics/oop.md/#Object-Oriented-Programming)
   * [Data Structures](./topics/oop.md/#Data-Structures)
