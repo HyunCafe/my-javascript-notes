@@ -133,6 +133,20 @@ vm | viewport’s height or width, whichever is smaller of the two | vm(10px) = 
 |Hz| hertz | 50 Hz |
 |kHz |kilo-hertz | 5 kHz |
 
+## CSS Value Functions
+
+[CSS Value Functions MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions)
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+|Name | Syntax | Description | example|
+|-----------------|---------------------------------------|-----------------------------------|-----------------|
+|calc() |	calc(expression)	| Used to perform mathematical operations on CSS values	| width: calc(100% - 20px);
+|attr() |	attr(attributeName) |	Returns the value of an element's attribute	 | content: attr(data-title);
+|url()	| url(urlString)	| Specifies a URL as the value for a CSS property |	background-image: url('bg.png');
+|rgba() |	rgba(red, green, blue, alpha)	| Specifies a color value with opacity	| color: rgba(255, 0, 0, 0.5);
+|hsl()	| hsl(hue, saturation, lightness) |	Specifies a color value in the HSL | color space	color: hsl(0, 100%, 50%);
+|var() | var(--custom-variable)	 | Uses a custom CSS variable (CSS custom property) |	background-color: var(--bg-color);
 
 ## Rules of Specificity
 
