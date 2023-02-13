@@ -294,3 +294,17 @@ function noBoringZeros(n) {
   return +n;
 }
 ```
+
+### Global Objects BP
+
+#### Removing Duplicates to New Array
+```javascript
+function removeDuplicates(arr) {
+  return [...new Set(arr)];
+}
+
+//Example:
+const originalArray = [1, 2, 3, 1, 2];
+const newArray = removeDuplicates(originalArray);
+console.log(newArray);  // Output: [1, 2, 3]
+```
