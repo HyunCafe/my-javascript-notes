@@ -307,6 +307,30 @@ function noBoringZeros(n) {
 }
 ```
 
+#### Restrict to US Zip Code Pattern with Optional 4 Digit Extension
+```html
+<form action="#" method="get">
+  <div>
+    <label for="zip_code">Postal / Zip Code:</label>
+  </div>
+
+  <input type="text" id="zip_code" name="zip_code" pattern="(\d{5}([\-]\d{4})?)" required>
+
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>
+```
+```javascript
+(\d{5}([\-]\d{4})?)
+
+\d{5}: // Match exactly 5 digits. This matches the first part of the zip code, which is always 5 digits long.
+
+([\-]\d{4})?: // Optionally match a dash followed by 4 more digits. The ? at the end makes this part optional, 
+// so it will match either 0 or 1 times. The backslash before the dash is necessary to escape it,
+// since otherwise it would be interpreted as a special character in the regular expression syntax. 
+// This matches the second part of the zip code, which is sometimes present and sometimes not.
+```
 ### Global Objects BP
 
 #### Removing Duplicates to New Array
