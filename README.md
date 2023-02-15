@@ -167,7 +167,7 @@
 --------------------------------------------------------------------------------------------------
 
 * [Elements](#elements)
-TODO: Add Attributes, - Form Validations etc
+* TODO: Add Attributes, - Form Validations etc link to https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept
 
 <p align="center">CSS</p>
 
