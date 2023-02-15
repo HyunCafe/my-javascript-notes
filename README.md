@@ -134,6 +134,7 @@
      * [Combine Array](./topics/jsBoilerPlate.md/#Combine-Array)
      * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
      * [Expand Number into Array](./topics/jsBoilerPlate.md/#Expand-Number-into-Array)
+     * [Filter Elements out of Array](./topics/jsBoilerPlate.md/#Filter-Elements-out-of-Array)
      * [Find Smallest Int in Array](./topics/jsBoilerPlate.md/#Find-Smallest-Int-in-Array)
      * [Find Oldest Age in Array](./topics/jsBoilerPlate.md/#Find-Oldest-Age-in-Array)     
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
