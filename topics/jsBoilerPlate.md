@@ -121,6 +121,18 @@ let number = 10;
 let numberArray = [...Array(number).keys()].map(i => i + 1);
 console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+#### Filter Elements out of Array
+```javascript
+function filterArray(arr, conditionFn) {
+  return arr.filter((elem) => !conditionFn(elem));
+}
+
+//Example: Filter out geese from birds
+function gooseFilter(birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter((bird) => !geese.includes(bird));
+}
+```
 
 #### Find Smallest Int in Array
 ```javascript
