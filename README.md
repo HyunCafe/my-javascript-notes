@@ -167,7 +167,7 @@
 --------------------------------------------------------------------------------------------------
 
 * [Elements](#elements)
-
+TODO: Add Attributes, - Form Validations etc
 
 <p align="center">CSS</p>
 
