@@ -73,6 +73,8 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 
 [Awesome Regex Cheatsheet](https://regex101.com)
 
+[Regex Practical Examples](https://towardsdatascience.com/regular-expressions-clearly-explained-with-examples-822d76b037b4)
+
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 ### Character Classes
