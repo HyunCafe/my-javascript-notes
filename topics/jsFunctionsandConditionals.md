@@ -69,6 +69,8 @@ const checkAge = age => age >= 18 ? 'You are an adult' : 'You are a minor';  // 
 
 [Mozilla MDN Regex Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
+[MDN Regex CheatSheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
+
 [Awesome Regex Cheatsheet](https://regex101.com)
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
@@ -97,22 +99,23 @@ let vowels = /[aeiou]/gi; // global and case insensitive search
 
 | Character Classes | Explanation                                         | Example                                              |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /./               | Matches any single character                        |                                                      |
+| /./               | Matches any single character                        | /.y/ matches "my" and "ay", but not "yes", in "yes   |
+|                   |                                                     |  make my day".                                       |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\d/              | Matches any digit (0-9)                             |                                                      |
+| /\d/              | Matches any digit (0-9)                             | /\d/ or /[0-9]/ matches 2 in B2 is the suite number. |               
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\D/              | Matches any non-digit character                     |                                                      |
+| /\D/              | Matches any non-digit character                     | /\D/ or /[^0-9]/ matches B in B2 is the suite number |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\w/              | Matches any word character (alphanumeric characters |                                                      |
-|                   | and underscores)                                    |                                                      |
+| /\w/              | Matches any word character (alphanumeric characters | /\w/ matches "a" in "apple", "5" in "$5.28", and     |
+|                   | and underscores)                                    | "3" in "3D"                                          |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\W/              | Matches any non-word character (non-alphanumeric    |                                                      |
+| /\W/              | Matches any non-word character (non-alphanumeric    | /\W/ or /[^A-Za-z0-9_]/ matches "%" in "50%"         |
 |                   | characters and spaces)                              |                                                      |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\s/              | Matches any whitespace character                    |                                                      |   
+| /\s/              | Matches any whitespace character                    | /\s\w*/ matches " bar" in "foo bar"                  |   
 |                   | (space, tab, newline, etc.)                         |                                                      |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
-| /\S/              | Matches any non-whitespace character                |                                                      |
+| /\S/              | Matches any non-whitespace character                | /\S\w*/ matches "foo" in "foo bar".                  |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
 | /[a-z]/           | Matches any lowercase letter from a to z            |                                                      |
 |-------------------|-----------------------------------------------------|------------------------------------------------------|
