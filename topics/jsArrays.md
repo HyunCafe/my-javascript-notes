@@ -40,6 +40,25 @@ let newArr = arr1.concat(arr2);
 console.log(newArr); // [1, 2, 3, 4, 5, 6]
 ```
 
+#### every
+tests whether all elements in an array satisfy a given condition, returning true if they do and false otherwise.
+``javascript
+array.every((element, index, array) => {
+  // callback logic
+}, thisArg);
+
+//Example:
+const numbers = [1, 2, 3, 4, 5];
+
+// Check if all numbers are even
+const allEven = numbers.every(number => number % 2 === 0);
+console.log(allEven); // false
+
+// Check if all numbers are less than 10
+const allLessThanTen = numbers.every(number => number < 10);
+console.log(allLessThanTen); // true
+```
+
 #### filter
 creates a new array with all elements that pass the test implemented by the provided function.
 ```javascript
