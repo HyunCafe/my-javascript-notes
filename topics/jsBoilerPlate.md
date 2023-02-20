@@ -333,6 +333,22 @@ function noBoringZeros(n) {
 ```
 ### Global Objects BP
 
+### Cycling through a list of choices with wrapping
+This function cycles through a fixed list of phrases and maps a number to the corresponding phrase. If the number exceeds the number of phrases, the function wraps around to the beginning of the list.
+```javascript
+function whichChoices(choices) {
+  const phrases = [
+    "choice 1",
+    "choice 2",
+    "choice 3",
+    "choice 4",
+    "choice 5"
+  ];
+  
+  return phrases[(choices - 1) % phrases.length];
+}
+```
+
 #### Removing Duplicates to New Array
 ```javascript
 function removeDuplicates(arr) {
