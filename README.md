@@ -154,6 +154,7 @@
      * [Removing trailing and leading zeroes from a number](./topics/jsBoilerPlate.md/#Removing-trailing-and-leading-zeroes-from-a-number)
      * [Restrict to US Zip Code Pattern with Optional 4 Digit Extension](./topics/jsBoilerPlate.md/#Restrict-to-US-Zip-Code-Pattern-with-Optional-4-Digit-Extension)
    * [Global Objects BP](./topics/jsBoilerPlate.md/#Global-Objects-BP)
+     * [Cycling through a list of choices with wrapping(./topics/jsBoilerPlate.md/#Cycling-through-a-list-of-choices-with-wrapping) 
      * [Removing Duplicates to New Array](./topics/jsBoilerPlate.md/#Removing-Duplicates-to-New-Array)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](./topics/oop.md/#Object-Oriented-Programming)
