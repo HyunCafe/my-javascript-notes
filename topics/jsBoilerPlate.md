@@ -142,6 +142,27 @@ function fibsFizzBuzz(n) {
   }).slice(1); // exclude the first 0 from the fibonacci sequence
 }
 
+OR My Preferred (Easier to understand)
+
+function fibsFizzBuzz(n) {
+  const fibs = [1, 1];
+  for (let i = 2; i < n; i++) {
+    fibs[i] = fibs[i-1] + fibs[i-2];
+  }
+  return fibs.map(fizzBuzz);
+}
+
+function fizzBuzz(n) {
+  if (n % 15 === 0) {
+    return "FizzBuzz";
+  } else if (n % 5 === 0) {
+    return "Buzz";
+  } else if (n % 3 === 0) {
+    return "Fizz";
+  } else {
+    return n;
+  }
+}
 ```
 
 #### Filter Elements out of Array
