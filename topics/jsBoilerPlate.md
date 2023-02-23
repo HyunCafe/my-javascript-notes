@@ -121,6 +121,29 @@ let number = 10;
 let numberArray = [...Array(number).keys()].map(i => i + 1);
 console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+
+#### Fibonacci FizzBuzz into an Array
+```javascript
+function fibsFizzBuzz(n) {
+  const fib = [0, 1];
+  for (let i = 2; i <= n; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+  }
+  return fib.map(num => {
+    if (num % 15 === 0) {
+      return 'FizzBuzz';
+    } else if (num % 3 === 0) {
+      return 'Fizz';
+    } else if (num % 5 === 0) {
+      return 'Buzz';
+    } else {
+      return num;
+    }
+  }).slice(1); // exclude the first 0 from the fibonacci sequence
+}
+
+```
+
 #### Filter Elements out of Array
 ```javascript
 function filterArray(arr, conditionFn) {
