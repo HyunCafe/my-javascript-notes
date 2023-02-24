@@ -95,8 +95,12 @@ x{n}	// Exactly n occurrences. Matches exactly n occurrences of preceding elemen
 x{n,}	// n or more occurrences. Matches n or more occurrences of preceding element.
 x{n,m}	// Between n and m occurrences. Matches betwe
 
-// Example: replace all voewls
+// Example: replace all vowels
 let vowels = /[aeiou]/gi; // global and case insensitive search
+
+// Example: lowercase letters, numbers, and underscore
+let res = /[a-z0-9_]/gi;
+
 
 
 | Character Classes | Explanation                                         | Example                                              |
