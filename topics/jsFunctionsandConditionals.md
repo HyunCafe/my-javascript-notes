@@ -93,7 +93,7 @@ x*	// 0 or more. Matches 0 or more occurrences of preceding element.
 x+	// 1 or more. Matches 1 or more occurrences of preceding element.
 x{n}	// Exactly n occurrences. Matches exactly n occurrences of preceding element.
 x{n,}	// n or more occurrences. Matches n or more occurrences of preceding element.
-x{n,m}	// Between n and m occurrences. Matches betwe
+x{n,m}	// Between n and m occurrences. Matches between.
 
 // Example: replace all vowels
 let vowels = /[aeiou]/gi; // global and case insensitive search
