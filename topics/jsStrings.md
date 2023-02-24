@@ -318,7 +318,7 @@ Returns a string representing the number with a specified number of significant 
 ```
 
 #### toString
-Returns a string representing the  The radix parameter is optional and specifies the base of the returned string.
+Returns a string representing the  The radix parameter (base number, binary, octal, hectal, etc) is optional and specifies the base of the returned string.
 ```javascript
 (11).toString(2) // returns "1011".
 ```
