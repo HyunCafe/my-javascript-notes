@@ -117,9 +117,19 @@ console.log(combined);  // Output: [1, 2, 3, 4, 5, 6]
 
 #### Expand Number into Array
 ```javascript
+// Example: Expand single number to an array 
 let number = 10;
 let numberArray = [...Array(number).keys()].map(i => i + 1);
 console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// Example: Expand starting to ending number to an array 
+function pipeFix(numbers) {
+  const startNum = numbers[0];
+  const lastNum = numbers[numbers.length - 1];
+  const result = Array(lastNum - startNum + 1).fill().map((_, i) => startNum + i);
+  return result;
+}
+
 ```
 
 #### Fibonacci FizzBuzz into an Array
