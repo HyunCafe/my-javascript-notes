@@ -100,8 +100,7 @@ let vowels = /[aeiou]/gi; // global and case insensitive search
 
 // Example: function for validating a username using regular expression. lowercase, letters, numbers, underscore, and between 4-16 length
 function validateUsr(username) {
-  let res = /^[a-z0-9_]{4,16}$/i;
-  return res.test(username);
+  return /^[0-9a-z_]{4,16}$/.test(username)
 }
 
 
