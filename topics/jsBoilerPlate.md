@@ -117,6 +117,13 @@ console.log(combined);  // Output: [1, 2, 3, 4, 5, 6]
 
 #### Expand Number into Array
 ```javascript
+//Example: More concise version
+const num = 12345;
+const numArr = [...String(num)].map(Number);
+console.log(numArr); // [1, 2, 3, 4, 5]
+
+//Example: alternative version
+
 let number = 10;
 let numberArray = [...Array(number).keys()].map(i => i + 1);
 console.log(numberArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
