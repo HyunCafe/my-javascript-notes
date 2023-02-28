@@ -136,6 +136,7 @@
      * [Combine Array](./topics/jsBoilerPlate.md/#Combine-Array)
      * [Check in Array for Element](./topics/jsBoilerPlate.md/#Check-in-Array-for-Elements)
      * [Expand Number into Array](./topics/jsBoilerPlate.md/#Expand-Number-into-Array)
+     * [Duplicate Value X times on Array](./topics/jsBoilerPlate.md/#Duplicate-Value-X-times-on-Array)
      * [Filter Elements out of Array](./topics/jsBoilerPlate.md/#Filter-Elements-out-of-Array)
      * [Fibonacci FizzBuzz into an Array](./topics/jsBoilerPlate.md/#Fibonacci-FizzBuzz-into-an-Array)
      * [Find Smallest Int in Array](./topics/jsBoilerPlate.md/#Find-Smallest-Int-in-Array)
