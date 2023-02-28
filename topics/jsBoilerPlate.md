@@ -300,6 +300,9 @@ const randomSelect = arrayChoices[Math.floor(Math.random() * arrayChoices.length
 function isIsogram(str){ 
   return !/(\w).*\1/i.test(str)
 }
+
+//Method 2
+!str.match(/([a-z]).*\1/i);
 ```
 
 #### Check String for Character Occurrences
