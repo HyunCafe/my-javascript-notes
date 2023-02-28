@@ -295,6 +295,13 @@ const randomSelect = arrayChoices[Math.floor(Math.random() * arrayChoices.length
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Check if Isogram
+```javascript
+function isIsogram(str){ 
+  return !/(\w).*\1/i.test(str)
+}
+```
+
 #### Check String for Character Occurrences
 ```javascript
 const strCount = (str, letter) => {
