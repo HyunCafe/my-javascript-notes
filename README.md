@@ -150,6 +150,7 @@
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
+     * [Check if Isogram](./topics/jsBoilerPlate.md/#Check-if-Isogram)   
      * [Check String for Character Occurrences](./topics/jsBoilerPlate.md/#Check-String-for-Character-Occurrences)
      * [Check String for Match](./topics/jsBoilerPlate.md/#Check-String-for-Match)
      * [Palindrome](./topics/jsBoilerPlate.md/#Palindrome)
