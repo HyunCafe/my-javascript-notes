@@ -42,7 +42,7 @@ console.log(newArr); // [1, 2, 3, 4, 5, 6]
 
 #### every
 tests whether all elements in an array satisfy a given condition, returning true if they do and false otherwise.
-``javascript
+```javascript
 array.every((element, index, array) => {
   // callback logic
 }, thisArg);
@@ -58,6 +58,28 @@ console.log(allEven); // false
 const allLessThanTen = numbers.every(number => number < 10);
 console.log(allLessThanTen); // true
 ```
+
+#### fill
+fills all the elements of an array from a start index to an end index with a static value.
+```javascript
+array.fill(value, start, end)
+
+// Example:
+let array = [1, 2, 3, 4, 5];
+array.fill(0, 2, 4);
+console.log(array); // Output: [1, 2, 0, 0, 5]
+
+// Example 2: Create an array with x amout of duplicate values
+function createArrayWithDuplicateValue(n, val) {
+  return new Array(n).fill(val);
+}
+
+// Usage example
+let myArray = createArrayWithDuplicateValue(5, "hello");
+console.log(myArray); // Output: ["hello", "hello", "hello", "hello", "hello"]
+
+```
+
 
 #### filter
 creates a new array with all elements that pass the test implemented by the provided function.
