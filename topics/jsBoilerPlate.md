@@ -115,6 +115,18 @@ let combined = [...arr1, ...arr2];
 console.log(combined);  // Output: [1, 2, 3, 4, 5, 6]
 ```
 
+#### Duplicate Value X times on Array
+```javascript
+// Example: Create an array with x amout of duplicate values
+function createArrayWithDuplicateValue(n, val) {
+  return new Array(n).fill(val);
+}
+
+let myArray = createArrayWithDuplicateValue(5, "hello");
+console.log(myArray); // Output: ["hello", "hello", "hello", "hello", "hello"]
+
+```
+
 #### Expand Number into Array
 ```javascript
 // Example: Expand single number to an array 
