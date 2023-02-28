@@ -93,6 +93,15 @@ function fibonacci(n) {
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Check if Isogram
+```javascript
+function isIsogram(str){
+  let newArr = str.toLowerCase().split('');
+  let dupes = [...new Set(newArr)];
+  return newArr.length === dupes.length;
+}
+```
+
 #### Check in Array for Element
 ```javascript
 // Declare an array and an element to check
