@@ -148,6 +148,7 @@
    * [Loops BP](./topics/jsBoilerPlate.md/#Loops-BP)
      * [Factorial For Loop](./topics/jsBoilerPlate.md/#Factorial-For-Loop)
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
+     * [Find Maximum Value of Multiple Expressions in Array](./topics/jsBoilerPlate.md/#Find-Maximum-Value-of-Multiple-Expressions-in-Array)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
      * [Check if Isogram](./topics/jsBoilerPlate.md/#Check-if-Isogram)   
