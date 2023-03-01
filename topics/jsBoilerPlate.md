@@ -209,6 +209,22 @@ function gooseFilter(birds) {
 }
 ```
 
+#### Find Maximum Value of Multiple Expressions in Array
+```javascript
+// Finds the maximum value of multiple expressions using the given values and operators.
+
+function findMaxValue(...values, ...operators) {
+  const expressions = [
+    ... // Define the expressions to evaluate here
+  ];
+  return Math.max(...expressions);
+}
+
+// Find the maximum value using the numbers 1, 2, and 3 and the operators +, *, and ()
+const maxValue = findMaxValue(1, 2, 3, '+', '*', '(');
+console.log(maxValue); // Output: 9
+```
+
 #### Find Smallest Int in Array
 ```javascript
 class SmallestIntegerFinder {
