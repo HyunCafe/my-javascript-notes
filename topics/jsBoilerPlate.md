@@ -94,6 +94,7 @@ function fibonacci(n) {
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### Check if Isogram
+An isogram is a word or phrase that has no repeating letters
 ```javascript
 function isIsogram(str){
   let newArr = str.toLowerCase().split('');
