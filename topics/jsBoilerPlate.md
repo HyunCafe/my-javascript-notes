@@ -97,7 +97,7 @@ function fibonacci(n) {
 An anagram is a word or phrase formed by rearranging the letters of another word or phrase, typically using all the original letters exactly once.
 ```javascript
 const isAnagram = function(test, original) {
-  let newTest = test.split('').sort().join('');
+  let newTest = test.toLowerCase().split('').sort().join('');
   let newOriginal = original.toLowerCase().split('').sort().join('');
   return newTest === newOriginal;
 };
