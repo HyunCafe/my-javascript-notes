@@ -93,6 +93,16 @@ function fibonacci(n) {
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Check for Anagram
+An anagram is a word or phrase formed by rearranging the letters of another word or phrase, typically using all the original letters exactly once.
+```javascript
+var isAnagram = function(test, original) {
+  let newTest = test.split('').sort().join('');
+  let newOriginal = original.toLowerCase().split('').sort().join('');
+  return newTest === newOriginal;
+};
+```
+
 #### Check if Isogram
 An isogram is a word or phrase that has no repeating letters
 ```javascript
