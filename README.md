@@ -9,7 +9,26 @@
 <p align="center">JavaScript</p>
 
 --------------------------------------------------------------------------------------------------
-
+* [Functions](./topics/jsFunctionsandConditionals.md/#Functions)
+  * [Arrow Functions](./topics/jsFunctionsandConditionals.md/#Arrow-Functions)
+ * [Conditional Statements](./topics/jsFunctionsandConditionals.md/#Conditional-Statements)
+   * [If-Else Statements](./topics/jsFunctionsandConditionals.md/#If-Else-Statements)
+   * [Switch Statements](./topics/jsFunctionsandConditionals.md/#Switch-Statements)
+   * [Ternary Operator](./topics/jsFunctionsandConditionals.md/#Ternary-Operator)
+* [Regex](./topics/jsFunctionsandConditionals.md/#Regex)
+   * [Character Classes](./topics/jsFunctionsandConditionals.md/#Character-Classes)
+   * [Groups and Backreferences](./topics/jsFunctionsandConditionals.md/#Groups-and-Backreferences)
+   * [Quantifiers](./topics/jsFunctionsandConditionals.md/#Quantifiers)
+   * [Regex Methods](./topics/jsFunctionsandConditionals.md/#Regex-Methods)
+ --------------------------------------------------------------------------------------------------
+ * [Loops](./topics/jsLoops.md/#Loops)
+   * [For Loops](./topics/jsLoops.md/#For-Loops)
+   * [For Each Loops](./topics/jsLoops.md/#For-Each-Loops)
+   * [For In Loops](./topics/jsLoops.md/#For-In-Loops)
+   * [For Of Loops](./topics/jsLoops.md/#For-Of-Loops)
+   * [While Loops](./topics/jsLoops.md/#While-Loops)
+   * [Do While Loops](./topics/jsLoops.md/#Do-While-Loops)
+--------------------------------------------------------------------------------------------------
 * [Strings](./topics/jsStrings.md/#Strings)
   * [String Methods](./topics/jsStrings.md/#String-Methods)
      * [charAt](./topics/jsStrings.md/#charAt)
@@ -49,26 +68,6 @@
      * [toString](./topics/jsStrings.md/#toString)
      * [valueOf](./topics/jsStrings.md/#valueOf)
    --------------------------------------------------------------------------------------------------
-* [Functions](./topics/jsFunctionsandConditionals.md/#Functions)
-  * [Arrow Functions](./topics/jsFunctionsandConditionals.md/#Arrow-Functions)
- * [Conditional Statements](./topics/jsFunctionsandConditionals.md/#Conditional-Statements)
-   * [If-Else Statements](./topics/jsFunctionsandConditionals.md/#If-Else-Statements)
-   * [Switch Statements](./topics/jsFunctionsandConditionals.md/#Switch-Statements)
-   * [Ternary Operator](./topics/jsFunctionsandConditionals.md/#Ternary-Operator)
-* [Regex](./topics/jsFunctionsandConditionals.md/#Regex)
-   * [Character Classes](./topics/jsFunctionsandConditionals.md/#Character-Classes)
-   * [Groups and Backreferences](./topics/jsFunctionsandConditionals.md/#Groups-and-Backreferences)
-   * [Quantifiers](./topics/jsFunctionsandConditionals.md/#Quantifiers)
-   * [Regex Methods](./topics/jsFunctionsandConditionals.md/#Regex-Methods)
- --------------------------------------------------------------------------------------------------
- * [Loops](./topics/jsLoops.md/#Loops)
-   * [For Loops](./topics/jsLoops.md/#For-Loops)
-   * [For Each Loops](./topics/jsLoops.md/#For-Each-Loops)
-   * [For In Loops](./topics/jsLoops.md/#For-In-Loops)
-   * [For Of Loops](./topics/jsLoops.md/#For-Of-Loops)
-   * [While Loops](./topics/jsLoops.md/#While-Loops)
-   * [Do While Loops](./topics/jsLoops.md/#Do-While-Loops)
---------------------------------------------------------------------------------------------------
 * [Arrays](./topics/jsArrays.md/#Arrays)
    * [Array Methods](./topics/jsArrays.md/#Array-Methods)
      * [array is array](./topics/jsArrays.md/#array-is-array)
