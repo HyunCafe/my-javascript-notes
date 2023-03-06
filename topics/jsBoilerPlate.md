@@ -93,6 +93,26 @@ function fibonacci(n) {
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+
+#### Capitalize Every Other Char in String and Return as 2 Element Array
+```javascript
+function capitalize(s){
+  let arrayS = s.split('')
+  let array1 = [];
+  let array2 = [];
+  for (let i = 0; i < arrayS.length; i++) {
+    if (i % 2 === 0) {
+      array1.push(arrayS[i].toUpperCase());
+      array2.push(arrayS[i]);
+    } else {
+      array1.push(arrayS[i]);
+      array2.push(arrayS[i].toUpperCase());
+    }
+  }
+  return [array1.join(''), array2.join('')];
+};
+```
+
 #### Check for Anagram
 An anagram is a word or phrase formed by rearranging the letters of another word or phrase, typically using all the original letters exactly once.
 ```javascript
