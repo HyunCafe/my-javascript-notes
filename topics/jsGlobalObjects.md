@@ -73,6 +73,14 @@ names.delete('Jane');
 console.log(names.size); // 2
 ```
 
+#### String
+The String() global object in JavaScript is used to convert a value to a string. It can be used to convert any data type into a string, including numbers, booleans, objects, and arrays.
+```javascript
+const num = 42;
+const strNum = String(num);
+console.log(typeof strNum); // "string"
+```
+
 #### Symbol
 The Symbol object is a built-in object in JavaScript that allows you to create unique and immutable symbols. 
 They are used as property keys and can be used to create private properties.
