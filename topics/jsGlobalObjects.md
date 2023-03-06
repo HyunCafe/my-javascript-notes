@@ -59,6 +59,17 @@ console.log(user.name); // John Doe
 The Set object is a built-in object in JavaScript that allows you to store unique values. 
 It is similar to an array but does not allow duplicate values.
 ```javascript
+function removeDuplicates(str) {
+  const words = str.split(' ');
+  const uniqueWords = [...new Set(words)];
+  return uniqueWords.join(' ');
+}
+
+// Example usage
+const result = removeDuplicates('this is a test test string');
+console.log(result); // 'this is a test string'
+
+//Example 2
 const items = new Set();
 items.add(1);
 items.add(2);
