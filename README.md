@@ -96,6 +96,7 @@
      * [Error](./topics/jsGlobalObjects.md/#Error)
      * [JSON](./topics/jsGlobalObjects.md/#JSON)
      * [Set](./topics/jsGlobalObjects.md/#Set)
+     * [String](//topics/jsGlobalObjects.md/#String)
      * [Symbol](./topics/jsGlobalObjects.md/#Symbol)
      * [Map](./topics/jsGlobalObjects.md/#Map)
      * [WeakMap](./topics/jsGlobalObjects.md/#WeakMap)
