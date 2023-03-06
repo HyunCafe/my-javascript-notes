@@ -133,6 +133,7 @@
    * [If Else BP](./topics/jsBoilerPlate.md/#Arrays-BP)
      * [Fibonacci](./topics/jsBoilerPlate.md/#Fibonacci)
    * [Arrays BP](./topics/jsBoilerPlate.md/#If-Else-BP)
+     * [Capitalize Every Other Char in String and Return as 2 Element Array](./topics/jsBoilerPlate.md/#Capitalize-Every-Other-Char-in-String-and-Return-as-2-Element-Array)
      * [Check for Anagram](./topics/jsBoilerPlate.md/#Check-for-Anagram)
      * [Check if Isogram](./topics/jsBoilerPlate.md/#Check-if-Isogram)
      * [Combine Array](./topics/jsBoilerPlate.md/#Combine-Array)
