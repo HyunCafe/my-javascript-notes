@@ -394,6 +394,11 @@ function isPalindrome(str) {
   return str === str.split("").reverse().join("");
 }
 }
+
+//Example: One Liner
+const isPalindrome = (string) => string === [...string].reverse().join('')
+
+
 ```
 #### Replace Letters to Cypher
 ```javascript
