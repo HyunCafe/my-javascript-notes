@@ -303,3 +303,59 @@ console.log(descriptor); // Output: { value: 'John', writable: true, enumerable:
 ```
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Object.keys
+The Object.keys() method returns an array of a given object's own enumerable property names, in the same order as that provided by a for...in loop.
+```javascript
+Object.keys(obj)
+
+const person = {
+  name: 'John',
+  age: 30
+};
+const keys = Object.keys(person);
+console.log(keys); // Output: ['name', 'age']
+```
+
+Object.getOwnPropertyNames
+The Object.getOwnPropertyNames() method returns an array of all properties (enumerable or not) found directly on a given object.
+```javascript
+Object.getOwnPropertyNames(obj)
+
+const person = {
+  name: 'John',
+  age: 30
+};
+const props = Object.getOwnPropertyNames(person);
+console.log(props); // Output: ['name', 'age']
+```
+
+Object.getOwnPropertySymbols
+The Object.getOwnPropertySymbols() method returns an array of all symbol properties found directly on a given object.
+```javascript
+Object.getOwnPropertySymbols(obj)
+
+const sym1 = Symbol('foo');
+const sym2 = Symbol('bar');
+const obj = {
+  [sym1]: 'hello',
+  [sym2]: 'world'
+};
+const symbols = Object.getOwnPropertySymbols(obj);
+console.log(symbols); // Output: [Symbol(foo), Symbol(bar)]
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Object.values
+The Object.values() method returns an array of a given object's own enumerable property values, in the same order as that provided by a for...in loop.
+```javascript
+Object.values(obj)
+
+const person = {
+  name: 'John',
+  age: 30
+};
+const values = Object.values(person);
+console.log(values); // Output: ['John', 30]
+```
