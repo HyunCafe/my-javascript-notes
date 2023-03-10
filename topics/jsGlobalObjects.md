@@ -221,7 +221,7 @@ console.log(weight); // 180.5
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
-#### Object.assign
+#### Object assign
 The Object.assign() method copies the values of all enumerable properties from one or more source objects to a target object, and returns the target object.
 ```javascript
  Object.assign(target, ...sources)
@@ -232,7 +232,7 @@ const result = Object.assign(target, source);
 console.log(result); // Output: { name: 'John', age: 30 }
 ```
 
-#### Object.create
+#### Object create
 The Object.create() method creates a new object with the specified prototype object and properties.
 ```javascript
 Object.create(proto[, propertiesObject])
@@ -248,7 +248,7 @@ const john = Object.create(person);
 john.sayHello(); // Output: Hello, my name is John and I'm 30 years old.
 ```
 
-#### Object.defineProperty
+#### Object defineProperty
 The Object.defineProperty() method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
 ```javascript
 Object.defineProperty(obj, prop, descriptor)
@@ -265,7 +265,7 @@ console.log(person.name); // Output: John
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
-#### Object.entries
+#### Object entries
 The Object.entries() method returns an array of a given object's own enumerable property [key, value] pairs, in the same order as that provided by a for...in loop.
 ```javascript
 Object.entries(obj)
@@ -278,7 +278,7 @@ const entries = Object.entries(person);
 console.log(entries); // Output: [['name', 'John'], ['age', 30]]
 ```
 
-#### Object.freeze
+#### Object freeze
 The Object.freeze() method freezes an object: that is, prevents new properties from being added to it; prevents existing properties from being removed or modified; and prevents the prototype from being changed.
 ```javascript
 Object.freeze(obj)
@@ -292,7 +292,7 @@ person.age = 40;
 console.log(person.age); // Output: 30
 ```
 
-#### Object.getOwnPropertyDescriptor
+#### Object getOwnPropertyDescriptor
 The Object.getOwnPropertyDescriptor() method returns an object describing the configuration of a specific property on an object.
 ```javascript
 Object.getOwnPropertyDescriptor(obj, prop)
@@ -304,7 +304,7 @@ console.log(descriptor); // Output: { value: 'John', writable: true, enumerable:
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
-#### Object.keys
+#### Object keys
 The Object.keys() method returns an array of a given object's own enumerable property names, in the same order as that provided by a for...in loop.
 ```javascript
 Object.keys(obj)
@@ -317,7 +317,7 @@ const keys = Object.keys(person);
 console.log(keys); // Output: ['name', 'age']
 ```
 
-#### Object.getOwnPropertyNames
+#### Object getOwnPropertyNames
 The Object.getOwnPropertyNames() method returns an array of all properties (enumerable or not) found directly on a given object.
 ```javascript
 Object.getOwnPropertyNames(obj)
@@ -330,7 +330,7 @@ const props = Object.getOwnPropertyNames(person);
 console.log(props); // Output: ['name', 'age']
 ```
 
-#### Object.getOwnPropertySymbols
+#### Object getOwnPropertySymbols
 The Object.getOwnPropertySymbols() method returns an array of all symbol properties found directly on a given object.
 ```javascript
 Object.getOwnPropertySymbols(obj)
@@ -347,7 +347,7 @@ console.log(symbols); // Output: [Symbol(foo), Symbol(bar)]
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
-#### Object.values
+#### Object values
 The Object.values() method returns an array of a given object's own enumerable property values, in the same order as that provided by a for...in loop.
 ```javascript
 Object.values(obj)
