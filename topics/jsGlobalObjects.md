@@ -215,7 +215,7 @@ console.log(weight); // 180.5
 ```
 
 
-## Built in Objects
+## Built in Object Methods
 
 [Global Objects MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
