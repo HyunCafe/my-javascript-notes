@@ -278,6 +278,24 @@ const findTheOldest = function(people) {
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Repeat each digit in string x number of times equal to its value
+```javascript
+function numericRepeater(inputString) {
+  let repeatedString = '';
+  for (let i = 0; i < inputString.length; i++) {
+    let numericValue = +(inputString[i]);
+    repeatedString += inputString[i].repeat(numericValue);
+  }
+  return repeatedString;
+}
+
+numericRepeater("312")
+// Output: "333122"
+
+numericRepeater("102269")
+// Output: "12222666666999999999"
+```
+
 #### Reverse a String or an Array
 ```javascript
 function reverseString(word) {
