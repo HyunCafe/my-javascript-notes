@@ -317,7 +317,7 @@ const keys = Object.keys(person);
 console.log(keys); // Output: ['name', 'age']
 ```
 
-Object.getOwnPropertyNames
+#### Object.getOwnPropertyNames
 The Object.getOwnPropertyNames() method returns an array of all properties (enumerable or not) found directly on a given object.
 ```javascript
 Object.getOwnPropertyNames(obj)
@@ -330,7 +330,7 @@ const props = Object.getOwnPropertyNames(person);
 console.log(props); // Output: ['name', 'age']
 ```
 
-Object.getOwnPropertySymbols
+#### Object.getOwnPropertySymbols
 The Object.getOwnPropertySymbols() method returns an array of all symbol properties found directly on a given object.
 ```javascript
 Object.getOwnPropertySymbols(obj)
