@@ -213,3 +213,93 @@ console.log(height); // 6.2
 const weight = parseFloat("180.5 lbs");
 console.log(weight); // 180.5
 ```
+
+
+## Built in Objects
+
+[Global Objects MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Object.assign
+The Object.assign() method copies the values of all enumerable properties from one or more source objects to a target object, and returns the target object.
+```javascript
+ Object.assign(target, ...sources)
+
+const target = { name: 'John' };
+const source = { age: 30 };
+const result = Object.assign(target, source);
+console.log(result); // Output: { name: 'John', age: 30 }
+```
+
+#### Object.create
+The Object.create() method creates a new object with the specified prototype object and properties.
+```javascript
+Object.create(proto[, propertiesObject])
+
+const person = {
+  name: 'John',
+  age: 30,
+  sayHello() {
+    console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+};
+const john = Object.create(person);
+john.sayHello(); // Output: Hello, my name is John and I'm 30 years old.
+```
+
+#### Object.defineProperty
+The Object.defineProperty() method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
+```javascript
+Object.defineProperty(obj, prop, descriptor)
+
+const person = {};
+Object.defineProperty(person, 'name', {
+  value: 'John',
+  writable: true,
+  enumerable: true,
+  configurable: true
+});
+console.log(person.name); // Output: John
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Object.entries
+The Object.entries() method returns an array of a given object's own enumerable property [key, value] pairs, in the same order as that provided by a for...in loop.
+```javascript
+Object.entries(obj)
+
+const person = {
+  name: 'John',
+  age: 30
+};
+const entries = Object.entries(person);
+console.log(entries); // Output: [['name', 'John'], ['age', 30]]
+```
+
+#### Object.freeze
+The Object.freeze() method freezes an object: that is, prevents new properties from being added to it; prevents existing properties from being removed or modified; and prevents the prototype from being changed.
+```javascript
+Object.freeze(obj)
+
+const person = {
+  name: 'John',
+  age: 30
+};
+Object.freeze(person);
+person.age = 40;
+console.log(person.age); // Output: 30
+```
+
+#### Object.getOwnPropertyDescriptor
+The Object.getOwnPropertyDescriptor() method returns an object describing the configuration of a specific property on an object.
+```javascript
+Object.getOwnPropertyDescriptor(obj, prop)
+
+const person = { name: 'John' };
+const descriptor = Object.getOwnPropertyDescriptor(person, 'name');
+console.log(descriptor); // Output: { value: 'John', writable: true, enumerable: true, conf
+```
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
