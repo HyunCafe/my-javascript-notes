@@ -35,10 +35,12 @@ try {
 }
 ```
 
-#### JSON
+#### JSON Stringify & JSON Parse
 The JSON object is a built-in object in JavaScript that allows you to parse and stringify JSON data. 
 JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy 
-for machines to parse and generate.
+for machines to parse and generate
+JSON.stringify(): Converts a JavaScript object into a JSON string.
+JSON.parse(): Parses a JSON string and returns a JavaScript object.
 ```javascript
 const data = { name: 'John Doe' };
 const json = JSON.stringify(data);
