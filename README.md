@@ -95,7 +95,7 @@
   * [Global Object Methods](./topics/jsGlobalObjects.md/#Global-Object-Methods)
      * [Date](./topics/jsGlobalObjects.md/#Date)
      * [Error](./topics/jsGlobalObjects.md/#Error)
-     * [JSON](./topics/jsGlobalObjects.md/#JSON)
+     * [JSON Stringify & JSON Parse](./topics/jsGlobalObjects.md/#JSON-Stringify-&-JSON-Parse)
      * [Set](./topics/jsGlobalObjects.md/#Set)
      * [String](/topics/jsGlobalObjects.md/#String)
      * [Symbol](./topics/jsGlobalObjects.md/#Symbol)
