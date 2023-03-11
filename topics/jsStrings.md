@@ -284,7 +284,8 @@ parseFloat("3.14") // returns 3.14.
 ```
 
 #### parseInt
-Parses a string argument and returns an integer.
+s used to parse a string and return an integer. It takes two arguments: the string to be parsed and an optional radix, which specifies the base of the number in the string.
+The first argument can be any string, which will be co
 ```javascript
 parseInt("11", 2) // returns 3.
 ```
