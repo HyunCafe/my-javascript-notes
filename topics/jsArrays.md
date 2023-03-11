@@ -320,6 +320,18 @@ let array = [1,2,3,4,5];
 console.log(array.slice(1,3)); // Output: [2,3]
 ```
 
+#### some
+The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array.
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+const isEven = number => number % 2 === 0;
+
+const hasEvenNumber = numbers.some(isEven);
+
+console.log(hasEvenNumber); // Output: true
+
+```
 #### sort
 sorts the elements of an array in place and returns the sorted array.
 ```javascript
