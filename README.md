@@ -86,6 +86,7 @@
      * [reverse](./topics/jsArrays.md/#reverse)
      * [shift](./topics/jsArrays.md/#shift)
      * [slice](./topics/jsArrays.md/#slice)
+     * [some](./topics/jsArrays.md/#some)
      * [sort](./topics/jsArrays.md/#sort)
      * [splice](./topics/jsArrays.md/#splice)
      * [unshift](./topics/jsArrays.md/#unshift)
