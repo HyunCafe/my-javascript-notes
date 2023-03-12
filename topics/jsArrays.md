@@ -203,6 +203,8 @@ function digitize(n) {
 
 #### pop
 removes the last element from an array and returns that element.
+Modifies original array
+
 ```javascript
 array.pop();
 
@@ -213,6 +215,7 @@ console.log(array); // Output: [1, 2, 3, 4, 5]
 
 #### push
 adds one or more elements to the end of an array and returns the new length of the array.
+Modifies original array
 
 ```javascript
 array.push(element1, element2, ..., elementX);
@@ -278,6 +281,8 @@ const findTheOldest = function (people) {
 
 #### reverse
 reverses the order of the elements in an array
+Modifies original array
+
 ```javascript
 array.reverse();
 
@@ -299,6 +304,8 @@ console.log(reverseString('Hello, World!')); // Output: !dlroW ,olleH
 
 #### shift
 removes the first element from an array and returns that element.
+Modifies original array
+
 ```javascript
 array.shift();
 
@@ -334,6 +341,8 @@ console.log(hasEvenNumber); // Output: true
 ```
 #### sort
 sorts the elements of an array in place and returns the sorted array.
+Modifies original array
+
 ```javascript
 array.sort(compareFunction);
 
@@ -364,6 +373,8 @@ console.log(people);
 
 #### splice
 adds or removes elements from an array.
+Modifies original array
+
 ```javascript
 // first argument is the index where to start adding/removing elements
 // second argument is the number of elements to remove
@@ -380,6 +391,8 @@ console.log(array); // Output: [1, 2, 6, 7, 5]
 
 #### unshift
 adds one or more elements to the beginning of an array and returns the new length of the array.
+Modifies original array
+
 ```javascript
 array.unshift(element1, element2, ..., elementX);
 
