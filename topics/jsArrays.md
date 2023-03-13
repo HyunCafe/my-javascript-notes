@@ -57,6 +57,13 @@ console.log(allEven); // false
 // Check if all numbers are less than 10
 const allLessThanTen = numbers.every(number => number < 10);
 console.log(allLessThanTen); // true
+
+// Example 2: Check if all numbers are less than or equal to limit
+
+function smallEnough(arr, limit) {
+  return arr.every((val) => val <= limit);
+}
+
 ```
 
 #### fill
