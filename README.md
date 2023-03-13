@@ -75,6 +75,7 @@
      * [every](./topics/jsArrays.md/#every)
      * [fill](./topics/jsArrays.md/#fill)
      * [filter](./topics/jsArrays.md/#filter)
+     * [flat](./topics/jsArrays.md/#flat)
      * [forEach](./topics/jsArrays.md/#forEach)
      * [includes](./topics/jsArrays.md/#includes)
      * [indexOf](./topics/jsArrays.md/#indexOf)
