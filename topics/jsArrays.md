@@ -106,6 +106,22 @@ function removeFromArray(array, ...elemRemove) {
 console.log(removeFromArray([1, 2, 3, 4, 5], 2, 4)); // [1, 3, 5]
 ```
 
+#### flat 
+creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+```javascript
+array.flat(depth)
+
+// Example:
+let array = [1, 2, [3, 4], [5, [6, 7]]];
+console.log(array.flat()); // Output: [1, 2, 3, 4, 5, [6, 7]]
+console.log(array.flat(2)); // Output: [1, 2, 3, 4, 5, 6, 7]
+
+// Example 2: flattening an array of arrays to a single level
+let myArray = [[1, 2], [3, 4], [5, 6]];
+let flattenedArray = myArray.flat();
+console.log(flattenedArray); // Output: [1, 2, 3, 4, 5, 6]
+```
+
 #### forEach
 executes a provided function once for each array element.
 ```javascript
