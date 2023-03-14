@@ -154,6 +154,18 @@ console.log(caesar("HELLO", 3)); // returns "KHOOR"
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### replaceAll
+The .replaceAll(searchValue, replaceValue) method searches a string for all occurrences of a specified value and returns a new string with all occurrences of the search value replaced with the replace value.
+```javascript
+string.replaceAll(searchValue, replaceValue)
+
+//Example
+let str = "Hello World! World, it's a beautiful World!";
+let newStr = str.replaceAll("World", "Earth");
+console.log(newStr); // "Hello Earth! Earth, it's a beautiful Earth!"
+
+```
+
 #### search
 The .search(searchValue) method searches a string for a specified value and returns the position of the match.
 ```javascript
