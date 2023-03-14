@@ -43,6 +43,7 @@
      * [match](./topics/jsStrings.md/#match)
      * [repeat](./topics/jsStrings.md/#repeat)
      * [replace](./topics/jsStrings.md/#replace)
+     * [replaceAll](./topics/jsStrings.md/#replaceAll)
      * [search](./topics/jsStrings.md/#search)
      * [slice](./topics/jsStrings.md/#slice)
      * [split](./topics/jsStrings.md/#split)
