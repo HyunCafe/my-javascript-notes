@@ -316,6 +316,14 @@ function squareSum(arr) {
 }
 ```
 
+#### Sort by Last Char
+Return an array of words sorted alphabetically by the final character in each
+```javascript
+function last(x) {
+  return x.split(' ').sort((a, b) => a[a.length - 1].localeCompare(b[b.length - 1]));
+}
+```
+
 #### Sum of an Array
 ```javascript
 const sumAll = function(startNum, endNum) {
