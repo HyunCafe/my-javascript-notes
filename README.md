@@ -161,6 +161,7 @@
      * [Repeat each digit in string x number of times equal to its value](./topics/jsBoilerPlate.md/#Repeat-each-digit-in-string-x-number-of-times-equal-to-its-value)
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
      * [Square Root ForEach Array](./topics/jsBoilerPlate.md/#Square-Root-ForEach-Array)
+     * [Sort by Last Char](./topics/jsBoilerPlate.md/#Sort-by-Last-Char)     
      * [Sum of an Array](./topics/jsBoilerPlate.md/#Sum-of-an-Array)
    * [Loops BP](./topics/jsBoilerPlate.md/#Loops-BP)
      * [Factorial For Loop](./topics/jsBoilerPlate.md/#Factorial-For-Loop)
