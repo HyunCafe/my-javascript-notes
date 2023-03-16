@@ -1,6 +1,7 @@
 # Programming
 
 # Work in Progress, Will add more as as time progresses
+Mainly personal notes, so git commit messages are not thorough
 
 ## **Javascript**
 ### Table of Contents
