@@ -1,6 +1,8 @@
 // 1) Write a function that takes in a number and returns "even" if the number is even and "odd" if the number is odd using a ternary operator.
 
+
 // 2) Write a function that takes in a string and returns "long" if the length of the string is greater than 10, and "short" if the length of the string is less than or equal to 10 using a ternary operator.
+
 
 // 3) Write a function that takes in a number and returns "positive" if the number is greater than 0, "negative" if the number is less than 0, and "zero" if the number is equal to 0 using a ternary operator.
 

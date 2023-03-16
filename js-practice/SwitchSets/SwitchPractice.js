@@ -1,5 +1,6 @@
 // 1) Write a switch statement that takes in a number from 1-7 and returns the corresponding day of the week.
 
+
 // 2) Write a switch statement that takes in a string ‘red’, ‘green’, or ‘blue’ and returns the corresponding hex code.
 
 // 3) Write a switch statement that takes in a number from 1-12 and returns the corresponding month of the year.

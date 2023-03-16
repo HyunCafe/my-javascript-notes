@@ -1,6 +1,12 @@
 // 1) Write a function that takes in an object and returns the keys as an array.
+function returnKeys(obj) {
+    return Object.keys(obj);
+}
 
 // 2) Write a function that takes in an object and returns the values as an array.
+function returnVals(obj) {
+    return Object.values(obj);
+}
 
 // 3) Write a function that takes in two objects and returns true if they share at least one key-value pair.
 

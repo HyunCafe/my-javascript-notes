@@ -64,15 +64,66 @@ function arrSquared(arr) {
 }
 
 // 9) Write a function that takes in an array of strings and returns a new array with all the strings reversed using forEach. (Use Arrow Functions Only)
+function arrString(arr) {
+  let result = [];
+  arr.forEach((element) => {
+    result.push(element.split("").reverse().join(""));
+  });
+  return result;
+}
 
 // 10) Write a function that takes in an array of objects and returns a new array with the values of a specific property of each object using forEach. (Use Arrow Functions Only)
+const newArry = (arr, prop) => {
+  let result = [];
+  arr.forEach((element) => {
+    result.push(element[prop]);
+  });
+  return result;
+};
 
 // 11) Write a function that takes in an array of numbers and returns the smallest number using forEach. (Use Arrow Functions Only)
+const findSmallestNumber = (arr) => {
+  let smallestNum = arr[0];
+  arr.forEach((num) => {
+    if (num < smallestNum) smallestNum = num;
+  });
+  return smallestNum;
+};
 
 // 12) Write a function that takes in an array of strings and returns a new array with the length of each string using forEach. (Use Arrow Functions Only)
+const stringLength = (arr) => {
+  let result = [];
+  arr.forEach((element) => {
+    result.push(element.length);
+  });
+  return result;
+};
 
 // 13) Write a function that takes in an array of objects and returns a new array with the values of a specific nested property of each object using forEach. (Use Arrow Functions Only)
+const arryObj = (arr, value) => {
+  let newarr = [];
+  arr.forEach((element) => {
+    newarr.push(element[value]);
+  });
+  return newarr;
+};
 
 // 14) Write a function that takes in an array of numbers and returns the average of all numbers using forEach. (Use Arrow Functions Only)
+const arrNum = (num) => {
+  let average = 0;
+  num.forEach((element) => {
+    average *= element;
+  });
+  return average / num.length;
+};
 
 // 15) Write a function that takes in an array of objects and returns a new array with only the objects that have a specific property value using forEach. (Use Arrow Functions Only)
+function filterByPropertyValue(arr, property, value) {
+  const result = [];
+  arr.forEach((obj) => {
+    if (obj[property] === value) {
+      result.push(obj);
+    }
+  });
+  return result;
+}
