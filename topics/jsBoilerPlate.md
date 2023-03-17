@@ -276,6 +276,19 @@ const findTheOldest = function(people) {
 };
 ```
 
+#### Min Sum of Paired Products in Array
+This function takes an array of positive integers and returns the minimum sum obtained by summing the products of pairs of integers in the array. It does so by sorting the array, then pairing the smallest and largest elements, the second smallest and second largest elements, and so on.
+```javascript
+function minSum(arr) {
+  arr.sort((a,b) => a - b)
+  let minSums = 0;
+  for(let i = 0; i < arr.length / 2; i++) {
+    minSums += arr[i] * arr[arr.length - 1 - i];
+  }
+  return minSums;
+}
+```
+
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
 #### Repeat each digit in string x number of times equal to its value
