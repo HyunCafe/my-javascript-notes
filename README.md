@@ -159,6 +159,7 @@ Mainly personal notes, so git commit messages are not thorough
      * [Fibonacci FizzBuzz into an Array](./topics/jsBoilerPlate.md/#Fibonacci-FizzBuzz-into-an-Array)
      * [Find Smallest Int in Array](./topics/jsBoilerPlate.md/#Find-Smallest-Int-in-Array)
      * [Find Oldest Age in Array](./topics/jsBoilerPlate.md/#Find-Oldest-Age-in-Array)
+     * [Min Sum of Paired Products in Array](./topics/jsBoilerPlate.md/#Min-Sum-of-Paired-Products-in-Array)
      * [Repeat each digit in string x number of times equal to its value](./topics/jsBoilerPlate.md/#Repeat-each-digit-in-string-x-number-of-times-equal-to-its-value)
      * [Reverse a String or an Array](./topics/jsBoilerPlate.md/#Reverse-a-String-or-an-Array)
      * [Square Root ForEach Array](./topics/jsBoilerPlate.md/#Square-Root-ForEach-Array)
