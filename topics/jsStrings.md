@@ -28,6 +28,14 @@ function position(letter){
 }
 ```
 
+#### codePointAt
+The .codePointAt(position) method returns the Unicode code point value of the character at the specified position in a string.
+```javascript
+let str = "Hello, World!";
+let charCode = str.codePointAt(0);
+console.log(charCode); // Output: 72
+```
+
 #### concat
 The .concat(string1, string2, ...) method concatenates one or more strings to the calling string and returns a new string.
 ```javascript
