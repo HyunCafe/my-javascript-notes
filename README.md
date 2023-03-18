@@ -34,6 +34,7 @@ Mainly personal notes, so git commit messages are not thorough
   * [String Methods](./topics/jsStrings.md/#String-Methods)
      * [charAt](./topics/jsStrings.md/#charAt)
      * [charCodeAt](./topics/jsStrings.md/#charCodeAt)
+     * [codePointAt](./topics/jsStrings.md/#codePointat)
      * [concat](./topics/jsStrings.md/#concat)
      * [endsWith](./topics/jsStrings.md/#endsWith)
      * [includes](./topics/jsStrings.md/#includes)
