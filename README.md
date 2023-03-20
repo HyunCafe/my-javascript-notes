@@ -150,6 +150,7 @@ Mainly personal notes, so git commit messages are not thorough
      * [Concatenating Multiple Strings](./topics/jsBoilerPlate.md/#Concatenating-Multiple-Strings)
      * [Remove Whitespace](./topics/jsBoilerPlate.md/#Remove-Whitespace)
      * [Repeat a String](./topics/jsBoilerPlate.md/#Repeat-a-String)
+     * [Replace every a for b](./topics/jsBoilerPlate.md/#Replace-every-a-for-b)
      * [Sum of a String](./topics/jsBoilerPlate.md/#Sum-of-a-String)
    * [If Else BP](./topics/jsBoilerPlate.md/#Arrays-BP)
      * [Fibonacci](./topics/jsBoilerPlate.md/#Fibonacci)
