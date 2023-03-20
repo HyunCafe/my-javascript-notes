@@ -53,6 +53,14 @@ function repeatWord(num, str) {
 }
 repeatWord(2, "Hello"); // "HelloHello"
 ```
+
+#### Replace every a for b
+The switcheroo() function switches every occurrence of 'a' and 'b' in a given string.
+```javascript
+function switcheroo(x){
+  return x.replace(/a|b/g, letter => letter === 'a' ? 'b' : 'a');
+}
+```
 #### Sum of a String
 ```javascript
 //Example 1: Find Sum of Number using ForEach Loop
