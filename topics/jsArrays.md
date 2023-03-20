@@ -84,7 +84,6 @@ function createArrayWithDuplicateValue(n, val) {
 // Usage example
 let myArray = createArrayWithDuplicateValue(5, "hello");
 console.log(myArray); // Output: ["hello", "hello", "hello", "hello", "hello"]
-
 ```
 
 
@@ -106,6 +105,62 @@ function removeFromArray(array, ...elemRemove) {
 console.log(removeFromArray([1, 2, 3, 4, 5], 2, 4)); // [1, 3, 5]
 ```
 
+#### find
+returns the first element in the array that satisfies the provided testing function.
+```javascript
+array.find(callback(element[, index[, array]])[, thisArg])
+
+// Example:
+let array = [1, 2, 3, 4, 5];
+let found = array.find(element => element > 2);
+console.log(found); // Output: 3
+```
+
+#### findIndex
+returns the index of the first element in the array that satisfies the provided testing function; otherwise, it returns -1.
+```javascript
+array.findIndex(callback(element[, index[, array]])[, thisArg])
+
+// Example:
+let array = [1, 2, 3, 4, 5];
+let foundIndex = array.findIndex(element => element > 2);
+console.log(foundIndex); // Output: 2
+```
+
+#### findLast
+returns the last element in the array that satisfies the provided testing function.
+```javascript
+Array.prototype.findLast = function(callback) {
+  for (let i = this.length - 1; i >= 0; i--) {
+    if (callback(this[i], i, this)) {
+      return this[i];
+    }
+  }
+}
+
+// Example:
+let array = [1, 2, 3, 4, 5, 3];
+let foundLast = array.findLast(element => element === 3);
+console.log(foundLast); // Output: 3
+```
+
+#### findLastIndex
+returns the index of the last element in the array that satisfies the provided testing function; otherwise, it returns -1.
+```javascript
+Array.prototype.findLastIndex = function(callback) {
+  for (let i = this.length - 1; i >= 0; i--) {
+    if (callback(this[i], i, this)) {
+      return i;
+    }
+  }
+  return -1;
+}
+
+// Example:
+let array = [1, 2, 3, 4, 5, 3];
+let foundLastIndex = array.findLastIndex(element => element === 3);
+console.log(foundLastIndex); // Output: 5
+```
 #### flat 
 creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 ```javascript
@@ -120,6 +175,18 @@ console.log(array.flat(2)); // Output: [1, 2, 3, 4, 5, 6, 7]
 let myArray = [[1, 2], [3, 4], [5, 6]];
 let flattenedArray = myArray.flat();
 console.log(flattenedArray); // Output: [1, 2, 3, 4, 5, 6]
+```
+
+#### flatMap
+returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level.
+```javascript
+array.flatMap(callback(currentValue[, index[, array]])[, thisArg])
+
+// Example:
+let array = [1, 2, 3, 4, 5];
+let flattenedMapped = array.flatMap(x => [x, x * 2]);
+console.log(flattenedMapped); // Output: [1, 2, 2, 4, 3, 6, 4, 8, 5, 10]
+
 ```
 
 #### forEach
