@@ -131,6 +131,21 @@ const isAnagram = function(test, original) {
 };
 ```
 
+#### Check if Duplicate
+```javascript
+// Function to check if a string has unique characters
+function hasUniqueChars(str) {
+  const charSet = new Set();
+  for (const char of str) {
+    if (charSet.has(char)) {
+      return false; // Return false when a duplicate is found
+    }
+    charSet.add(char);
+  }
+  return true; // Return true when there are no duplicates
+}
+```
+
 #### Check if Isogram
 An isogram is a word or phrase that has no repeating letters
 ```javascript
