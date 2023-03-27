@@ -306,6 +306,22 @@ console.log(descriptor); // Output: { value: 'John', writable: true, enumerable:
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
+#### Object hasOwnProperty
+The hasOwnProperty() method can be used to check if an object has a given property as its own property (not inherited from its prototype).
+```javascript
+const person = {
+  name: 'John',
+  age: 30
+};
+
+// Check if person object has a property named 'name'
+if (person.hasOwnProperty('name')) {
+  console.log('Person object has a "name" property');
+} else {
+  console.log('Person object does not have a "name" property'); // Person object has a "name" property
+}
+```
+
 #### Object keys
 The Object.keys() method returns an array of a given object's own enumerable property names, in the same order as that provided by a for...in loop.
 ```javascript
