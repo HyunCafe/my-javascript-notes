@@ -120,6 +120,7 @@ Mainly personal notes, so git commit messages are not thorough
      * [Object defineProperty](./topics/jsGlobalObjects.md/#Object-defineProperty)
      * [Object entries](./topics/jsGlobalObjects.md/#Object-entries)
      * [Object freeze](./topics/jsGlobalObjects.md/#Object-freeze)
+     * [Object hasOwnProperty](./topics/jsGlobalObjects.md/#Object-hasOwnProperty)
      * [Object getOwnPropertyDescriptor](./topics/jsGlobalObjects.md/#Object-getOwnPropertyDescriptor)
      * [Object keys](./topics/jsGlobalObjects.md/#Object-keys)
      * [Object getOwnPropertyNames](./topics/jsGlobalObjects.md/#Object-getOwnPropertyNames)
