@@ -8,11 +8,6 @@ Angular (https://angular.io/): A platform for building web applications. It prov
 
 Vue.js (https://vuejs.org/): A progressive framework for building user interfaces. It is designed to be incrementally-adoptable and easily integrates with other libraries or existing projects.
 
-D3.js (https://d3js.org/): A library for manipulating documents based on data, allowing you to bind arbitrary data to the DOM and then apply data-driven transformations.
-
-Lodash (https://lodash.com/): A modern JavaScript utility library delivering modularity, performance, and extras. It simplifies working with arrays, numbers, objects, strings, etc.
-
-Three.js (https://threejs.org/): A library for creating and displaying 3D graphics in the browser using WebGL. It simplifies the WebGL API, making it easier to create 3D scenes.
 
 Axios (https://axios-http.com/): A promise-based HTTP client for the browser and Node.js, making it easier to send HTTP requests and manage responses in a more readable and concise way.
 
@@ -23,6 +18,7 @@ Axios (https://axios-http.com/): A promise-based HTTP client for the browser and
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [Day.js](https://day.js.org/) | A lightweight and easy-to-use library for parsing, formatting, and manipulating dates and times in JavaScript. It's similar to Moment.js but has a smaller footprint. | npm install dayjs
+[Date FNS](https://date-fns.org/) |  A modern JavaScript date utility library with a simple and functional API for manipulating, formatting, and parsing dates. |
 [Luxon](https://moment.github.io/luxon/) | A powerful library for working with dates and times, built by the team behind Moment.js. It offers a modern API and support for time zones and internationalization. | npm install luxon
 
 
@@ -38,15 +34,13 @@ Name | Description | Install |
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [FullCalendar](https://fullcalendar.io/) | A powerful and flexible library for creating interactive calendars with event handling, drag-and-drop support, and various view modes.
-[Date FNS](https://date-fns.org/) |  A modern JavaScript date utility library with a simple and functional API for manipulating, formatting, and parsing dates. |
 [Tui Calendar](https://ui.toast.com/tui-calendar/) | A full-featured calendar library that provides various view modes, custom events, and drag-and-drop support. |
 
 ### Animation
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[Three.js](https://threejs.org/) | A popular and widely used library for creating 3D graphics and animations in the browser. It provides a comprehensive set of tools and APIs for working with WebGL and supports a wide range of 3D object types and effects.	 | npm install three
-
+[Three.js](https://threejs.org/) | A library for creating and displaying 3D graphics in the browser using WebGL. It simplifies the WebGL API, making it easier to create 3D scenes.	| npm install three
 [GSAP](https://greensock.com/gsap/) | The GreenSock Animation Platform is a powerful and high-performance library for creating animations in JavaScript. It offers a simple API for animating CSS properties, SVG, and more.
 [Anime.js](https://animejs.com/) | A lightweight JavaScript animation library with a simple and flexible API, allowing you to create complex animations for various use cases, including CSS, SVG, and DOM attributes.
 [PixiJS](https://pixijs.com/) | A fast and lightweight 2D rendering engine for creating interactive graphics and animations on the web.	 | npm install pixi.js
@@ -87,7 +81,6 @@ Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [Parsley.js](http://parsleyjs.org/) | A lightweight and easy-to-use library for form validation, offering a wide range of built-in validators, as well as support for custom validation functions.
 [VeeValidate](https://vee-validate.logaretm.com/) | A template-based validation library for Vue.js that simplifies form validation by offering a set of built-in rules and an easy way to create custom validation rules.
-
 
 
 ### Utility Libraries
