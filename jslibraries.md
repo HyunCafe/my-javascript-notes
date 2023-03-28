@@ -45,6 +45,8 @@ Name | Description | Install |
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
+[Three.js](https://threejs.org/) | A popular and widely used library for creating 3D graphics and animations in the browser. It provides a comprehensive set of tools and APIs for working with WebGL and supports a wide range of 3D object types and effects.	 | npm install three
+
 [GSAP](https://greensock.com/gsap/) | The GreenSock Animation Platform is a powerful and high-performance library for creating animations in JavaScript. It offers a simple API for animating CSS properties, SVG, and more.
 [Anime.js](https://animejs.com/) | A lightweight JavaScript animation library with a simple and flexible API, allowing you to create complex animations for various use cases, including CSS, SVG, and DOM attributes.
 [PixiJS](https://pixijs.com/) | A fast and lightweight 2D rendering engine for creating interactive graphics and animations on the web.	 | npm install pixi.js
@@ -61,6 +63,7 @@ Name | Description | Install |
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
+[D3.js]([https://threejs.org/)](https://d3js.org/) | A powerful and flexible library for creating data visualizations in the browser. It provides a wide range of chart types, including bar, line, pie, and more, as well as tools for working with data and creating custom visualizations.	| npm install d3
 [Chart.js](https://www.chartjs.org/) | A simple yet flexible library for creating responsive and interactive charts in JavaScript. It supports various chart types, including bar, line, pie, and more.
 [Highcharts](https://www.highcharts.com/) | A feature-rich charting library for creating interactive charts with a wide range of chart types, including line, spline, area, column, pie, and more.
 
