@@ -100,6 +100,14 @@ Name | Description | Install |
 [Materialize](https://materializecss.com/)	| A modern responsive front-end framework based on Material Design principles, providing a wide range of UI components and features for building beautiful and functional web apps.	| npm install materialize-css
 [Tailwind CSS](https://tailwindcss.com/)	| A utility-first CSS framework that provides a set of pre-defined CSS classes for quickly building custom user interfaces. It's highly customizable and optimized for rapid prototyping and development.	| npm install tailwindcss
 
+#### Form Validation Libraries
+
+Name | Description | Install |
+------------- | ------------- | ------------- | 
+[Validate.js](https://validatejs.org/) |	A lightweight JavaScript form validation library that provides a simple way to validate form fields. It supports a wide range of validation rules and is easy to set up and customize. |	npm install validate.js
+(Parsley.js)[https://parsleyjs.org/]	| A powerful and user-friendly form validation library that provides real-time validation and error messages. It supports a wide range of validation rules and has a flexible API for custom validations. |	npm install parsleyjs
+(FormValidation)[https://formvalidation.io/] |	A comprehensive form validation library that provides a simple way to validate form fields and integrates with popular front-end frameworks. It supports a wide range of validation rules and provides a user-friendly interface for custom validations. |	npm install formvalidation
+
 ### State Management
 
 Name | Description | Install |
