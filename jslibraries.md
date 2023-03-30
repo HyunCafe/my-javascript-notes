@@ -105,8 +105,8 @@ Name | Description | Install |
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [Validate.js](https://validatejs.org/) |	A lightweight JavaScript form validation library that provides a simple way to validate form fields. It supports a wide range of validation rules and is easy to set up and customize. |	npm install validate.js
-(Parsley.js)[https://parsleyjs.org/]	| A powerful and user-friendly form validation library that provides real-time validation and error messages. It supports a wide range of validation rules and has a flexible API for custom validations. |	npm install parsleyjs
-(FormValidation)[https://formvalidation.io/] |	A comprehensive form validation library that provides a simple way to validate form fields and integrates with popular front-end frameworks. It supports a wide range of validation rules and provides a user-friendly interface for custom validations. |	npm install formvalidation
+[Parsley.js](https://parsleyjs.org/)	| A powerful and user-friendly form validation library that provides real-time validation and error messages. It supports a wide range of validation rules and has a flexible API for custom validations. |	npm install parsleyjs
+[FormValidation](https://formvalidation.io/) |	A comprehensive form validation library that provides a simple way to validate form fields and integrates with popular front-end frameworks. It supports a wide range of validation rules and provides a user-friendly interface for custom validations. |	npm install formvalidation
 
 ### State Management
 
