@@ -57,7 +57,7 @@ Name | Description | Install |
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[D3.js]([https://threejs.org/)](https://d3js.org/) | A powerful and flexible library for creating data visualizations in the browser. It provides a wide range of chart types, including bar, line, pie, and more, as well as tools for working with data and creating custom visualizations.	| npm install d3
+[D3.js](https://d3js.org/) | A powerful and flexible library for creating data visualizations in the browser. It provides a wide range of chart types, including bar, line, pie, and more, as well as tools for working with data and creating custom visualizations.	| npm install d3
 [Chart.js](https://www.chartjs.org/) | A simple yet flexible library for creating responsive and interactive charts in JavaScript. It supports various chart types, including bar, line, pie, and more.
 [Highcharts](https://www.highcharts.com/) | A feature-rich charting library for creating interactive charts with a wide range of chart types, including line, spline, area, column, pie, and more.
 
