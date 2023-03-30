@@ -18,7 +18,7 @@ Axios (https://axios-http.com/): A promise-based HTTP client for the browser and
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [Day.js](https://day.js.org/) | A lightweight and easy-to-use library for parsing, formatting, and manipulating dates and times in JavaScript. It's similar to Moment.js but has a smaller footprint. | npm install dayjs
-[Date FNS](https://date-fns.org/) |  A modern JavaScript date utility library with a simple and functional API for manipulating, formatting, and parsing dates. |
+[Date FNS](https://date-fns.org/) |  A modern JavaScript date utility library with a simple and functional API for manipulating, formatting, and parsing dates. | npm install date-fns |
 [Luxon](https://moment.github.io/luxon/) | A powerful library for working with dates and times, built by the team behind Moment.js. It offers a modern API and support for time zones and internationalization. | npm install luxon
 
 
@@ -26,68 +26,69 @@ Name | Description | Install |
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[Sortable.js](https://sortablejs.github.io/Sortable/) | A lightweight and dependency-free library for creating sortable, draggable lists with a native HTML5 drag-and-drop API.
-[Isotope](https://isotope.metafizzy.co/) | A library for creating dynamic, filterable, and sortable layouts for elements in a grid. It's particularly useful for creating responsive and interactive galleries or portfolios.
+[Sortable.js](https://sortablejs.github.io/Sortable/) | A lightweight and dependency-free library for creating sortable, draggable lists with a native HTML5 drag-and-drop API. | npm install sortablejs |
+[Isotope](https://isotope.metafizzy.co/) | A library for creating dynamic, filterable, and sortable layouts for elements in a grid. It's particularly useful for creating responsive and interactive galleries or portfolios. | npm install isotope-layout |
 
 ### Calendars and Scheduling
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[FullCalendar](https://fullcalendar.io/) | A powerful and flexible library for creating interactive calendars with event handling, drag-and-drop support, and various view modes.
-[Tui Calendar](https://ui.toast.com/tui-calendar/) | A full-featured calendar library that provides various view modes, custom events, and drag-and-drop support. |
+[FullCalendar](https://fullcalendar.io/) | A powerful and flexible library for creating interactive calendars with event handling, drag-and-drop support, and various view modes. | npm install fullcalendar |
+[Tui Calendar](https://ui.toast.com/tui-calendar/) | A full-featured calendar library that provides various view modes, custom events, and drag-and-drop support. | npm install tui-calendar |
 
 ### Animation
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [Three.js](https://threejs.org/) | A library for creating and displaying 3D graphics in the browser using WebGL. It simplifies the WebGL API, making it easier to create 3D scenes.	| npm install three
-[GSAP](https://greensock.com/gsap/) | The GreenSock Animation Platform is a powerful and high-performance library for creating animations in JavaScript. It offers a simple API for animating CSS properties, SVG, and more.
-[Anime.js](https://animejs.com/) | A lightweight JavaScript animation library with a simple and flexible API, allowing you to create complex animations for various use cases, including CSS, SVG, and DOM attributes.
-[PixiJS](https://pixijs.com/) | A fast and lightweight 2D rendering engine for creating interactive graphics and animations on the web.	 | npm install pixi.js
+[GSAP](https://greensock.com/gsap/) | The GreenSock Animation Platform is a powerful and high-performance library for creating animations in JavaScript. It offers a simple API for animating CSS properties, SVG, and more. | npm install gsap |
+[Anime.js](https://animejs.com/) | A lightweight JavaScript animation library with a simple and flexible API, allowing you to create complex animations for various use cases, including CSS, SVG, and DOM attributes. | npm install animejs |
+[PixiJS](https://pixijs.com/) | A fast and lightweight 2D rendering engine for creating interactive graphics and animations on the web.	 | npm install pixi.js |
 
 ### Carousel
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [Swiper](https://swiperjs.com/) |Swiper is a popular and powerful JavaScript library for creating mobile-friendly touch slider and carousel components.  | npm install swiper
-[Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) | Owl Carousel 2 is a feature-rich, touch-enabled jQuery plugin that lets you create responsive, customizable carousels with a variety of options and effects. It offers various built-in features, such as autoplay, loop, lazy load, navigation, and more.
-[Slick Carousel](https://kenwheeler.github.io/slick/) | Slick is a fully responsive, touch-enabled, and highly customizable jQuery carousel plugin. It provides features like infinite looping, autoplay, lazy loading, swipe-to-slide, and more. With its extensive list of options and methods, Slick Carousel is a versatile choice for creating modern and interactive carousels on your website.
+[Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) | Owl Carousel 2 is a feature-rich, touch-enabled jQuery plugin that lets you create responsive, customizable carousels with a variety of options and effects. It offers various built-in features, such as autoplay, loop, lazy load, navigation, and more. | npm install owl.carousel |
+[Slick Carousel](https://kenwheeler.github.io/slick/) | Slick is a fully responsive, touch-enabled, and highly customizable jQuery carousel plugin. It provides features like infinite looping, autoplay, lazy loading, swipe-to-slide, and more. With its extensive list of options and methods, Slick Carousel is a versatile choice for creating modern and interactive carousels on your website. | npm install slick-carousel |
 
 ### Charts and Data Visualization
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
 [D3.js](https://d3js.org/) | A powerful and flexible library for creating data visualizations in the browser. It provides a wide range of chart types, including bar, line, pie, and more, as well as tools for working with data and creating custom visualizations.	| npm install d3
-[Chart.js](https://www.chartjs.org/) | A simple yet flexible library for creating responsive and interactive charts in JavaScript. It supports various chart types, including bar, line, pie, and more.
-[Highcharts](https://www.highcharts.com/) | A feature-rich charting library for creating interactive charts with a wide range of chart types, including line, spline, area, column, pie, and more.
+[Chart.js](https://www.chartjs.org/) | A simple yet flexible library for creating responsive and interactive charts in JavaScript. It supports various chart types, including bar, line, pie, and more. | npm install chart.js |
+[Highcharts](https://www.highcharts.com/) | A feature-rich charting library for creating interactive charts with a wide range of chart types, including line, spline, area, column, pie, and more. | npm install highcharts |
 
 ### Drag-and-Drop
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[Draggable](https://shopify.github.io/draggable/) | A lightweight and accessible drag-and-drop library developed by Shopify that provides a simple API for creating draggable interfaces, including support for touch devices and keyboard interactions.
-[interact.js](https://interactjs.io/) | A powerful library for handling drag-and-drop, resizing, and multi-touch gestures in the browser. It's highly configurable and works with various input types, including touch, mouse, and pen.
+[Draggable](https://shopify.github.io/draggable/) | A lightweight and accessible drag-and-drop library developed by Shopify that provides a simple API for creating draggable interfaces, including support for touch devices and keyboard interactions. | npm install @shopify/draggable |
+[interact.js](https://interactjs.io/) | A powerful library for handling drag-and-drop, resizing, and multi-touch gestures in the browser. It's highly configurable and works with various input types, including touch, mouse, and pen. | npm install interactjs |
+[Sortable.js](https://github.com/SortableJS/Sortable) | is a lightweight and dependency-free library for creating sortable, draggable lists with a native HTML5 drag-and-drop API. | npm install sortablejs |
 
 ### User Interface
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[SweetAlert2](https://sweetalert2.github.io/) | A beautiful, responsive, customizable, and accessible replacement for JavaScript's popup boxes, including alerts, prompts, and confirmations.
-[Select2](https://select2.org/) | A library that enhances the functionality of native HTML select elements, adding features like search, pagination, and customization.
+[SweetAlert2](https://sweetalert2.github.io/) | A beautiful, responsive, customizable, and accessible replacement for JavaScript's popup boxes, including alerts, prompts, and confirmations. | npm install sweetalert2 |
+[Select2](https://select2.org/) | A library that enhances the functionality of native HTML select elements, adding features like search, pagination, and customization. | npm install select2 |
 
 ### Form Validation
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[Parsley.js](http://parsleyjs.org/) | A lightweight and easy-to-use library for form validation, offering a wide range of built-in validators, as well as support for custom validation functions.
-[VeeValidate](https://vee-validate.logaretm.com/) | A template-based validation library for Vue.js that simplifies form validation by offering a set of built-in rules and an easy way to create custom validation rules.
+[Parsley.js](http://parsleyjs.org/) | A lightweight and easy-to-use library for form validation, offering a wide range of built-in validators, as well as support for custom validation functions.| npm install parsleyjs |
+[VeeValidate](https://vee-validate.logaretm.com/) | A template-based validation library for Vue.js that simplifies form validation by offering a set of built-in rules and an easy way to create custom validation rules. | npm install vee-validate |
 
 
 ### Utility Libraries
 
 Name | Description | Install |
 ------------- | ------------- | ------------- | 
-[Lodash](https://lodash.com/)	| A popular and widely used utility library for working with arrays, objects, and other data types in JavaScript.	npm install lodash
+[Lodash](https://lodash.com/)	| A popular and widely used utility library for working with arrays, objects, and other data types in JavaScript. |	npm install lodash |
 [Underscore.js](https://underscorejs.org/)	| A utility library that provides a wide range of functional programming helpers, as well as utility functions for working with arrays, objects, and strings.	| npm install underscore
 [Ramda](https://ramdajs.com/)	| A functional programming library for JavaScript that emphasizes immutability and data transformations. It provides a wide range of functions for working with arrays, objects, and functions.	| npm install ramda
 
