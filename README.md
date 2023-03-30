@@ -207,6 +207,7 @@ Mainly personal notes, so git commit messages are not thorough
 * TODO: Add Attributes, - Form Validations etc link to https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept
 
 <p align="center">CSS</p>
+[Constraint Validations](https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation)
 
 --------------------------------------------------------------------------------------------------
 * [Selector Types](./topics/css.md/#Selector-Types)
