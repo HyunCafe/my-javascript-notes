@@ -10,6 +10,9 @@ Mainly personal notes, so git commit messages are not thorough
 <p align="center">JavaScript</p>
 
 --------------------------------------------------------------------------------------------------
+* [VS Code Shortcuts](#vs-code-shortcuts)
+  * [Code Navigation Shortcuts](#code-navigation-shortcuts)
+-------------------------------------------------------------------------------------------------- 
 * [Functions](./topics/jsFunctionsandConditionals.md/#Functions)
   * [Arrow Functions](./topics/jsFunctionsandConditionals.md/#Arrow-Functions)
  * [Conditional Statements](./topics/jsFunctionsandConditionals.md/#Conditional-Statements)
@@ -222,3 +225,19 @@ Mainly personal notes, so git commit messages are not thorough
 * [CSS Value Functions](./topics/css.md/#CSS-Value-Functions)
 * [Rules of Specificity](./topics/css.md/#Rules-of-Specificity)
 --------------------------------------------------------------------------------------------------
+
+## VS Code Shortcuts
+
+#### Code Navigation Shortcuts
+Action |	Windows/Linux Shortcut	| Mac Shortcut
+------------- | ------------- | ------------- | 
+Move line(s) up/down |	Alt + ↑/↓	| Option + ↑/↓
+Copy line(s) up/down |	Shift + Alt + ↑/↓	|	Shift + Option + ↑/↓
+Delete line(s)	| Ctrl + Shift + K		|Command + Shift + K
+Comment/uncomment line(s)	| Ctrl + /	| Command + /
+Indent/unindent line(s) |	Ctrl + ]/[ |	Command + ]/[
+Move cursor to beginning/end of line |	Home/End	| Home/End
+Move cursor to beginning/end of file	| Ctrl + Home/End	|	Command + Home/End
+Select line(s)	| Ctrl + L	|	Command + L
+Select all instances of a word	| Ctrl + Shift + L	| Command + Shift + L
+Duplicate line(s)	| Shift + Alt + ↑/↓	| Shift + Option + ↑/↓
