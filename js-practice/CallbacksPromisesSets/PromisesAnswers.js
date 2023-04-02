@@ -1,152 +1,77 @@
 // 1
-const myPromise = new Promise((resolve, reject) => {
-    resolve("Success!");
+const promise1 = new Promise((resolve, reject) => {
+    resolve("Hello, world!");
   });
   
-  myPromise.then((result) => {
-    console.log(result); // logs "Success!"
-  });
 
 // 2
-const myPromise = new Promise((resolve, reject) => {
-    reject("Error!");
+const promise2 = new Promise((resolve, reject) => {
+    const randomNumber = Math.floor(Math.random() * 10) + 1;
+    resolve(randomNumber);
   });
   
-  myPromise.catch((error) => {
-    console.log(error); // logs "Error!"
-  });
 
   // 3
-  const myPromise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Success!");
-    }, 2000);
+  const promise3 = new Promise((resolve, reject) => {
+    const num1 = 5;
+    const num2 = 10;
+    const result = num1 + num2;
+    resolve(result);
   });
   
-  myPromise.then((result) => {
-    console.log(result); // logs "Success!" after 2 seconds
-  });
 
   
   // 4
-  const fetchUserData = () => {
-    return fetch("https://jsonplaceholder.typicode.com/users/1")
-      .then((response) => response.json())
-      .then((data) => {
-        return data.name;
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
-  
-  fetchUserData().then((name) => {
-    console.log(name); // logs the name of the user
-  });
+  const promise4 = fetch('https://api.example.com/data')
+  .then(response => response.json());
 
   
   // 5
-  const fetchUserData = async () => {
-    try {
-      const response = await fetch("https://jsonplaceholder.typicode.com/users/1");
-      const data = await response.json();
-      return data.name;
-    } catch (error) {
-      console.log(error);
-    }
+  const asyncFunction = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve("Async operation result");
+      }, 2000);
+    });
   };
   
-  fetchUserData().then((name) => {
-    console.log(name); // logs the name of the user
-  });
-
+  const promise5 = asyncFunction();
+  
   
   // 6 
-  const myPromise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Success!");
-    }, 2000);
-  });
-  
-  const handleError = (error) => {
-    console.log(error);
+  const sumArray = (arr) => {
+    return new Promise((resolve, reject) => {
+      if (arr.length === 0) {
+        reject("Array is empty");
+      } else {
+        const sum = arr.reduce((acc, curr) => acc + curr);
+        resolve(sum);
+      }
+    });
   };
   
-  myPromise
-    .then((result) => {
-      console.log(result);
-      return "Another promise";
-    })
-    .then((result) => {
-      console.log(result);
-      throw "Error!";
-    })
-    .catch(handleError);
-
     
     // 7 
-    const myPromise = new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve("Success!");
-        }, 2000);
+    const promise7 = Promise.all([
+        fetch('https://api.example.com/data1').then(response => response.json()),
+        fetch('https://api.example.com/data2').then(response => response.json())
+      ])
+      .then(data => {
+        const result = {
+          data1: data[0],
+          data2: data[1]
+        };
+        return result;
       });
       
-      const handleError = (error) => {
-        console.log(error);
-      };
-      
-      myPromise
-        .then((result) => {
-          console.log(result);
-          return new Promise((resolve) => {
-            setTimeout(() => {
-              resolve("Another promise");
-            }, 2000);
-          });
-        })
-        .then((result) => {
-          console.log(result);
-          return new Promise((resolve, reject) => {
-            setTimeout(() => {
-              reject("Error!");
-            }, 2000);
-          });
-        })
-        .catch(handleError);
 
         
     // 8
-    const myPromise = new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve("Success!");
-        }, 2000);
-      });
-      
-      const handleError = (error) => {
-        console.log(error);
+    const replaceVowels = (str) => {
+        return new Promise((resolve, reject) => {
+          const regex = /[aeiou]/gi;
+          const result = str.replace(regex, 'x');
+          resolve(result);
+        });
       };
-      
-      const handleFinally = () => {
-        console.log("Promise has resolved or rejected");
-      };
-      
-      myPromise
-        .then((result) => {
-          console.log(result);
-          return new Promise((resolve) => {
-            setTimeout(() => {
-              resolve("Another promise");
-            }, 2000);
-          });
-        })
-        .then((result) => {
-          console.log(result);
-          return new Promise((resolve, reject) => {
-            setTimeout(() => {
-              reject("Error!");
-            }, 2000);
-          });
-        })
-        .catch(handleError)
-       
       

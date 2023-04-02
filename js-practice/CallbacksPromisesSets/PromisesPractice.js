@@ -6,9 +6,11 @@
 
 // 4) Create a Promise that resolves with the result of calling an API endpoint using the Fetch API.
 
-// 5) Create a Promise that resolves with the result of calling a function that returns a Promise. The function should simulate an async operation by using setTimeout to delay the resolution of the Promise by 2 seconds.
+// 5) Create a Promise that resolves with the result of calling a function that returns a Promise. 
+// The function should simulate an async operation by using setTimeout to delay the resolution of the Promise by 2 seconds.
 
-// 6) Create a function that takes an array of numbers as an argument and returns a Promise that resolves with the sum of the numbers in the array. If the array is empty, the Promise should reject with an error message.
+// 6) Create a function that takes an array of numbers as an argument and returns a Promise that resolves with the sum of the numbers in the array. 
+// If the array is empty, the Promise should reject with an error message.
 
 // 7) Create a Promise that resolves with the result of calling two separate API endpoints and combining their results into a single object.
 

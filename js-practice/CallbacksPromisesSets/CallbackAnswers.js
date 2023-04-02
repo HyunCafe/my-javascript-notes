@@ -1,37 +1,103 @@
 // 1
-function greet(name, callback) { return callback(`Hello, ${name}`); }
-
+function getSquare(num, callback) {
+    const result = num * num;
+    callback(result);
+  }
+  
+  // example usage:
+  getSquare(5, (result) => {
+    console.log(result);
+  });
+  
 // 2
-function getTitle(book, callback) { return callback(book.title); }
-
+function getPower(base, exponent, callback) {
+    const result = Math.pow(base, exponent);
+    callback(result);
+  }
+  
+  // example usage:
+  getPower(2, 3, (result) => {
+    console.log(result);
+  });
+  
 // 3
-function start(vehicle, callback) { return callback(`The ${vehicle.make} ${vehicle.model} has started.`); }
-
+function getLength(arr, callback) {
+    const result = arr.length;
+    callback(result);
+  }
+  
+  // example usage:
+  getLength([1, 2, 3], (result) => {
+    console.log(result);
+  });
+  
 // 4
-function getArea(rectangle, callback) { return callback(rectangle.width * rectangle.height); }
-
+function getSum(arr, callback) {
+    const result = arr.reduce((acc, curr) => acc + curr);
+    callback(result);
+  }
+  
+  // example usage:
+  getSum([1, 2, 3], (result) => {
+    console.log(result);
+  });
+  
 // 5
-function withdrawFromAccount(amount, account, successCallback, errorCallback) { if (account.balance >= amount) { account.balance -= amount; return successCallback(account.balance); } else { return errorCallback('Insufficient funds'); } }
-
+function getMax(arr, callback) {
+    const result = Math.max(...arr);
+    callback(result);
+  }
+  
+  // example usage:
+  getMax([1, 2, 3], (result) => {
+    console.log(result);
+  });
+  
 // 6
-function Car(make, model) { Vehicle.call(this, make, model); } Car.prototype = Object.create(Vehicle.prototype); Car.prototype.drive = function() { console.log(The ${this.make} ${this.model} is driving!); };
-
+function filterArray(arr, callback) {
+    const result = arr.filter(callback);
+    callback(result);
+  }
+  
+  // example usage:
+  filterArray([1, 2, 3], (num) => num > 1, (result) => {
+    console.log(result);
+  });
+  
 // 7
-function Square(sideLength) { Rectangle.call(this, sideLength, sideLength); } Square.prototype = Object.create(Rectangle.prototype);
-
+function reduceArray(arr, callback, initialValue) {
+    const result = arr.reduce(callback, initialValue);
+    callback(result);
+  }
+  
+  // example usage:
+  reduceArray([1, 2, 3], (acc, curr) => acc + curr, 0, (result) => {
+    console.log(result);
+  });
+  
 //  8
-function Person(name) { this.name = name; } Person.prototype.sayHi = function() { console.log(`Hi, my name is ${this.name}`);
-};
-
-function Student(name, grade) {
-Person.call(this, name);
-this.grade = grade;
-}
-Student.prototype = Object.create(Person.prototype);
-Student.prototype.showGrade = function() {
-console.log(`My grade is ${this.grade}`);
-};
-
-const student1 = new Student('Alice', 'A');
-student1.sayHi(); // Hi, my name is Alice
-student1.showGrade(); // My grade is A`
+function getWeather(location, callback) {
+    const apiKey = 'your-api-key-here';
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
+    
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        const weatherData = {
+          description: data.weather[0].description,
+          temperature: data.main.temp,
+          feelsLike: data.main.feels_like,
+          humidity: data.main.humidity
+        };
+        callback(weatherData);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
+  
+  // example usage:
+  getWeather('New York', (weatherData) => {
+    console.log(weatherData);
+  });
+  
