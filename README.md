@@ -7,12 +7,14 @@ Mainly personal notes, so git commit messages are not thorough
 ### Table of Contents
 
 
-<p align="center">JavaScript</p>
+<p align="center">VS Code</p>
 
 --------------------------------------------------------------------------------------------------
 * [VS Code Shortcuts](#vs-code-shortcuts)
   * [Code Navigation Shortcuts](#code-navigation-shortcuts)
 -------------------------------------------------------------------------------------------------- 
+<p align="center">JavaScript</p>
+
 * [Functions](./topics/jsFunctionsandConditionals.md/#Functions)
   * [Arrow Functions](./topics/jsFunctionsandConditionals.md/#Arrow-Functions)
  * [Conditional Statements](./topics/jsFunctionsandConditionals.md/#Conditional-Statements)
