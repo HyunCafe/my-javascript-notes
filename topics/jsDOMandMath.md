@@ -160,6 +160,17 @@ rounds a number up to the nearest integer. (if 2.1 rounds to 3)
 let x = 4.1;
 let roundedUpX = Math.ceil(x); // 5
 console.log(roundedUpX);
+
+// Example: Rounding up to the nearest multiple of a given number
+function roundUpToNearestMultiple(num, multiple) {
+  return Math.ceil(num / multiple) * multiple;
+}
+
+// Example 2: Rounding up to the nearest power of 2
+function roundUpToNearestPowerOf2(num) {
+  return Math.pow(2, Math.ceil(Math.log2(num)));
+}
+
 ```
 
 #### Math floor
