@@ -29,6 +29,77 @@ const rules = {
 };
 ```
 
+
+
+## Algorithms
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+### Sorting
+
+#### Bubble Sort
+
+#### Selection Sort
+
+#### Insertion Sort
+
+#### Merge Sort
+Merge sort is a sorting algorithm that works by dividing a list into smaller parts, sorting them, and then combining them back together in a sorted order. The process involves two main steps:
+
+Divide: Split the list in half repeatedly until you have lists with only one element each. These one-element lists are considered sorted.
+Merge: Combine these small sorted lists back together by comparing and merging pairs of adjacent lists, resulting in a single sorted list.
+This process continues recursively until the original list is completely sorted.
+```javascript
+function mergeSort(arr) {
+  if (arr.length <= 1) {
+    return arr;
+  }
+
+  const middle = Math.floor(arr.length / 2);
+  const left = arr.slice(0, middle);
+  const right = arr.slice(middle);
+
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+function merge(left, right) {
+  const result = [];
+
+  while (left.length && right.length) {
+    if (left[0] < right[0]) {
+      result.push(left.shift());
+    } else {
+      result.push(right.shift());
+    }
+  }
+
+  return result.concat(left, right);
+}
+
+// Usage example
+const unsortedArray = [34, 7, 23, 32, 5, 62];
+const sortedArray = mergeSort(unsortedArray);
+console.log(sortedArray);
+```
+[Youtube Video](https://www.youtube.com/watch?v=mB5HXBb_HY8&t=577s&ab_channel=AbdulBari)
+
+#### Quick Sort
+
+#### Counting Sort
+
+#### Radix Sort
+
+#### Heap Sort
+
+#### Bucket Sort
+
+
+
+
+
+
+
+
 ## Big O Complexity
 Big-O notation, represents an algorithm's worst-case complexity. It uses algebraic terms to describe the complexity of an algorithm, allowing you to measure its efficiency and performance.
 
