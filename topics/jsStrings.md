@@ -213,13 +213,14 @@ let result = str.startsWith("Hello");
 console.log(result); // Output: true
 ```
 
-#### substr
-The .substr(start, length) method returns a subset of a string starting from a specified index and with a specified length
+#### ~substr~ legacy
+~The .substr(start, length) method returns a subset of a string starting from a specified index and with a specified length~
 ```javascript
 let str = "Hello World!";
 let sub = str.substr(2, 6);
 console.log(sub); // "llo Wo"
 ```
+
 
 #### substring
 The substring() method returns a subset of a string between a start and end index
