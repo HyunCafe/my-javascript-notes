@@ -50,25 +50,40 @@ Divide: Split the list in half repeatedly until you have lists with only one ele
 Merge: Combine these small sorted lists back together by comparing and merging pairs of adjacent lists, resulting in a single sorted list.
 This process continues recursively until the original list is completely sorted.
 ```javascript
+// The mergeSort function is the main sorting function.
 function mergeSort(arr) {
+  // Base case: If the array has 1 or 0 elements, it's already sorted.
   if (arr.length <= 1) {
     return arr;
   }
 
+  // Find the middle index of the array.
   const middle = Math.floor(arr.length / 2);
+  // Split the array into two parts: left and right.
   const left = arr.slice(0, middle);
   const right = arr.slice(middle);
 
+  // Recursively sort both the left and right parts of the array,
+  // then merge them back together.
   return merge(mergeSort(left), mergeSort(right));
 }
 
+// The merge function combines two sorted arrays (left and right) into a single sorted array.
 function merge(left, right) {
   const result = [];
 
+  // The while loop continues as long as both left and right arrays have elements.
   while (left.length && right.length) {
+    // Compare the first elements of left and right arrays.
+    // If the first element in the left array is smaller,
+    // remove it from the left array using shift() and push it to the result array.
+    // Otherwise, remove the first element from the right array and push it to the result array.
     result.push(left[0] < right[0] ? left.shift() : right.shift());
   }
 
+  // At this point, either the left or right array is empty (or both).
+  // Concatenate any remaining elements from left and right arrays to the result array.
+  // Since left and right arrays are already sorted, this step maintains the sorted order.
   return [...result, ...left, ...right];
 }
 
@@ -76,6 +91,7 @@ function merge(left, right) {
 const unsortedArray = [34, 7, 23, 32, 5, 62];
 const sortedArray = mergeSort(unsortedArray);
 console.log(sortedArray);
+
 ```
 [Youtube Video](https://www.youtube.com/watch?v=mB5HXBb_HY8&t=577s&ab_channel=AbdulBari)
 
