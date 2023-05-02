@@ -55,7 +55,7 @@ Mainly personal notes, so git commit messages are not thorough
      * [slice](./topics/jsStrings.md/#slice)
      * [split](./topics/jsStrings.md/#split)
      * [startsWith](./topics/jsStrings.md/#starsWith)
-     * [substr](./topics/jsStrings.md/#substr)
+     * ~[substr](./topics/jsStrings.md/#substr)~ legacy
      * [substring](./topics/jsStrings.md/#substring)
      * [toLowerCase](./topics/jsStrings.md/#toLowerCase)
      * [toString](./topics/jsStrings.md/#toString)
