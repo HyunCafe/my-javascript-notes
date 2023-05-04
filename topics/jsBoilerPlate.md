@@ -299,6 +299,16 @@ const findTheOldest = function(people) {
 };
 ```
 
+#### Find Unique Number in Array
+```javascript
+function findUniq(arr) {
+  return arr.find(num => arr.indexOf(num) === arr.lastIndexOf(num));
+}
+
+console.log(findUniq([1, 1, 1, 2, 1, 1])); // Output: 2
+console.log(findUniq([0, 0, 0.55, 0, 0])); // Output: 0.55
+```
+
 #### Min Sum of Paired Products in Array
 This function takes an array of positive integers and returns the minimum sum obtained by summing the products of pairs of integers in the array. It does so by sorting the array, then pairing the smallest and largest elements, the second smallest and second largest elements, and so on.
 ```javascript
