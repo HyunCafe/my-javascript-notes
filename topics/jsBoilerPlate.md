@@ -301,6 +301,32 @@ const findTheOldest = function(people) {
 
 #### Find Unique Number in Array
 ```javascript
+// Example 1:
+function findUniq(arr) {
+  const counter = {};
+
+  // Iterate through the array and count the occurrences of each number
+  for (let i = 0; i < arr.length; i++) {
+    const num = arr[i];
+    if (counter[num] === undefined) {
+      counter[num] = 1;
+    } else {
+      counter[num]++;
+    }
+  }
+
+  // Iterate through the counter object to find the unique number
+  for (const num in counter) {
+    if (counter[num] === 1) {
+      return parseFloat(num);
+    }
+  }
+}
+
+console.log(findUniq([1, 1, 1, 2, 1, 1])); // Output: 2
+console.log(findUniq([0, 0, 0.55, 0, 0])); // Output: 0.55
+
+// Example 2
 function findUniq(arr) {
   return arr.find(num => arr.indexOf(num) === arr.lastIndexOf(num));
 }
