@@ -119,6 +119,8 @@ Big-O notation, represents an algorithm's worst-case complexity. It uses algebra
 
 [Big O Cheat Sheet](https://www.30secondsofcode.org/articles/s/big-o-cheatsheet)
 
+[image](https://user-images.githubusercontent.com/75151110/236583157-3bea9ecf-d783-44a1-8a54-71233998a9b5.png)
+
 <img align="center" width="500" src="https://raw.githubusercontent.com/HyunCafe/HyunCafe/main/assests/bigo.png"  alt="big o complexity chart" />
 
 ### Common Data Structure Operations
