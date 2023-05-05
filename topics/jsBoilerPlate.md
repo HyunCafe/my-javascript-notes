@@ -32,6 +32,25 @@ function tripleTrouble(one, two, three){
 console.log(tripleTrouble("1234", "1234", "1234")); // Output: "11223344"
 ```
 
+#### Highest Scoring Word
+```javascript
+function high(x) {
+  return x.split(' ').reduce((highestScoringWord, currentWord) => {
+    const wordScore = currentWord
+      .split('')
+      .map((letter) => letter.charCodeAt(0) - 'a'.charCodeAt(0) + 1)
+      .reduce((a, b) => a + b, 0);
+
+    const highestScore = highestScoringWord
+      .split('')
+      .map((letter) => letter.charCodeAt(0) - 'a'.charCodeAt(0) + 1)
+      .reduce((a, b) => a + b, 0);
+
+    return wordScore > highestScore ? currentWord : highestScoringWord;
+  });
+}
+```
+
 #### Remove Whitespace
 ```javascript
 let str = "Hello World";
