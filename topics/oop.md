@@ -128,29 +128,29 @@ Different data structures have different time complexities for the same operatio
 
 #### Average Time Complexity
 ```javascript
-| Data Structure      | Access   | Search   | Insertion | Deletion  |
-|---------------------|----------|----------|-----------|-----------|
-| Array               | Θ(1)     | Θ(n)     | Θ(n)      | Θ(n)      |
-| Queue               | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      |
-| Stack               | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      |
-| Linked List         | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      |
-| Doubly Linked List  | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      |
-| Skip List           | Θ(log n) | Θ(log n) | Θ(log n)  | Θ(log n)  |
-| Hash Table          | N/A      | Θ(1)     | Θ(1)      | Θ(1)      |
-| Binary Search Tree  | Θ(log n) | Θ(log n) | Θ(log n)  | Θ(log n)  |
+| Data Structure      | Access   | Search   | Insertion | Deletion  | Space Complexity |
+|---------------------|----------|----------|-----------|-----------|------------------|
+| Array               | Θ(1)     | Θ(n)     | Θ(n)      | Θ(n)      | Θ(n)             |
+| Queue               | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      | Θ(n)             |
+| Stack               | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      | Θ(n)             |
+| Linked List         | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      | Θ(n)             |
+| Doubly Linked List  | Θ(n)     | Θ(n)     | Θ(1)      | Θ(1)      | Θ(n)             |
+| Skip List           | Θ(log n) | Θ(log n) | Θ(log n)  | Θ(log n)  | O(n log(n))      |
+| Hash Table          | N/A      | Θ(1)     | Θ(1)      | Θ(1)      | Θ(n)             |
+| Binary Search Tree  | Θ(log n) | Θ(log n) | Θ(log n)  | Θ(log n)  | Θ(n)             |
 ```
 #### Worst Time Complexity
 ```javascript
-| Data Structure     | Access | Search | Insertion | Deletion |
-|--------------------|--------|--------|-----------|----------|
-| Array              | O(1)   | O(n)   | O(n)      | O(n)     |
-| Queue              | O(n)   | O(n)   | O(1)      | O(1)     |
-| Stack              | O(n)   | O(n)   | O(1)      | O(1)     |
-| Linked List        | O(n)   | O(n)   | O(1)      | O(1)     |
-| Doubly Linked List | O(n)   | O(n)   | O(1)      | O(1)     |
-| Skip List          | O(n)   | O(n)   | O(n)      | O(n)     |
-| Hash Table         | N/A    | O(n)   | O(n)      | O(n)     |
-| Binary Search Tree | O(n)   | O(n)   | O(n)      | O(n)     |
+| Data Structure     | Access | Search | Insertion | Deletion | Space Complexity |
+|--------------------|--------|--------|-----------|----------|------------------|
+| Array              | O(1)   | O(n)   | O(n)      | O(n)     | Θ(n)             |
+| Queue              | O(n)   | O(n)   | O(1)      | O(1)     | Θ(n)             |
+| Stack              | O(n)   | O(n)   | O(1)      | O(1)     | Θ(n)             |
+| Linked List        | O(n)   | O(n)   | O(1)      | O(1)     | Θ(n)             |
+| Doubly Linked List | O(n)   | O(n)   | O(1)      | O(1)     | Θ(n)             |
+| Skip List          | O(n)   | O(n)   | O(n)      | O(n)     | O(n log(n))      |
+| Hash Table         | N/A    | O(n)   | O(n)      | O(n)     | Θ(n)             |
+| Binary Search Tree | O(n)   | O(n)   | O(n)      | O(n)     | Θ(n)             |
 ```
 
 ### Array Sorting Algorithms
