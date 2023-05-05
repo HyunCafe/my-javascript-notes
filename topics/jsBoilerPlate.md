@@ -433,6 +433,30 @@ function factorial(n) {
 const arrayChoices = ["choice1", "choice2", "choice3", ...etc];
 const randomSelect = arrayChoices[Math.floor(Math.random() * arrayChoices.length)];
 ```
+### Numbers BP
+
+[Back to Table of Contents](../README.md/#Table-of-Contents)
+
+#### Unicode Convert
+```javascript
+function letterToAlphabetPosition(letter) {
+  // The following line calculates the position of the letter in the alphabet
+  // by subtracting the Unicode value of 'a' and adding 1.
+  // If you want to change the base value, e.g. to use 'b' as the starting point,
+  // replace 'a' with 'b', or any other letter you want to use as the base.
+  return letter.charCodeAt(0) - 'a'.charCodeAt(0) + 1;
+}
+
+// Examples:
+console.log(letterToAlphabetPosition('a')); // 1
+console.log(letterToAlphabetPosition('b')); // 2
+console.log(letterToAlphabetPosition('c')); // 3
+
+// To use the function with different base values, change the base letter
+// in the function definition, e.g. 'a'.charCodeAt(0) to 'b'.charCodeAt(0)
+// Then the values will be calculated with the new base value:
+// 'b' will be 1, 'c' will be 2, 'd' will be 3, etc.
+```
 
 ### Regex BP
 
