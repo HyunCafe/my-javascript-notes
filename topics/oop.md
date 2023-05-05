@@ -165,3 +165,170 @@ Similar to data structures, different array sorting algorithms have different ti
 | Selection sort | Ω(n^2)     | Θ(n^2)     | O(n^2)     |
 | Bucket sort    | Ω(n+k)     | Θ(n+k)     | O(n^       |
 ```
+
+
+## The Big O Notations in the order of speed from fastest to slowest
+
+* O(1): Constant time 
+always takes the same time regardless of input size. 
+```javascript
+// Example: Accessing an array element by index.
+function accessElement(arr, index) {
+  return arr[index];
+}
+```
+* O(log N): Logarithmic time 
+as input size doubles, only one additional step is needed. 
+```javascript
+// Example: Binary search on a sorted array.
+function binarySearch(arr, target) {
+  let left = 0;
+  let right = arr.length - 1;
+
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    if (arr[mid] === target) {
+      return mid;
+    }
+    if (arr[mid] < target) {
+      left = mid + 1;
+    } else {
+      right = mid - 1;
+    }
+  }
+
+  return -1;
+}
+```
+
+* O(N): Linear time
+time taken grows linearly with input size. 
+```javascript
+// Example: Looping through an array.
+
+function findMax(arr) {
+  let max = arr[0];
+  for (const num of arr) {
+    if (num > max) {
+      max = num;
+    }
+  }
+  return max;
+}
+```
+
+* (N log N): N times log N time
+common in efficient sorting algorithms. 
+```javascript
+// Example: Merge sort.
+
+function mergeSort(arr) {
+  if (arr.length <= 1) {
+    return arr;
+  }
+
+  const mid = Math.floor(arr.length / 2);
+  const left = arr.slice(0, mid);
+  const right = arr.slice(mid);
+
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+function merge(left, right) {
+  const result = [];
+  let i = 0;
+  let j = 0;
+
+  while (i < left.length && j < right.length) {
+    if (left[i] < right[j]) {
+      result.push(left[i]);
+      i++;
+    } else {
+      result.push(right[j]);
+      j++;
+    }
+  }
+
+  return result.concat(left.slice(i)).concat(right.slice(j));
+}
+
+```
+
+* O(N²): Quadratic time
+time grows with the square of input size. 
+```javascript
+// Example: Nested loops, such as in bubble sort.
+
+function bubbleSort(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+      }
+    }
+  }
+  return arr;
+}
+
+```
+
+* O(N³): Cubic time 
+time grows with the cube of input size. 
+```javascript
+// Example: Triple nested loops, common in matrix multiplication.
+
+function matrixMultiply(A, B) {
+  const rowsA = A.length;
+  const colsA = A[0].length;
+  const rowsB = B.length;
+  const colsB = B[0].length;
+
+  if (colsA !== rowsB) return null;
+
+  const C = new Array(rowsA).fill(0).map(() => new Array(colsB).fill(0));
+
+  for (let i = 0; i < rowsA; i++) {
+    for (let j = 0; j < colsB; j++) {
+      for (let k = 0; k < colsA; k++) {
+        C[i][j] += A[i][k] * B[k][j];
+      }
+    }
+  }
+
+  return C;
+}
+
+```
+
+* O(2^N): Exponential time 
+time grows exponentially with input size. 
+```javascript
+// Example: Recursive Fibonacci function.
+
+function fib(n) {
+  if (n <= 1) {
+    return n;
+  }
+  return fib(n - 1) + fib(n - 2);
+}
+```
+
+* O(N!): Factorial time
+time grows with the factorial of input size. 
+```javascript
+// Example: Generating All Subsets of a Set
+function generateSubsets(set) {
+  const result = [[]];
+
+  for (const item of set) {
+    const newSubsets = result.map(subset => [...subset, item]);
+    result.push(...newSubsets);
+  }
+
+  return result;
+}
+
+const set = [1, 2, 3];
+console.log(generateSubsets(set));
+
+```
