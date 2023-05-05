@@ -184,6 +184,8 @@ Mainly personal notes, so git commit messages are not thorough
    * [Math BP](./topics/jsBoilerPlate.md/#Math-BP)
      * [Find Maximum Value of Multiple Expressions in Array](./topics/jsBoilerPlate.md/#Find-Maximum-Value-of-Multiple-Expressions-in-Array)
      * [Generate Random Selection](./topics/jsBoilerPlate.md/#Generate-Random-Selection)
+   * [Numbers BP](./topics/jsBoilerPlate.md/#Numbers-BP)
+     * [Unicode Convert](./topics/jsBoilerPlate.md/#Unicode-Convert)   
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
      * [Check if Isogram](./topics/jsBoilerPlate.md/#Check-if-Isogram)   
      * [Check String for Character Occurrences](./topics/jsBoilerPlate.md/#Check-String-for-Character-Occurrences)
