@@ -638,3 +638,22 @@ const originalArray = [1, 2, 3, 1, 2];
 const newArray = removeDuplicates(originalArray);
 console.log(newArray);  // Output: [1, 2, 3]
 ```
+
+
+## LeetCode / CodeWars
+
+#### TwoSum
+```javascript
+const twoSum = function(nums, target) {
+  const numMap = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
+
+    if (numMap.hasOwnProperty(complement)) {
+      return [numMap[complement], i];
+    }
+        numMap[nums[i]] = i;
+  }
+}
+```
