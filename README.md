@@ -218,7 +218,6 @@ Mainly personal notes, so git commit messages are not thorough
    * [Common Data Structure Operations](./topics/oop.md/#Common-Data-Structure-Operations)
    * [Array Sorting Algorithms](./topics/oop.md/#Array-Sorting-Algorithms)
 
-
 <p align="center">HTML</p>
 
 --------------------------------------------------------------------------------------------------
