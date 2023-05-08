@@ -647,15 +647,22 @@ console.log(newArray);  // Output: [1, 2, 3]
 #### TwoSum
 ```javascript
 const twoSum = function(nums, target) {
+  // Create an empty object to store the numbers and their indices
   const numMap = {};
 
+  // Iterate through the array of numbers
   for (let i = 0; i < nums.length; i++) {
+    // Calculate the complement, which is the difference between the target and the current number
     const complement = target - nums[i];
 
+    // Check if the complement is already in numMap (i.e., if the pair of numbers that add up to the target has been found)
     if (numMap.hasOwnProperty(complement)) {
+      // If the complement is found, return the indices of the two numbers as an array
       return [numMap[complement], i];
     }
-        numMap[nums[i]] = i;
+
+    // If the complement is not found, add the current number to numMap with its index as the value
+    numMap[nums[i]] = i;
   }
 }
 ```
