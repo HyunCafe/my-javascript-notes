@@ -640,7 +640,7 @@ console.log(newArray);  // Output: [1, 2, 3]
 ```
 
 
-## LeetCode / CodeWars
+## LeetCode
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
