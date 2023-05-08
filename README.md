@@ -199,6 +199,8 @@ Mainly personal notes, so git commit messages are not thorough
    * [Global Objects BP](./topics/jsBoilerPlate.md/#Global-Objects-BP)
      * [Cycling through a list of choices with wrapping](./topics/jsBoilerPlate.md/#Cycling-through-a-list-of-choices-with-wrapping) 
      * [Removing Duplicates to New Array](./topics/jsBoilerPlate.md/#Removing-Duplicates-to-New-Array)
+   * [LeetCode/CodeWars](./topics/jsBoilerPlate.md/#LeetCode/CodeWars)
+     * [TwoSum](./topics/jsBoilerPlate.md/#TwoSum)
 --------------------------------------------------------------------------------------------------
 * [Object Oriented Programming](./topics/oop.md/#Object-Oriented-Programming)
   * [Data Structures](./topics/oop.md/#Data-Structures)
