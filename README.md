@@ -153,6 +153,7 @@ Mainly personal notes, so git commit messages are not thorough
 --------------------------------------------------------------------------------------------------
 * [Boiler Plates](./topics/jsBoilerPlate.md/#Boiler-Plates)
    * [Strings BP](./topics/jsBoilerPlate.md/#Strings-BP)
+     * [Caesar Cipher](./topics/jsBoilerPlate.md/#Caesar-Cipher)
      * [Concatenating Multiple Strings](./topics/jsBoilerPlate.md/#Concatenating-Multiple-Strings)
      * [Highest Scoring Word](./topics/jsBoilerPlate.md/#Highest-Scoring-Word)
      * [Remove Whitespace](./topics/jsBoilerPlate.md/#Remove-Whitespace)
