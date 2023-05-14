@@ -42,6 +42,28 @@ const rules = {
 #### Selection Sort
 
 #### Insertion Sort
+```javascript
+function insertionSort(arr) {
+  for (let i = 1; i < arr.length; i++) {
+    let current = arr[i];
+    let j = i - 1;
+
+    // Shift elements to the right until the correct position for 'current' is found
+    while (j >= 0 && arr[j] > current) {
+      arr[j + 1] = arr[j];
+      j--;
+    }
+
+    // Place 'current' in its correct position
+    arr[j + 1] = current;
+  }
+
+  return arr;
+}
+
+let array = [5, 3, 8, 4, 2];
+console.log(insertionSort(array)); // Output: [2, 3, 4, 5, 8]
+```
 
 #### Merge Sort
 Merge sort is a sorting algorithm that works by dividing a list into smaller parts, sorting them, and then combining them back together in a sorted order. The process involves two main steps:
