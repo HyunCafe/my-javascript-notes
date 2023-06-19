@@ -1,7 +1,7 @@
 # Programming
 
-# Work in Progress, Will add more as as time progresses
-Mainly personal notes, git commit messages are not thorough
+# Ongoing Project, More Additions Over Time
+Primarily personal reminders, commit messages in git may lack detail
 
 ## **Javascript**
 ### Table of Contents
