@@ -6,7 +6,6 @@ Primarily personal reminders, commit messages in git may lack detail
 ## **Javascript**
 ### Table of Contents
 
-
 <p align="center">VS Code</p>
 
 --------------------------------------------------------------------------------------------------
@@ -25,8 +24,7 @@ Primarily personal reminders, commit messages in git may lack detail
    * [Character Classes](./topics/jsFunctionsandConditionals.md/#Character-Classes)
    * [Groups and Backreferences](./topics/jsFunctionsandConditionals.md/#Groups-and-Backreferences)
    * [Quantifiers](./topics/jsFunctionsandConditionals.md/#Quantifiers)
-   * [Regex Methods](./topics/jsFunctionsandConditionals.md/#Regex-Methods)
- --------------------------------------------------------------------------------------------------
+   * [Regex Methods](./topics/jsFunctionsandConditionals.md/#Regex-Methods) --------------------------------------------------------------------------------------------------
  * [Loops](./topics/jsLoops.md/#Loops)
    * [For Loops](./topics/jsLoops.md/#For-Loops)
    * [For Each Loops](./topics/jsLoops.md/#For-Each-Loops)
@@ -74,8 +72,7 @@ Primarily personal reminders, commit messages in git may lack detail
      * [toLocaleString](./topics/jsStrings.md/#toLocaleString)
      * [toPrecision](./topics/jsStrings.md/#toPrecision)
      * [toString](./topics/jsStrings.md/#toString)
-     * [valueOf](./topics/jsStrings.md/#valueOf)
-   --------------------------------------------------------------------------------------------------
+     * [valueOf](./topics/jsStrings.md/#valueOf) --------------------------------------------------------------------------------------------------
 * [Arrays](./topics/jsArrays.md/#Arrays)
    * [Array Methods](./topics/jsArrays.md/#Array-Methods)
      * [array is array](./topics/jsArrays.md/#array-is-array)
