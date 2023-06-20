@@ -11,6 +11,7 @@ Primarily personal reminders, commit messages in git may lack detail
 --------------------------------------------------------------------------------------------------
 * [VS Code Shortcuts](#vs-code-shortcuts)
   * [Code Navigation Shortcuts](#code-navigation-shortcuts)
+
 -------------------------------------------------------------------------------------------------- 
 <p align="center">JavaScript</p>
 
@@ -24,7 +25,8 @@ Primarily personal reminders, commit messages in git may lack detail
    * [Character Classes](./topics/jsFunctionsandConditionals.md/#Character-Classes)
    * [Groups and Backreferences](./topics/jsFunctionsandConditionals.md/#Groups-and-Backreferences)
    * [Quantifiers](./topics/jsFunctionsandConditionals.md/#Quantifiers)
-   * [Regex Methods](./topics/jsFunctionsandConditionals.md/#Regex-Methods) --------------------------------------------------------------------------------------------------
+   * [Regex Methods](./topics/jsFunctionsandConditionals.md/#Regex-Methods)
+ --------------------------------------------------------------------------------------------------
  * [Loops](./topics/jsLoops.md/#Loops)
    * [For Loops](./topics/jsLoops.md/#For-Loops)
    * [For Each Loops](./topics/jsLoops.md/#For-Each-Loops)
@@ -32,6 +34,7 @@ Primarily personal reminders, commit messages in git may lack detail
    * [For Of Loops](./topics/jsLoops.md/#For-Of-Loops)
    * [While Loops](./topics/jsLoops.md/#While-Loops)
    * [Do While Loops](./topics/jsLoops.md/#Do-While-Loops)
+
 --------------------------------------------------------------------------------------------------
 * [Strings](./topics/jsStrings.md/#Strings)
   * [String Methods](./topics/jsStrings.md/#String-Methods)
@@ -72,7 +75,8 @@ Primarily personal reminders, commit messages in git may lack detail
      * [toLocaleString](./topics/jsStrings.md/#toLocaleString)
      * [toPrecision](./topics/jsStrings.md/#toPrecision)
      * [toString](./topics/jsStrings.md/#toString)
-     * [valueOf](./topics/jsStrings.md/#valueOf) --------------------------------------------------------------------------------------------------
+     * [valueOf](./topics/jsStrings.md/#valueOf)
+ --------------------------------------------------------------------------------------------------
 * [Arrays](./topics/jsArrays.md/#Arrays)
    * [Array Methods](./topics/jsArrays.md/#Array-Methods)
      * [array is array](./topics/jsArrays.md/#array-is-array)
@@ -101,6 +105,7 @@ Primarily personal reminders, commit messages in git may lack detail
      * [sort](./topics/jsArrays.md/#sort)
      * [splice](./topics/jsArrays.md/#splice)
      * [unshift](./topics/jsArrays.md/#unshift)
+
 --------------------------------------------------------------------------------------------------
 * [Global Objects](./topics/jsGlobalObjects.md/#Global-Objects)
   * [Global Object Methods](./topics/jsGlobalObjects.md/#Global-Object-Methods)
@@ -128,6 +133,7 @@ Primarily personal reminders, commit messages in git may lack detail
      * [Object getOwnPropertyNames](./topics/jsGlobalObjects.md/#Object-getOwnPropertyNames)
      * [Object getOwnPropertySymbols](./topics/jsGlobalObjects.md/#Object-getOwnPropertySymbols)
      * [Object values](./topics/jsGlobalObjects.md/#Object-values)
+
 --------------------------------------------------------------------------------------------------
 * [DOM Manipulation](./topics/jsDOMandMath.md/#DOM-Manipulation)
   * [Adding and Deleting Elements](./topics/jsDOMandMath.md/#Adding-and-Deleting-Elements)
@@ -147,6 +153,7 @@ Primarily personal reminders, commit messages in git may lack detail
      * [Math round](./topics/jsDOMandMath.md/#Math-round)
      * [Math sqrt](./topics/jsDOMandMath.md/#Math-sqrt)
      * [Math trunc](./topics/jsDOMandMath.md/#Math-trunc)
+
 --------------------------------------------------------------------------------------------------
 * [Boiler Plates](./topics/jsBoilerPlate.md/#Boiler-Plates)
    * [Strings BP](./topics/jsBoilerPlate.md/#Strings-BP)
@@ -240,6 +247,7 @@ Primarily personal reminders, commit messages in git may lack detail
   * [Frequency](./topics/css.md/#Frequency)
 * [CSS Value Functions](./topics/css.md/#CSS-Value-Functions)
 * [Rules of Specificity](./topics/css.md/#Rules-of-Specificity)
+
 --------------------------------------------------------------------------------------------------
 
 ## VS Code Shortcuts
