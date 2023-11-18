@@ -193,6 +193,7 @@ Primarily personal reminders, commit messages in git may lack detail
    * [Numbers BP](./topics/jsBoilerPlate.md/#Numbers-BP)
      * [Unicode Convert](./topics/jsBoilerPlate.md/#Unicode-Convert)   
    * [Regex BP](./topics/jsBoilerPlate.md/#Regex-BP)
+     * [Add a space before each Capital Letter](./topics/jsBoilerPlate.md/#Add-a-space-before-each-Capital-Letter)
      * [Check if Isogram](./topics/jsBoilerPlate.md/#Check-if-Isogram)   
      * [Check String for Character Occurrences](./topics/jsBoilerPlate.md/#Check-String-for-Character-Occurrences)
      * [Check String for Match](./topics/jsBoilerPlate.md/#Check-String-for-Match)
