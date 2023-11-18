@@ -502,14 +502,20 @@ console.log(letterToAlphabetPosition('c')); // 3
 
 [Back to Table of Contents](../README.md/#Table-of-Contents)
 
-#### Check if Isogram
+#### Add a space before each Capital Letter
 ```javascript
-function isIsogram(str){ 
-  return !/(\w).*\1/i.test(str)
+function solution(string) {
+  return string.replace(/([A-Z])/g, ' $1');
 }
+// Given the regex /([A-Z])/g:
 
-//Method 2
-!str.match(/([a-z]).*\1/i);
+// ([A-Z]): This is a capture group that matches a single uppercase letter. It will capture each uppercase letter it finds in the string.
+// Since you have only one pair of parentheses, there's just one capture group here.
+// Every time the regex finds an uppercase letter, that letter is "captured" by the regex engine because it's inside the parentheses.
+
+// $1 in Replacement String
+// In the replacement string of the replace method, $1 refers to the content of this first (and in your case, only) capture group.
+// So for each uppercase letter the regex finds, $1 represents that specific letter in the replacement process.
 ```
 
 #### Check String for Character Occurrences
