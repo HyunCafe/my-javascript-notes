@@ -1,8 +1,43 @@
 // 1) Basic Class Creation: Create a Person class that initializes with a name and age. Add a method greet that returns a greeting string using the name.
+class Person {
+    constructor(name, age) {
+        this.name = name,
+        this.age = age
+    }
 
+    greet() {
+        return `hello ${this.name}`
+    }
+}
 // 2) Inheritance: Extend the Person class to create an Employee class. The Employee class should have an additional property jobTitle and a method work that returns a string about their work.
+class employee extends Person {
+    constructor(name, age, jobTitle){
+    super(name, age);
+    this.jobTitle = jobTitle;
+    }
+    work(){
+        return `my work is about work`
+    }
+}
 
 // 3) Getters and Setters: Add a getter and a setter for the age property in the Person class to validate that the age is a positive number.
+
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    get age(){
+        return this.age;
+    }
+    set age(num){
+         if(this.age > 0) {
+            return this.age
+        } else {
+            return `this is not a positive number`
+        }
+    }
+}
 
 // 4) Static Methods: Create a class Calculator with static methods for basic operations: add, subtract, multiply, and divide. Each method should take two numbers and return the result.
 
